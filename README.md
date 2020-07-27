@@ -15,4 +15,4 @@ The runtime system comprises 3 threads.
 See documentation of the compiler2 and here for further details.
 
 The code compiles using Visual Studio on Windows.
-The code compiles using a Makfile on the Raspberry Pi.
+The code compiles using a Makefile on the Raspberry Pi.
