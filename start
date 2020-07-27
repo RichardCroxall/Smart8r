@@ -1,0 +1,2 @@
+chrt -f 20 /home/pi/smart8r/smart
+stty echo

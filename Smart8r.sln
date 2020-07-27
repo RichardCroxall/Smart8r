@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Smart8r", "Smart8r.vcxproj", "{E84E82DE-2A3B-4AE1-816B-5825D756F40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Debug|x64.ActiveCfg = Debug|x64
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Debug|x64.Build.0 = Debug|x64
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Debug|x86.Build.0 = Debug|Win32
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Release|x64.ActiveCfg = Release|x64
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Release|x64.Build.0 = Release|x64
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Release|x86.ActiveCfg = Release|Win32
+		{E84E82DE-2A3B-4AE1-816B-5825D756F40A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {113D61A5-FFD8-46BE-BA0E-2B55340E2E50}
+	EndGlobalSection
+EndGlobal
