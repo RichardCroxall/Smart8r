@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="calendar.cpp" />
+    <ClCompile Include="clock.cpp" />
+    <ClCompile Include="device.cpp" />
+    <ClCompile Include="flag.cpp" />
+    <ClCompile Include="house.cpp" />
+    <ClCompile Include="housecode.cpp" />
+    <ClCompile Include="huedevice.cpp" />
+    <ClCompile Include="huehelper\HueConnection.cpp" />
+    <ClCompile Include="huehelper\HueMacAddressMap.cpp" />
+    <ClCompile Include="huehelper\HuePersistance.cpp" />
+    <ClCompile Include="huehelper\HueQueue.cpp" />
+    <ClCompile Include="huehelper\HueRQueue.cpp" />
+    <ClCompile Include="huehelper\HueThread.cpp" />
+    <ClCompile Include="hueplusplus\src\APICache.cpp" />
+    <ClCompile Include="hueplusplus\src\BaseHttpHandler.cpp" />
+    <ClCompile Include="hueplusplus\src\BridgeConfig.cpp" />
+    <ClCompile Include="hueplusplus\src\ColorUnits.cpp" />
+    <ClCompile Include="hueplusplus\src\ExtendedColorHueStrategy.cpp" />
+    <ClCompile Include="hueplusplus\src\ExtendedColorTemperatureStrategy.cpp" />
+    <ClCompile Include="hueplusplus\src\Group.cpp" />
+    <ClCompile Include="hueplusplus\src\Hue.cpp" />
+    <ClCompile Include="hueplusplus\src\HueCommandAPI.cpp" />
+    <ClCompile Include="hueplusplus\src\HueDeviceTypes.cpp" />
+    <ClCompile Include="hueplusplus\src\HueException.cpp" />
+    <ClCompile Include="hueplusplus\src\HueLight.cpp" />
+    <ClCompile Include="hueplusplus\src\ModelPictures.cpp" />
+    <ClCompile Include="hueplusplus\src\Scene.cpp" />
+    <ClCompile Include="hueplusplus\src\Schedule.cpp" />
+    <ClCompile Include="hueplusplus\src\SimpleBrightnessStrategy.cpp" />
+    <ClCompile Include="hueplusplus\src\SimpleColorHueStrategy.cpp" />
+    <ClCompile Include="hueplusplus\src\SimpleColorTemperatureStrategy.cpp" />
+    <ClCompile Include="hueplusplus\src\StateTransaction.cpp" />
+    <ClCompile Include="hueplusplus\src\TimePattern.cpp" />
+    <ClCompile Include="hueplusplus\src\UPnP.cpp" />
+    <ClCompile Include="hueplusplus\src\Utils.cpp" />
+    <ClCompile Include="hueplusplus\src\WinHttpHandler.cpp" />
+    <ClCompile Include="logging.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="port.cpp" />
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="readcodefile.cpp" />
+    <ClCompile Include="rqueue.cpp" />
+    <ClCompile Include="runtime.cpp" />
+    <ClCompile Include="scheduler.cpp" />
+    <ClCompile Include="smart8r.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="timeout.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="tw523.cpp" />
+    <ClCompile Include="tw523in.cpp" />
+    <ClCompile Include="tw523out.cpp" />
+    <ClCompile Include="vm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hueplusplus\include\APICache.h" />
+    <ClInclude Include="hueplusplus\include\APIConfig.h" />
+    <ClInclude Include="hueplusplus\include\BridgeConfig.h" />
+    <ClInclude Include="hueplusplus\include\ColorUnits.h" />
+    <ClInclude Include="hueplusplus\include\Group.h" />
+    <ClInclude Include="hueplusplus\include\HueDeviceTypes.h" />
+    <ClInclude Include="hueplusplus\include\LinHttpHandler.h" />
+    <ClInclude Include="hueplusplus\include\ModelPictures.h" />
+    <ClInclude Include="hueplusplus\include\ResourceList.h" />
+    <ClInclude Include="hueplusplus\include\Scene.h" />
+    <ClInclude Include="hueplusplus\include\Schedule.h" />
+    <ClInclude Include="hueplusplus\include\StateTransaction.h" />
+    <ClInclude Include="hueplusplus\include\TimePattern.h" />
+    <ClInclude Include="include\action.h" />
+    <ClInclude Include="include\calendar.h" />
+    <ClInclude Include="include\clock.h" />
+    <ClInclude Include="include\common.h" />
+    <ClInclude Include="include\defines.h" />
+    <ClInclude Include="include\device.h" />
+    <ClInclude Include="include\flag.h" />
+    <ClInclude Include="include\house.h" />
+    <ClInclude Include="include\housecode.h" />
+    <ClInclude Include="include\huedevice.h" />
+    <ClInclude Include="huehelper\include\HueCommon.h" />
+    <ClInclude Include="huehelper\include\HueConnection.h" />
+    <ClInclude Include="huehelper\include\HueMacAddressMap.h" />
+    <ClInclude Include="huehelper\include\HuePersistance.h" />
+    <ClInclude Include="huehelper\include\HueQueue.h" />
+    <ClInclude Include="huehelper\include\HueRQueue.h" />
+    <ClInclude Include="huehelper\include\HueThread.h" />
+    <ClInclude Include="hueplusplus\include\BaseHttpHandler.h" />
+    <ClInclude Include="hueplusplus\include\BrightnessStrategy.h" />
+    <ClInclude Include="hueplusplus\include\ColorHueStrategy.h" />
+    <ClInclude Include="hueplusplus\include\ColorTemperatureStrategy.h" />
+    <ClInclude Include="hueplusplus\include\ExtendedColorHueStrategy.h" />
+    <ClInclude Include="hueplusplus\include\ExtendedColorTemperatureStrategy.h" />
+    <ClInclude Include="hueplusplus\include\Hue.h" />
+    <ClInclude Include="hueplusplus\include\HueCommandAPI.h" />
+    <ClInclude Include="hueplusplus\include\HueConfig.h" />
+    <ClInclude Include="hueplusplus\include\HueException.h" />
+    <ClInclude Include="hueplusplus\include\HueExceptionMacro.h" />
+    <ClInclude Include="hueplusplus\include\HueLight.h" />
+    <ClInclude Include="hueplusplus\include\IHttpHandler.h" />
+    <ClInclude Include="hueplusplus\include\json\json.hpp" />
+    <ClInclude Include="hueplusplus\include\SimpleBrightnessStrategy.h" />
+    <ClInclude Include="hueplusplus\include\SimpleColorHueStrategy.h" />
+    <ClInclude Include="hueplusplus\include\SimpleColorTemperatureStrategy.h" />
+    <ClInclude Include="hueplusplus\include\Units.h" />
+    <ClInclude Include="hueplusplus\include\UPnP.h" />
+    <ClInclude Include="hueplusplus\include\Utils.h" />
+    <ClInclude Include="hueplusplus\include\WinHttpHandler.h" />
+    <ClInclude Include="include\logging.h" />
+    <ClInclude Include="include\message.h" />
+    <ClInclude Include="include\port.h" />
+    <ClInclude Include="include\queue.h" />
+    <ClInclude Include="include\rqueue.h" />
+    <ClInclude Include="include\runtime.h" />
+    <ClInclude Include="include\scheduler.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="include\timeout.h" />
+    <ClInclude Include="include\timer.h" />
+    <ClInclude Include="include\tw523.h" />
+    <ClInclude Include="include\tw523in.h" />
+    <ClInclude Include="include\tw523out.h" />
+    <ClInclude Include="include\vm.h" />
+    <ClInclude Include="include\warning.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="hueplusplus\src\CMakeLists.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E84E82DE-2A3B-4AE1-816B-5825D756F40A}</ProjectGuid>
+    <RootNamespace>Smart8r</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
