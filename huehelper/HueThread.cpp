@@ -95,9 +95,9 @@ void HueThread::processMessage(const HueQueueMessage_t& hueMessage)
 			        case LampSetRGBColour:
 			        {
 						assert(hueLampCommand.onion.rgbColour >= 0 && hueLampCommand.onion.rgbColour <= 0xFFFFFF);
-						hueplusplus::RGB rgb{(uint8_t) (hueLampCommand.onion.rgbColour >> 16) & 0xFF,
-											 (uint8_t) (hueLampCommand.onion.rgbColour >> 8) & 0xFF,
-											 (uint8_t) (hueLampCommand.onion.rgbColour) & 0xFF};
+						hueplusplus::RGB rgb{ (uint8_t)((hueLampCommand.onion.rgbColour >> 16) & 0xFF),
+											 (uint8_t)((hueLampCommand.onion.rgbColour >> 8) & 0xFF),
+											 (uint8_t)(hueLampCommand.onion.rgbColour & 0xFF) };
 						stateTransaction.setColor(rgb.toXY());
 			            hue_lamp_command_success.onion.rgbColour = hueLampCommand.onion.rgbColour;
 #ifdef DEBUG

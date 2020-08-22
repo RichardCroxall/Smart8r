@@ -319,7 +319,7 @@ typedef struct
 #ifndef _WIN32
 #define RUNTIME_FILENAME "/home/pi/smart8r/smart.smt"
 #else
-#define RUNTIME_FILENAME "D:\\usr\\richard\\projects\\Smart8r\\Smart8r\\smart.smt"
+#define RUNTIME_FILENAME "D:\\usr\\richard\\projects\\github\\Smart8r\\smart.smt"
 #endif
 
 

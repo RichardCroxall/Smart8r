@@ -246,6 +246,11 @@ void DebugControlDevice(house_code_t houseCode, int deviceCodeIndex, device_stat
 }
 
 
+void DebugControlAllUnitsOff(house_code_t houseCode)
+{
+    house.mMessage(houseCode, funAllUnitsOff, true);
+}
+
 void ProcessKeyStroke(int c, int previousC, house_code_t &houseCode, int &deviceCodeIndex, bool &bQuitWanted)
 {
     if (c >= 'A' && c <= 'Z')
@@ -353,6 +358,11 @@ void ProcessKeyStroke(int c, int previousC, house_code_t &houseCode, int &device
         DebugControlDevice(houseCode, deviceCodeIndex, stateOn);
         break;
 
+    case 'u':
+        printf("-----------All units Off-----------\n");
+        DebugControlAllUnitsOff(houseCode);
+        break;
+    	
     default:
         printf("unknown key %d\n", c);
         break;
