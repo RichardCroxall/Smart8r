@@ -1,6 +1,5 @@
 #include "include/runtime.h"
 
-#ifndef _WIN32
 //***************************************************************************************************
 void Ctw523In::processReceivedHalfBit(bool receive_half_bit)
 {
@@ -188,4 +187,3 @@ Ctw523In::Ctw523In(void)
     centiseconds_since_last_data_received  = 0;
 }
 
-#endif

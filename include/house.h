@@ -13,7 +13,7 @@ class CX10House
         CX10House(const char *szName);
         //~CX10House()            {};
 
-        void mMessage(int iMessage, bool bExternal);
+        void mMessage(x10_message_t x10Message, bool bExternal);
         void mMessage(house_code_t houseCode, function_code_t functionCode, bool bExternal);
         void mMessage(house_code_t houseCode, device_code_t deviceCode);
 

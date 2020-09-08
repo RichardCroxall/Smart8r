@@ -26,9 +26,8 @@ CX10HouseCode::CX10HouseCode(house_code_t houseCode, actionNo_t allOffAction, ac
 
 void CX10HouseCode::mLinkDevice(device_code_t deviceCode, CX10ControllableDevice* device)
 {
-    assert(((int)deviceCode)/2 < 16);
     assert(device != NULL);
-    mDevice[((int)deviceCode)/2] = device;
+    mDevice[arrayMap->deviceCodeToInt[deviceCode]] = device;
 }
 
 void CX10HouseCode::mLinkDevice(HueLampDevice* device)
@@ -93,7 +92,7 @@ void CX10HouseCode::mSelect(device_code_t deviceCode)
 {
     for (int i = 0; i < 16; i++)
     {
-        mDevice[i]->mSelect((deviceCode >> 1) == i);
+        mDevice[i]->mSelect(arrayMap->deviceCodeToInt[deviceCode] == i);
     }
 }
 

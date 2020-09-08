@@ -63,10 +63,10 @@ char *messageDescription(x10_message_t x10_received_message)
 {
     static char description[40 + 1];
 
-                sprintf(description, "Mess %02x House %s %s", 
-                                                x10_received_message,
-                                                houseCode[((int)x10_received_message >> 5) & 0x0f],
-                                                functionCode[(int)x10_received_message & 0x1f]);
+    sprintf(description, "Mess %02x House %s %s", 
+                                x10_received_message,
+                                houseCode[((int)x10_received_message >> 5) & 0x0f],
+                                functionCode[(int)x10_received_message & 0x1f]);
 
-                return description;
+    return description;
 }

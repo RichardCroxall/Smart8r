@@ -219,7 +219,7 @@ void maintainQueues()
     if (!activityHappened)
     {
         //allow other threads to get in.
-        CClock::SleepMilliseconds(1000L);
+        CClock::SleepMilliseconds(100L);
     }
 
 #ifdef DEBUG44

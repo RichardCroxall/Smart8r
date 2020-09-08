@@ -24,6 +24,12 @@
     <ClCompile Include="clock.cpp" />
     <ClCompile Include="device.cpp" />
     <ClCompile Include="flag.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="Win\gpio.cpp" />
+    <ClCompile Include="Win\gpioDevice.cpp" />
+    <ClCompile Include="Win\gpioDevices.cpp" />
+    <ClCompile Include="Win\gpioReceive.cpp" />
+    <ClCompile Include="Win\gpioTransmit.cpp" />
     <ClCompile Include="house.cpp" />
     <ClCompile Include="housecode.cpp" />
     <ClCompile Include="huedevice.cpp" />
@@ -74,6 +80,12 @@
     <ClCompile Include="vm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\map.h" />
+    <ClInclude Include="Win\include\gpioDevice.h" />
+    <ClInclude Include="Win\include\gpioDevices.h" />
+    <ClInclude Include="Win\include\gpioReceive.h" />
+    <ClInclude Include="Win\include\gpioTransmit.h" />
+    <ClInclude Include="Win\include\gpio.h" />
     <ClInclude Include="hueplusplus\include\APICache.h" />
     <ClInclude Include="hueplusplus\include\APIConfig.h" />
     <ClInclude Include="hueplusplus\include\BridgeConfig.h" />

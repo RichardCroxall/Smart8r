@@ -208,9 +208,14 @@ void readAllDeviceRecords(FILE* fin)
             assert(false);
             break;
         }
-    	
+
+
         if (codeDeviceRecord.deviceType != deviceHueLamp)
         {
+#ifdef _WIN32
+            //for Windows simulation create virtual X-10 devices which will validate outgoing X-10 messages.
+            tw523.createDevice(codeDeviceRecord.deviceType, codeDeviceRecord.houseCode, codeDeviceRecord.deviceCode);
+#endif
             house.mLinkDevice(codeDeviceRecord.houseCode, codeDeviceRecord.deviceCode, (CX10ControllableDevice*)loadMap.device[i]);
         }
         else

@@ -1,6 +1,5 @@
 #include "include/runtime.h"
 
-#ifndef _WIN32
 //***************************************************************************************************
 bool Ctw523Out::calc_Output_HalfBit(void)
 {
@@ -140,4 +139,3 @@ Ctw523Out::Ctw523Out(void)
     send_state = msg_none;
     first_time = true;
 }
-#endif

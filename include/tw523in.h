@@ -1,5 +1,4 @@
 #pragma once
-#include "runtime.h"
 
 enum input_error_enum
 {
@@ -20,8 +19,7 @@ class Ctw523In
         msg_state_t receive_state;
         unsigned long centiseconds_since_last_data_received;
         input_error_enum last_input_error;
-
-
+	
     protected:
 
     public:

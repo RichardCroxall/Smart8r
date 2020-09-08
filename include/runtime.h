@@ -10,6 +10,7 @@
 #include <time.h>
 #include <errno.h>
 #include <math.h>
+#include <map>
 
 #include <iostream>
 #include <thread>
@@ -97,12 +98,18 @@ typedef long long nanoseconds_t;
 #include "clock.h"
 #include "calendar.h"
 #include "device.h"
+#include "map.h"
 #include "queue.h"
-#ifndef _WIN32
 #include "tw523in.h"
 #include "tw523out.h"
-#endif
 #include "tw523.h"
+#ifdef _WIN32
+#include "../Win/include/gpioDevice.h"
+#include "../Win/include/gpioDevices.h"
+#include "../Win/include/gpioReceive.h"
+#include "../Win/include/gpioTransmit.h"
+#include "../Win/include/gpio.h"
+#endif
 #include "flag.h"
 #include "action.h"
 #include "timer.h"

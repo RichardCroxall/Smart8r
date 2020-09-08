@@ -1,4 +1,8 @@
 
+#ifdef _WIN32
+#include <chrono>
+#endif
+
 #include "include/runtime.h"
 
 #ifndef _WIN32
@@ -10,11 +14,13 @@ extern CX10MessageQueue x10MessageQueue;
 extern CX10House house;
 extern rqueue reverseMessageQueue;
 
-
-#ifndef _WIN32
+#ifdef _WIN32
+generalPurposeInputOutput *gpio;
+#endif
 //***************************************************************************************************
 void initialisePorts()
 {
+#ifndef _WIN32
     const int TargetPriority = -20; //negative is the highest priority. Positive value is the lowest.
 
     GPIOexport(X10ZeroCrossingPort, X10ReceivePort);
@@ -31,43 +37,76 @@ void initialisePorts()
     {
         logging.logError("nice newpriority = %d Errno = %d\n", newpriority, errno);
     }
+#else
+    gpio = new generalPurposeInputOutput();
+#endif
 }
 
 //***************************************************************************************************
 void finalisePorts()
 {
+#ifndef _WIN32
     GPIOCloseValue(0, 7);
     GPIOunexport(0, 7);
+#endif
 }
 
 //***************************************************************************************************
 nanoseconds_t nanoSecondsSinceEpoch()
 {
+#if _WIN32
+    const std::chrono::steady_clock::time_point now = std::chrono::steady_clock::now();
+    std::chrono::nanoseconds timeSinceEpoch = now.time_since_epoch();
+    return (nanoseconds_t) timeSinceEpoch.count();
+#else
     timespec realTime;
     clock_gettime(CLOCK_REALTIME, &realTime);
 
     nanoseconds_t ns = 1000000000LL * realTime.tv_sec +  realTime.tv_nsec;
     return ns;
+#endif
+	
 }
 
 //***************************************************************************************************
 bool mainsCyclePositive(void)
 {
+#ifdef _WIN32
+    return !gpio->zeroCrossing();
+#else
     return !GPIOGet(X10ZeroCrossingPort);
+#endif
 };
 
 //***************************************************************************************************
-bool sampleReceiveHalfBit(void)
+bool sampleReceiveHalfBit(bool firstSample)
 {
+#ifdef _WIN32
+    return !gpio->receive(firstSample);
+#else
     return !GPIOGet(X10ReceivePort);
+#endif
 };
 
 //***************************************************************************************************
 void outputSendHalfBit(bool send_half_bit)
 {
+#ifdef _WIN32
+    gpio->transmit(send_half_bit, true);
+#else
     GPIOSet(X10TransmitPort, send_half_bit);
+#endif
 };
 
+//***************************************************************************************************
+void clearTransmission()
+{
+#ifdef _WIN32
+    gpio->transmit(false, false);
+#else
+    GPIOSet(X10TransmitPort, false);
+#endif
+};
 //***************************************************************************************************
 void Ctw523::waitForZeroCrossing(void)
 {
@@ -121,9 +160,11 @@ bool Ctw523::GetSampleInputHalfBit()
     bool receive_half_bit = false;
     int samples = 0;
     nanoseconds_t previousNow = now;
+    bool firstSample = true;
     while (now < samplingExpiryTime)
     {
-        receive_half_bit |= sampleReceiveHalfBit();
+        receive_half_bit |= sampleReceiveHalfBit(firstSample);
+        firstSample = false;
         previousNow = now;
         now = nanoSecondsSinceEpoch();
         samples++;
@@ -138,17 +179,15 @@ bool Ctw523::GetSampleInputHalfBit()
 #endif
     return receive_half_bit;
 }
-#endif
 //***************************************************************************************************
 void Ctw523::do_half_cycle(void)
 {
-#ifndef _WIN32
     bool send_half_bit = ctw523Out.calc_Output_HalfBit();
 
     waitForZeroCrossing();
     outputSendHalfBit(send_half_bit); //send after zero crossing for 1ms.
     bool receive_half_bit = GetSampleInputHalfBit(); //sample input for 1ms
-    outputSendHalfBit(false); //stop sending 1ms after zero crossing
+    clearTransmission(); //stop sending 1ms after zero crossing
 
     ctw523In.processReceivedHalfBit(receive_half_bit);
 
@@ -169,14 +208,12 @@ void Ctw523::do_half_cycle(void)
         reverseMessageQueue.pushMessage(x10_received_io_message);
     }
     sleepToLetOtherProcessesIn();
-#endif
 }
 
 
 //***************************************************************************************************
 bool Ctw523::ok()
 {
-#ifndef _WIN32
     /* note current state of mains cycle */
     previous_cycle_positive = mainsCyclePositive();
 
@@ -203,9 +240,6 @@ bool Ctw523::ok()
 #endif
 
     return (crossings >= 23 && crossings <= 28);
-#else
-    return true;
-#endif
 }
 //***************************************************************************************************
 
@@ -213,7 +247,6 @@ Ctw523::Ctw523(void)
 {
     timeToFinish = false;
     x10_sent_message = 0;
-#ifndef _WIN32
     x10_message_sent = true;
 
     send_counter = 0;
@@ -224,14 +257,11 @@ Ctw523::Ctw523(void)
 
     cycle_positive = mainsCyclePositive();
     previous_cycle_positive = cycle_positive;
-#endif
 }
 
 Ctw523::~Ctw523(void)
 {
-#ifndef _WIN32
     finalisePorts();
-#endif
 }
 
 void Ctw523::tw523ThreadStart()
@@ -256,10 +286,9 @@ void Ctw523::tw523ThreadStart()
     }
 }
 //***************************************************************************************************
-#ifndef _WIN32
 void Ctw523:: sleepToLetOtherProcessesIn()
 {
-
+#ifndef _WIN32
     nanoseconds_t now = nanoSecondsSinceEpoch();
     long long nanoSecondsDelayNeededFromNow = zeroCrossingExpiryTime - now;
 
@@ -281,7 +310,7 @@ void Ctw523:: sleepToLetOtherProcessesIn()
     {
         logging.logDebug("delay out of range %lld\n", nanoSecondsDelayNeededFromNow);
     }
-
+#endif
 }
 //***************************************************************************************************
 void Ctw523::mSendMessage()
@@ -325,7 +354,6 @@ void Ctw523::mSendMessageWithImmediateRetry()
            !x10MessageQueue.getQueueContainsDimOrBright() );
 }
 //***************************************************************************************************
-#endif
 bool Ctw523::mSendQueueWithoutRetry()
 {
     bool success = true; //until we know otherwise
@@ -333,19 +361,12 @@ bool Ctw523::mSendQueueWithoutRetry()
     while(x10MessageQueue.getQueueSize() > 0 && success)
     {
         x10_sent_message = x10MessageQueue.nextMessage();
-#ifndef _WIN32
         mSendMessageWithImmediateRetry();
 
         if (ctw523Out.GetX10Transmission() != transmission_acknowledged)
         {
             success  = false;
         }
-#else
-#ifdef DEBUG
-        logging.logDebug("X10_sent_message=%s\n", messageDescription(x10_sent_message));
-#endif
-            house.mMessage(x10_sent_message, false); //for Windows debugging, simulate reception of message sent
-#endif
     }
     return success;
 }
@@ -360,14 +381,12 @@ bool Ctw523::mFlushQueue(int retryCount)
 
     do
     {
-#ifndef _WIN32
         waitForQuiet(20 + 20 * (completeMessageRetry + retryCount));
         if (completeMessageRetry  > 0)
         {
-            logging.logDebug("message %s not acknowledged, restarting queue tranmission %d\n", messageDescription(x10_sent_message), ctw523Out.GetX10Transmission());
+            logging.logDebug("message %s not acknowledged, restarting queue transmission %d\n", messageDescription(x10_sent_message), ctw523Out.GetX10Transmission());
             x10MessageQueue.restartQueue();
         }
-#endif
         success =  mSendQueueWithoutRetry();
         completeMessageRetry++;
 
@@ -382,7 +401,6 @@ bool Ctw523::mFlushQueue(int retryCount)
 //***************************************************************************************************
 void Ctw523::waitForQuiet(unsigned long centiseconds)
 {
-#ifndef _WIN32
 #if DEBUG
     if (!ctw523In.isQuietFor(centiseconds))
     {
@@ -398,5 +416,14 @@ void Ctw523::waitForQuiet(unsigned long centiseconds)
 #if DEBUG
     logging.logInfo("quiet restarting queue\n");
 #endif
-#endif
 }
+
+#ifdef _WIN32
+///
+///for Windows simulation create virtual X-10 devices which will validate outgoing X-10 messages.
+///
+void Ctw523::createDevice(deviceType_t deviceType, house_code_t houseCode, device_code_t deviceCode)
+{
+    gpio->createDevice(deviceType, houseCode, deviceCode);
+}
+#endif

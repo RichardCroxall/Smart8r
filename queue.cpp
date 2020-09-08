@@ -1,6 +1,6 @@
 #include "include/runtime.h"
 
-void CX10MessageQueue::addQueue(int iMessage)
+void CX10MessageQueue::addQueue(x10_message_t iMessage)
 {
     assert(mQueueHead == 0);
     assert(mQueueSize < MAX_QUEUE_SIZE);
@@ -67,16 +67,15 @@ void CX10MessageQueue::addQueue(int iMessage)
             assert(deviceNumber >= 0 && deviceNumber < 16);
             assert(mQueueHead == 0);
 
-            CheckForHouseCodeTransmitters(houseCode);
+            const device_code_t deviceCode = arrayMap->intToDeviceCode[deviceNumber];
 
-            // convert deviceNumber to device by left shifting 1 bit.
-            addQueue((((int)houseCode) << 5) | (((int)deviceNumber) << 1));
+            addQueue(houseCode, deviceCode);
         }
 
         void CX10MessageQueue::addQueue(house_code_t houseCode, device_code_t devicecode)
         {
             CheckForHouseCodeTransmitters(houseCode);
-            addQueue((((int)houseCode) << 5) | ((int)devicecode));
+            addQueue(arrayMap->HouseDeviceToX10(houseCode, devicecode));
         }
 
         void CX10MessageQueue::addQueue(house_code_t houseCode, function_code_t functionCode)
@@ -89,7 +88,7 @@ void CX10MessageQueue::addQueue(int iMessage)
                 mQueueContainsDimOrBright = true;
             }
 
-            addQueue((((int)houseCode) << 5) | ((int)functionCode));
+            addQueue(arrayMap->HouseFunctionToX10(houseCode, functionCode));
         }
 
         int CX10MessageQueue::nextMessage()

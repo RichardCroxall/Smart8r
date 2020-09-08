@@ -1,14 +1,25 @@
 #include "include/runtime.h"
 
 
-void CX10House::mMessage(int iMessage, bool bExternal)
+void CX10House::mMessage(x10_message_t x10Message, bool bExternal)
 {
-    const int iHouseCode = iMessage >> 5;
-    int houseMessage = iMessage & 0x1F;
+	if (arrayMap->isFunctionCode(x10Message))
+	{
+        mHouseCodes[arrayMap->houseCodeToInt[arrayMap->x10ToHouseCode(x10Message)]]->mFunction(arrayMap->x10ToFunctionCode(x10Message), bExternal);
+	}
+    else
+    {
+        mHouseCodes[arrayMap->houseCodeToInt[arrayMap->x10ToHouseCode(x10Message)]]->mSelect(arrayMap->x10ToDeviceCode(x10Message));
+    }
+	
+
+	/*
+    const int iHouseCode = x10Message >> 5;
+    int houseMessage = x10Message & 0x1F;
 
     assert(iHouseCode < 16);
 
-    if ((iMessage & 1) != 0)
+    if ((x10Message & 1) != 0)
     {
         mHouseCodes[iHouseCode]->mFunction((function_code_t)houseMessage, bExternal);
     }
@@ -16,34 +27,33 @@ void CX10House::mMessage(int iMessage, bool bExternal)
     {
         mHouseCodes[iHouseCode]->mSelect((device_code_t)houseMessage);
     }
+    */
 }
 
 void CX10House::mMessage(house_code_t houseCode, function_code_t functionCode, bool bExternal)
 {
-    mHouseCodes[houseCode]->mFunction(functionCode, bExternal);
+    mHouseCodes[arrayMap->houseCodeToInt[houseCode]]->mFunction(functionCode, bExternal);
 }
 
 void CX10House::mMessage(house_code_t houseCode, device_code_t deviceCode)
 {
-    mHouseCodes[houseCode]->mSelect(deviceCode);
+    mHouseCodes[arrayMap->houseCodeToInt[houseCode]]->mSelect(deviceCode);
 }
 
 
 void CX10House::mLinkDevice(house_code_t houseCode, device_code_t deviceCode, CX10ControllableDevice* device)
 {
-	assert((int)houseCode < 16);
-	mHouseCodes[(int)houseCode]->mLinkDevice(deviceCode, device);
+	mHouseCodes[arrayMap->houseCodeToInt[houseCode]]->mLinkDevice(deviceCode, device);
 }
 
 void CX10House::mLinkDevice(house_code_t houseCode, HueLampDevice* device)
 {
-    mHouseCodes[(int)houseCode]->mLinkDevice(device);
+    mHouseCodes[arrayMap->houseCodeToInt[houseCode]]->mLinkDevice(device);
 }
 
 void CX10House::mLinkHouseCode(house_code_t houseCode, CX10HouseCode* housecodePtr)
 {
-    assert((int)houseCode < 16);
-    mHouseCodes[(int)houseCode]= housecodePtr;
+    mHouseCodes[arrayMap->houseCodeToInt[houseCode]]= housecodePtr;
 }
 
 CX10House::CX10House(const char *szName)
@@ -53,7 +63,7 @@ CX10House::CX10House(const char *szName)
 
     for (int i = 0; i < 16; i++)
     {
-        mHouseCodes[i] = new CX10HouseCode((house_code_t) i, NULL_ACTION, NULL_ACTION);
+        mHouseCodes[i] = new CX10HouseCode(arrayMap->intToHouseCode[i], NULL_ACTION, NULL_ACTION);
     }
 }
 

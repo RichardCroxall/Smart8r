@@ -18,7 +18,15 @@ typedef enum
     funDim = 0x09,
     funBright = 0x0B
     //funAllLightsOff = 0x0D,
-    //funPoll = 0x1f
+    //funExtendedCode = 0x0F,
+    //funHailRequest = 0x11,
+    //funHailAcknowledge = 0x13,
+    //funPresetDim0 = 0x15,
+    //funPresetDim1 = 0x17,
+    //funExtendedData = 0x19,
+    //funStatusOn = 0x1B,
+    //funStatusOff = 0x1D,
+    //funPoll = 0x1F,
 } function_code_t;
 // *************************************************************************
 typedef enum
@@ -80,7 +88,7 @@ class CX10AbstractDevice : public AbstractDevice
         virtual bool mGetReal()    {return false;};
         virtual bool mGetLamp()    {return false;};
         virtual device_state_t mGetWantedState()    {return stateUnknown;};
-        virtual device_state_t mGetState()        {return stateUnknown;};
+        virtual device_state_t mGetState()        {return stateUnknown;}; 
         virtual int mDimIncrementLevelsWanted()        {return 0;};
         virtual bool mStateChangeNeeded(device_state_t deviceState)        {return false;};
         virtual bool mStateChangePossible(device_state_t deviceState)        {return true;};
@@ -94,6 +102,7 @@ class CX10AbstractDevice : public AbstractDevice
         virtual void mCheckSwitchOffAndOnTimeout(time_t now) {};
         virtual void FireDelayedActions() {};
         virtual void mRefreshDevice() {};
+
 };
 
 // *************************************************************************

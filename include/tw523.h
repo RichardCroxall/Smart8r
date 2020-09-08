@@ -4,7 +4,6 @@ class Ctw523
 {
     private:
         bool timeToFinish;
-#ifndef _WIN32
         bool cycle_positive;
         bool previous_cycle_positive;
         bool x10_message_sent;
@@ -25,7 +24,6 @@ class Ctw523
 
         Ctw523In ctw523In;
         Ctw523Out ctw523Out;
-#endif
         x10_message_t x10_sent_message;
 
 		bool mSendQueueWithoutRetry();
@@ -43,6 +41,10 @@ class Ctw523
         void tw523ThreadStart(void);
         void FinishNow() { timeToFinish = true; }
         bool TimeToFinish() { return timeToFinish; }
+
+#ifdef _WIN32
+        void createDevice(deviceType_t deviceType, house_code_t houseCode, device_code_t deviceCode);
+#endif
 };
 
 #ifdef MAIN_PROGRAM
