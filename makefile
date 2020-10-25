@@ -1,16 +1,16 @@
-smart : action.o calendar.o clock.o device.o flag.o housecode.o house.o huedevice.o logging.o message.o queue.o runtime.o readcodefile.o rqueue.o scheduler.o smart8r.o timer.o timeout.o tw523.o tw523in.o tw523out.o port.o vm.o
+smart : action.o calendar.o clock.o device.o flag.o housecode.o house.o huedevice.o logging.o map.o message.o queue.o runtime.o readcodefile.o rqueue.o scheduler.o smart8r.o timer.o timeout.o tw523.o tw523in.o tw523out.o port.o vm.o
 smart: HueConnection.o HueMacAddressMap.o HuePersistance.o HueQueue.o HueRQueue.o HueThread.o
 smart: APICache.o BaseHttpHandler.o BridgeConfig.o ColorUnits.o ExtendedColorHueStrategy.o ExtendedColorTemperatureStrategy.o Group.o Hue.o
 smart: HueCommandAPI.o HueDeviceTypes.o HueException.o HueLight.o LinHttpHandler.o ModelPictures.o Scene.o Schedule.o SimpleBrightnessStrategy.o
 smart: SimpleColorHueStrategy.o SimpleColorTemperatureStrategy.o StateTransaction.o TimePattern.o UPnP.o Utils.o
-	g++ action.o calendar.o clock.o device.o flag.o housecode.o house.o huedevice.o logging.o message.o queue.o runtime.o readcodefile.o rqueue.o scheduler.o smart8r.o timer.o timeout.o tw523.o tw523in.o tw523out.o port.o vm.o \
+	g++ action.o calendar.o clock.o device.o flag.o housecode.o house.o huedevice.o logging.o map.o message.o queue.o runtime.o readcodefile.o rqueue.o scheduler.o smart8r.o timer.o timeout.o tw523.o tw523in.o tw523out.o port.o vm.o \
 		HueConnection.o HueMacAddressMap.o HuePersistance.o HueQueue.o HueRQueue.o HueThread.o \
 		APICache.o BaseHttpHandler.o BridgeConfig.o ColorUnits.o ExtendedColorHueStrategy.o ExtendedColorTemperatureStrategy.o Group.o Hue.o \
 		HueCommandAPI.o HueDeviceTypes.o HueException.o HueLight.o LinHttpHandler.o ModelPictures.o Scene.o Schedule.o SimpleBrightnessStrategy.o \
 		SimpleColorHueStrategy.o SimpleColorTemperatureStrategy.o StateTransaction.o TimePattern.o UPnP.o Utils.o -pthread -lpthread -lrt -o smart
 
 include/runtime.h : include/action.h include/calendar.h include/clock.h include/common.h include/defines.h include/device.h include/flag.h include/house.h include/housecode.h include/logging.h 
-include/runtime.h: include/message.h include/queue.h include/rqueue.h include/scheduler.h include/timer.h include/timeout.h include/tw523.h include/tw523in.h
+include/runtime.h: include/map.h include/message.h include/queue.h include/rqueue.h include/scheduler.h include/timer.h include/timeout.h include/tw523.h include/tw523in.h
 include/runtime.h: include/tw523out.h include/port.h include/vm.h
 	touch include/runtime.h
 
@@ -40,6 +40,9 @@ huedevice.o : huedevice.cpp include/runtime.h
 
 logging.o : logging.cpp include/runtime.h
 	g++ -c logging.cpp -pthread
+
+map.o : map.cpp include/runtime.h
+	g++ -c map.cpp -pthread
 
 message.o : message.cpp include/runtime.h
 	g++ -c message.cpp -pthread
