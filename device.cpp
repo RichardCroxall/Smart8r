@@ -209,11 +209,6 @@ void CX10RealDevice::mSetWantedState(device_state_t wantedState, int colour, boo
     mSwitchOnTimeout = switchOnTimeout;
     mSwitchOffTimeout = switchOffTimeout;
 
-    //if wanted state takes place immediately
-    if ((wantedState == stateOn && switchOnTimeout <= tickingClock.getTime()) ||
-        (wantedState == stateOff && switchOffTimeout <= tickingClock.getTime()) ||
-        (wantedState != stateOn && wantedState!= stateOff))
-
     //if wanted state takes place immediately, action immediately and reset timer to avoid it firing again
     if ((wantedState != stateOff && switchOnTimeout <= tickingClock.getTime()))
     {
