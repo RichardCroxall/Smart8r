@@ -101,28 +101,22 @@ bool ExecuteAnInstruction()
                 const int colourLoop = GetNextParameter();
                 const time_t delay = GetNextParameter();
                 const time_t duration = GetNextParameter();
-                time_t switchOnTimeout = tickingClock.getTime() + delay;
-                const time_t switchOffTimeout = tickingClock.getTime() + duration;
+                time_t switchOnTimeout = tickingClock.getTime();
+                time_t switchOffTimeout = tickingClock.getTime();
 
                 if (deviceState == stateOff)
                 {
                     assert(duration == 0); //so switchOffTimeout is already now!
                     switchOnTimeout = THE_END_OF_TIME;
+                    switchOffTimeout += delay;
                 }
                 else
                 {
                     assert (duration >= delay);
+                    switchOnTimeout += delay;
+                    switchOffTimeout += duration;
                 }
                 loadMap.device[deviceEntryNo]->mSetWantedState(deviceState, colour, colourLoop, switchOnTimeout, switchOffTimeout);
-                /*if (loadMap.device[deviceEntryNo]->GetDeviceType() == deviceHueLamp)
-                {
-                    ((HueLampDevice*);
-                }
-                else
-                {
-                    ((CX10RealDevice*)loadMap.device[deviceEntryNo])->mSetWantedState(deviceState, switchOnTimeout, switchOffTimeout);
-                }
-                */
             }
             break;
 
