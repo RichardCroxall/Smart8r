@@ -1,5 +1,10 @@
 
 #include "include/runtime.h"
+#if _WIN32
+#include <processthreadsapi.h>
+#endif
+
+
 #include <map>
 
 const int LogfileDaysToKeep = 10;
@@ -9,6 +14,7 @@ static const char* loggingLevelNames[] = {
     "Infor",
     "Debug",
     "Warni",
+	"Asser",
     "Error",
     "Fatal",
 };
@@ -49,6 +55,15 @@ void CLogging::logError(const char* format, ...)
     sendMessage(LevelError, format, args);
     va_end(args);
 };
+
+void CLogging::logAssert(const char* format, ...)
+{
+    va_list args;
+    va_start(args, format);
+    sendMessage(LevelAssert, format, args);
+    va_end(args);
+};
+
 void CLogging::logWarn(const char* format, ...)
 {
     va_list args;
@@ -91,10 +106,10 @@ std::size_t indexThread(const std::thread::id id)
 
 int CpuNumber()
 {
-    unsigned int cpu = 5;
-#ifndef _WIN32
-    cpu = sched_getcpu();
+#ifdef _WIN32
+    unsigned int cpu = GetCurrentProcessorNumber();
 #else
+    unsigned int cpu = sched_getcpu();
 #endif
     return (int) cpu;
 }

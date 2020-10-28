@@ -466,9 +466,24 @@ void tw523ThreadStart()
     } while (failCount < 6 && !tw523.TimeToFinish());
 }
 
+int calcHueSleepSeconds(int failedHubConnectAttempts)
+{
+    const int MaxDoublingPower = 11;
+
+    //whilst retrying to connect to hue hub, double time delay for each attempt to a maximum of 60 * 2**11 = 122,880 seconds (1.4 days)
+#ifdef _WIN32
+    const int multiplier = 1 << min(failedHubConnectAttempts, MaxDoublingPower);
+#else
+    const int multiplier = 1 << std::min(failedHubConnectAttempts, MaxDoublingPower);
+#endif
+
+    const int sleepTime = 60 * multiplier;
+    return sleepTime;
+}
 
 void hueThreadStart()
 {
+    const int maxFailCount = 30; //about three weeks.
     const time_t tenMinutes = 60 * 10;
 	
     time_t lastProblemTime = time(0);
@@ -485,6 +500,11 @@ void hueThreadStart()
             std::string description = e.GetDescription();
             logging.logDebug("Hue Thread failed with Hue API Response exception with count %d %d %s %s.\n", failCount, e.GetErrorNumber(), address.c_str(), description.c_str());
         }
+    	catch (std::runtime_error& runtimeError)
+    	{
+            logging.logDebug("count %d message %s\n", failCount, runtimeError.what());
+
+    	}
     	catch (std::exception& e)
     	{
             logging.logDebug("Hue Thread failed with non-specific exception with count %d.\n", failCount);
@@ -492,17 +512,23 @@ void hueThreadStart()
     	
         if (!hueThread.TimeToFinish())
         {
+            //if thread stayed up for ten minutes, any exception then is a new problem.
             if (time(0) - lastProblemTime > tenMinutes)
             {
                 failCount = 0;
             }
             else
             {
+                //for 1st failure, sleep for 1 minute, 2nd failure 2 minutes, and keep doubling thereafter up to a maximum of 1.4 days.
+                const int sleepSeconds = calcHueSleepSeconds(failCount);
+                CClock::SleepMilliseconds(sleepSeconds * 1000);
+            	
                 failCount++;
             }
             lastProblemTime = time(0);
+
         }
-    } while (failCount < 6 && !hueThread.TimeToFinish());
+    } while (failCount < maxFailCount && !hueThread.TimeToFinish());
 }
 
 void SetThreadHigherPriority(std::thread& tw523thread)

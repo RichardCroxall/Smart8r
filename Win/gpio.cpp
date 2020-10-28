@@ -82,7 +82,7 @@ void generalPurposeInputOutput::transmit(bool receive_half_bit, bool transmit)
 	}
     else
     {
-        assert(receive_half_bit == false);
+		LogAssert(receive_half_bit == false);
     }
 }
 

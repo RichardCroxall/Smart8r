@@ -8,6 +8,7 @@ enum LoggingLevelEnum
     LevelInfo,
     LevelDebug,
     LevelWarn,
+    LevelAssert,
     LevelError,
     LevelFatal,
 };
@@ -36,12 +37,15 @@ public:
 
     void logFatal(const char* format, ...);
     void logError(const char* format, ...);
+    void logAssert(const char* format, ...);
     void logWarn(const char* format, ...);
     void logDebug(const char* format, ...);
     void logInfo(const char* format, ...);
     void closeFile();
 
 };
+
+#define LogAssert(expression) if (!expression) {logging.logAssert("Assert failed at line %d in %s due to %s", __LINE__ , __FILE__, #expression );}
 
 #ifdef MAIN_PROGRAM
 CLogging logging;

@@ -79,6 +79,8 @@ void HueLampDevice::mRefreshDevice()
 #endif
 
     miState = stateRefreshWanted;
+    miColour = -1;
+    mbColourLoop = false;
     allHueDevicesInWantedState = false;
 };
 
@@ -115,7 +117,7 @@ void HueLampDevice::mCheckSwitchOffTimeout(time_t now)
         logging.logInfo("Switch Off Timeout %s now=%ld mSwitchOnTimeout=%ld mSwitchOffTimeout=%ld\n", mszName, now, mSwitchOnTimeout, mSwitchOffTimeout);
 #endif
         mSwitchOffTimeout = THE_END_OF_TIME;
-        assert(mSwitchOnTimeout == THE_END_OF_TIME);
+        LogAssert(mSwitchOnTimeout == THE_END_OF_TIME);
         mSwitchOnTimeout = THE_END_OF_TIME;
         miWantedState = stateOff;
         if (miState != miWantedState ||
