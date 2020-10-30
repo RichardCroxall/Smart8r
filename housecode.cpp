@@ -467,9 +467,11 @@ bool CX10HouseCode::updateHueDevices()
     bool changeNeeded = false;
 	for (HueLampDevice* hueLampDevice : hue_lamp_devices)
 	{
+		//don't worry about colour and colour-loop being different if the wanted state of the lamp is off as Philips Hue Hub will complain.
         if (hueLampDevice->mGetWantedState() != hueLampDevice->mGetState() ||
-            hueLampDevice->mGetWantedColour() != hueLampDevice->mGetColour() ||
-            hueLampDevice->mGetWantedColourLoop() != hueLampDevice->mGetColourLoop())
+            hueLampDevice->mGetWantedState() != stateOff &&
+            (hueLampDevice->mGetWantedColour() != hueLampDevice->mGetColour() ||
+            hueLampDevice->mGetWantedColourLoop() != hueLampDevice->mGetColourLoop()))
         {
             HueQueueMessage_t hue_queue_message;
             hue_queue_message.macAddress = hueLampDevice->mGetMacAddress();
@@ -478,13 +480,19 @@ bool CX10HouseCode::updateHueDevices()
             {
                 hue_queue_message.commandList.push_back(CreateCommandSetState(hueLampDevice->mGetWantedState()));
             }
-        	
-            if (hueLampDevice->mGetWantedColour() != hueLampDevice->mGetColour())
+
+        	//when wanted state is off, it doesn't make sense to change colour and the Philips Hue Hub sends an exception if you try.
+            //so leave wanted state and actual state different until the lamp is switched back on.
+            if (hueLampDevice->mGetWantedState() != stateOff &&
+                hueLampDevice->mGetWantedColour() != hueLampDevice->mGetColour())
             {
                 hue_queue_message.commandList.push_back(CreateCommandColour(hueLampDevice->mGetWantedColour()));
             }
 
-            if (hueLampDevice->mGetWantedColourLoop() != hueLampDevice->mGetColourLoop())
+            //when wanted state is off, it doesn't make sense to change colour-loop and the Philips Hue Hub sends an exception if you try.
+        	//so leave wanted state and actual state different until the lamp is switched back on.
+            if (hueLampDevice->mGetWantedState() != stateOff &&
+                hueLampDevice->mGetWantedColourLoop() != hueLampDevice->mGetColourLoop())
             {
                 hue_queue_message.commandList.push_back(CreateCommandColourLoop(hueLampDevice->mGetWantedColourLoop()));
             }

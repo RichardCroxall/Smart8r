@@ -276,7 +276,7 @@ void Ctw523::tw523ThreadStart()
             std::lock_guard<std::mutex> guard(x10MessageQueue.mQueueMutex);
 
             const bool success = mFlushQueue(1);
-            assert(success);
+            LogAssert(success);
 
             x10MessageQueue.clearQueue(); //hope that we have cleared all IR commands out.
 
@@ -381,7 +381,7 @@ bool Ctw523::mFlushQueue(int retryCount)
 
     do
     {
-        waitForQuiet(20 + 20 * (completeMessageRetry + retryCount));
+        waitForQuiet(20 + 100 * (completeMessageRetry + retryCount));
         if (completeMessageRetry  > 0)
         {
             logging.logDebug("message %s not acknowledged, restarting queue transmission %d\n", messageDescription(x10_sent_message), ctw523Out.GetX10Transmission());
