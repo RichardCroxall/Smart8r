@@ -468,9 +468,9 @@ void tw523ThreadStart()
 
 int calcHueSleepSeconds(int failedHubConnectAttempts)
 {
-    const int MaxDoublingPower = 11;
+    const int MaxDoublingPower = 6;
 
-    //whilst retrying to connect to hue hub, double time delay for each attempt to a maximum of 60 * 2**11 = 122,880 seconds (1.4 days)
+    //whilst retrying to connect to hue hub, double time delay for each attempt to a maximum of 60 * 2**6 = 3,840 seconds = 1.06 hours)
 #ifdef _WIN32
     const int multiplier = 1 << min(failedHubConnectAttempts, MaxDoublingPower);
 #else
@@ -483,7 +483,7 @@ int calcHueSleepSeconds(int failedHubConnectAttempts)
 
 void hueThreadStart()
 {
-    const int maxFailCount = 30; //about three weeks.
+    const int maxFailCount = 500; //about three weeks.
     const time_t tenMinutes = 60 * 10;
 	
     time_t lastProblemTime = time(0);
@@ -513,16 +513,22 @@ void hueThreadStart()
         if (!hueThread.TimeToFinish())
         {
             //if thread stayed up for ten minutes, any exception then is a new problem.
-            if (time(0) - lastProblemTime > tenMinutes)
+            if (time(nullptr) - lastProblemTime > tenMinutes)
             {
                 failCount = 0;
             }
             else
             {
-                //for 1st failure, sleep for 1 minute, 2nd failure 2 minutes, and keep doubling thereafter up to a maximum of 1.4 days.
+                //for 1st failure, sleep for 1 minute, 2nd failure 2 minutes, and keep doubling thereafter up to a maximum of 64 minutes.
+            	//however we do need to exit within a second if TimeToFinish is set.
                 const int sleepSeconds = calcHueSleepSeconds(failCount);
-                CClock::SleepMilliseconds(sleepSeconds * 1000);
-            	
+                const time_t startTime = time(nullptr);
+                const time_t endTime = startTime + sleepSeconds;
+                while (time(nullptr) < endTime &&
+                    !hueThread.TimeToFinish())
+                {
+                    CClock::SleepMilliseconds(1000); //wait 1 seconds
+                }
                 failCount++;
             }
             lastProblemTime = time(0);

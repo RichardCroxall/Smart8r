@@ -208,8 +208,8 @@ void HueThread::threadStart()
 			processQueue();
 		}
 
-		const time_t startTime = time(nullptr);
 		const time_t sleepSeconds = calcSleepSeconds(failedHubConnectAttempts);
+		const time_t startTime = time(nullptr);
 		const time_t endTime = startTime + sleepSeconds;
 		while (time(nullptr) < endTime &&
 			   hueMessageQueue.getQueueSize() == 0 &&

@@ -27,7 +27,7 @@ class Ctw523
         x10_message_t x10_sent_message;
 
 		bool mSendQueueWithoutRetry();
-        bool mFlushQueue(int retryCount);
+        bool mFlushQueue();
         void waitForQuiet(unsigned long centiseconds);
         void do_half_cycle(void);
 
