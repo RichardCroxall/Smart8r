@@ -1,0 +1,120 @@
+2020/08/25 00:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 00:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 00:30:00.00 1 5 Debug:RefreshDevices
+2020/08/25 00:30:00.00 1 5 Infor:Refresh device Porch.Security
+2020/08/25 00:30:00.00 1 5 Infor:sorting 2 timers
+2020/08/25 00:30:00.00 1 5 Infor:listing 2 timers
+2020/08/25 00:30:00.00 1 5 Infor:listing timer 0
+2020/08/25 00:30:00.00 1 5 Infor:fireTimeDate 1598319000
+2020/08/25 00:30:00.00 1 5 Debug:timer [0] = 25/08/2020 01:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 2 of 24
+2020/08/25 00:30:00.00 1 5 Infor:listing timer 1
+2020/08/25 00:30:00.00 1 5 Infor:fireTimeDate 1598332217
+2020/08/25 00:30:00.00 1 5 Debug:timer [1] = 25/08/2020 05:10:17 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/25 00:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 00:30:00.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/25 00:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 00:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 00:30:00.00 3 5 Debug:Porch.Security off
+2020/08/25 00:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 00:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 01:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 01:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/25 01:30:00.00 1 5 Debug:RefreshDevices
+2020/08/25 01:30:00.00 1 5 Infor:Refresh device Porch.Security
+2020/08/25 01:30:00.00 1 5 Infor:sorting 2 timers
+2020/08/25 01:30:00.00 1 5 Infor:listing 2 timers
+2020/08/25 01:30:00.00 1 5 Infor:listing timer 0
+2020/08/25 01:30:00.00 1 5 Infor:fireTimeDate 1598322600
+2020/08/25 01:30:00.00 1 5 Debug:timer [0] = 25/08/2020 02:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 3 of 24
+2020/08/25 01:30:00.00 1 5 Infor:listing timer 1
+2020/08/25 01:30:00.00 1 5 Infor:fireTimeDate 1598332217
+2020/08/25 01:30:00.00 1 5 Debug:timer [1] = 25/08/2020 05:10:17 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/25 01:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 01:30:00.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/25 01:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 01:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 01:30:00.00 3 5 Debug:Porch.Security off
+2020/08/25 01:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 01:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 02:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 02:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 02:30:00.00 1 5 Debug:RefreshDevices
+2020/08/25 02:30:00.00 1 5 Infor:Refresh device Porch.Security
+2020/08/25 02:30:00.00 1 5 Infor:sorting 2 timers
+2020/08/25 02:30:00.00 1 5 Infor:listing 2 timers
+2020/08/25 02:30:00.00 1 5 Infor:listing timer 0
+2020/08/25 02:30:00.00 1 5 Infor:fireTimeDate 1598326200
+2020/08/25 02:30:00.00 1 5 Debug:timer [0] = 25/08/2020 03:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 4 of 24
+2020/08/25 02:30:00.00 1 5 Infor:listing timer 1
+2020/08/25 02:30:00.00 1 5 Infor:fireTimeDate 1598332217
+2020/08/25 02:30:00.00 1 5 Debug:timer [1] = 25/08/2020 05:10:17 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/25 02:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 02:30:00.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/25 02:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 02:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 02:30:00.00 3 5 Debug:Porch.Security off
+2020/08/25 02:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 02:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 02:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 02:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 02:30:00.00 1 5 Debug:Porch.PIR received on
+2020/08/25 02:30:00.00 1 5 Infor:device Porch.Security wanted state = 1 switchontime 1598322600 switchofftime 1598322720
+2020/08/25 02:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 02:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 02:30:00.00 3 5 Debug:X10_sent_message=Mess 174 House L UNIT4
+2020/08/25 02:30:00.00 3 5 Debug:X10_sent_message=Mess 165 House L funOn
+2020/08/25 02:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 02:30:00.00 3 5 Debug:Porch.Security on
+2020/08/25 02:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 03:30:00.00 1 5 Debug:RefreshDevices
+2020/08/25 03:30:00.00 1 5 Infor:Refresh device Porch.Security
+2020/08/25 03:30:00.00 1 5 Infor:sorting 2 timers
+2020/08/25 03:30:00.00 1 5 Infor:listing 2 timers
+2020/08/25 03:30:00.00 1 5 Infor:listing timer 0
+2020/08/25 03:30:00.00 1 5 Infor:fireTimeDate 1598329800
+2020/08/25 03:30:00.00 1 5 Debug:timer [0] = 25/08/2020 04:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 5 of 24
+2020/08/25 03:30:00.00 1 5 Infor:listing timer 1
+2020/08/25 03:30:00.00 1 5 Infor:fireTimeDate 1598332217
+2020/08/25 03:30:00.00 1 5 Debug:timer [1] = 25/08/2020 05:10:17 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/25 03:30:00.00 1 5 Infor:Switch Off Timeout Porch.Security now=1598326200 mSwitchOnTimeout=2130706432 mSwitchOffTimeout=1598322720
+2020/08/25 03:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 03:30:00.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/25 03:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 03:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 03:30:00.00 3 5 Debug:Porch.Security off
+2020/08/25 03:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 03:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 04:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 04:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 04:30:00.00 1 5 Debug:RefreshDevices
+2020/08/25 04:30:00.00 1 5 Infor:Refresh device Porch.Security
+2020/08/25 04:30:00.00 1 5 Infor:sorting 2 timers
+2020/08/25 04:30:00.00 1 5 Infor:listing 2 timers
+2020/08/25 04:30:00.00 1 5 Infor:listing timer 0
+2020/08/25 04:30:00.00 1 5 Infor:fireTimeDate 1598332217
+2020/08/25 04:30:00.00 1 5 Debug:timer [0] = 25/08/2020 05:10:17 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/25 04:30:00.00 1 5 Infor:listing timer 1
+2020/08/25 04:30:00.00 1 5 Infor:fireTimeDate 1598333400
+2020/08/25 04:30:00.00 1 5 Debug:timer [1] = 25/08/2020 05:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 6 of 24
+2020/08/25 04:30:00.00 1 5 Debug:X10 action starting ...
+2020/08/25 04:30:00.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/25 04:30:00.00 1 5 Debug:X10 action complete
+2020/08/25 04:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 04:30:00.00 3 5 Debug:Porch.Security off
+2020/08/25 04:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 04:30:00.00 3 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/25 05:10:17.00 1 5 Debug:X10 action starting ...
+2020/08/25 05:10:17.00 1 5 Debug:X10 action complete
+2020/08/25 05:10:17.00 1 5 Infor:sorting 2 timers
+2020/08/25 05:10:17.00 1 5 Infor:listing 2 timers
+2020/08/25 05:10:17.00 1 5 Infor:listing timer 0
+2020/08/25 05:10:17.00 1 5 Infor:fireTimeDate 1598333400
+2020/08/25 05:10:17.00 1 5 Debug:timer [0] = 25/08/2020 05:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 6 of 24
+2020/08/25 05:10:17.00 1 5 Infor:listing timer 1
+2020/08/25 05:10:17.00 1 5 Infor:fireTimeDate 1598378845
+2020/08/25 05:10:17.00 1 5 Debug:timer [1] = 25/08/2020 18:07:25 GMT 0 tmr Darkness seq sunset ev 0 of 2
+2020/08/25 05:10:17.00 1 5 Debug:Porch.PIR received on
+2020/08/25 05:10:17.00 1 5 Debug:Joining...
+2020/08/25 05:10:17.00 1 5 Debug:Joined
+2020/08/25 05:10:17.00 1 5 Debug:goodbye cruel world

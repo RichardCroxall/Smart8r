@@ -1,0 +1,2 @@
+2020/11/16 02:30:00.00 1 4 Warni:ResynchClockToHostRealTimeClock
+2020/11/16 02:30:00.00 1 2 Warni:ResynchClockToHostRealTimeClock

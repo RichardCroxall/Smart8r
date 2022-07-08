@@ -1,0 +1,62 @@
+2020/09/01 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/09/01 18:59:56.00 1 5 Debug:world started!
+2020/09/01 18:59:56.00 1 5 Debug:X10 action starting ...
+2020/09/01 18:59:56.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/01 18:59:56.00 1 5 Debug:X10 action complete
+2020/09/01 18:59:56.00 2 5 Debug:threadstart for tw523 class started
+2020/09/01 18:59:56.00 2 5 Infor:waiting for quiet
+2020/09/01 18:59:56.00 1 5 Debug:Hue action starting ...
+2020/09/01 18:59:56.00 3 5 Debug:threadstart for HueThread class started
+2020/09/01 18:59:56.00 1 5 Debug:Hue action complete
+2020/09/01 18:59:56.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/09/01 18:59:56.41 2 5 Infor:quiet restarting queue
+2020/09/01 18:59:56.64 2 5 Debug:GPIO receive_counter not 3 = 2
+2020/09/01 18:59:56.68 2 5 Debug:bits do match but should not. x10_received_message 0000, receive_half_bit = 0000 receive_counter = 2
+2020/09/01 18:59:56.91 2 5 Infor:waiting for quiet
+2020/09/01 18:59:57.04 3 5 Debug:Hue Thread now connected to Hue Hub count 0
+2020/09/01 18:59:57.08 3 5 Debug:Hue Lamp 1 0
+2020/09/01 18:59:57.16 3 5 Debug:Hue Lamp 2 0
+2020/09/01 18:59:57.20 3 5 Debug:Hue Lamp 3 0
+2020/09/01 18:59:57.26 2 5 Infor:quiet restarting queue
+2020/09/01 18:59:57.26 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 18:59:57.27 3 5 Debug:Hue Lamp 4 0
+2020/09/01 18:59:57.31 3 5 Debug:Hue Lamp 5 0
+2020/09/01 18:59:57.38 3 5 Debug:Hue Lamp 6 0
+2020/09/01 18:59:57.48 2 5 Debug:GPIO receive_counter not 3 = 1
+2020/09/01 18:59:57.48 2 5 Infor:lost zero crossing sync previous 0 now 1
+2020/09/01 18:59:57.48 1 5 Debug:Hue action starting ...
+2020/09/01 18:59:57.48 1 5 Debug:Hue action complete
+2020/09/01 18:59:57.49 2 5 Infor:lost zero crossing sync previous 0 now 1
+2020/09/01 18:59:57.50 2 5 Infor:lost zero crossing sync previous 0 now 1
+2020/09/01 18:59:57.52 2 5 Debug:receive_counter not 3 = 4
+2020/09/01 18:59:57.76 2 5 Infor:waiting for quiet
+2020/09/01 18:59:58.32 2 5 Infor:quiet restarting queue
+2020/09/01 18:59:58.32 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 18:59:58.55 2 5 Debug:receive_counter not 3 = 1
+2020/09/01 18:59:58.58 2 5 Debug:GPIO receive_counter not 3 = 4
+2020/09/01 18:59:58.82 2 5 Infor:waiting for quiet
+2020/09/01 18:59:59.55 2 5 Infor:quiet restarting queue
+2020/09/01 18:59:59.55 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 18:59:59.78 2 5 Debug:receive_counter not 3 = 1
+2020/09/01 18:59:59.81 2 5 Debug:GPIO receive_counter not 3 = 4
+2020/09/01 19:00:00.05 2 5 Infor:waiting for quiet
+2020/09/01 19:00:00.98 2 5 Infor:quiet restarting queue
+2020/09/01 19:00:00.98 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 19:00:01.21 2 5 Debug:receive_counter not 3 = 1
+2020/09/01 19:00:01.24 2 5 Debug:GPIO receive_counter not 3 = 4
+2020/09/01 19:00:01.48 2 5 Infor:waiting for quiet
+2020/09/01 19:00:02.61 2 5 Infor:quiet restarting queue
+2020/09/01 19:00:02.61 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 19:00:02.84 2 5 Debug:receive_counter not 3 = 1
+2020/09/01 19:00:02.87 2 5 Debug:GPIO receive_counter not 3 = 4
+2020/09/01 19:00:03.11 2 5 Infor:waiting for quiet
+2020/09/01 19:00:04.44 2 5 Infor:quiet restarting queue
+2020/09/01 19:00:04.44 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 19:00:04.67 2 5 Debug:receive_counter not 3 = 1
+2020/09/01 19:00:04.70 2 5 Debug:GPIO receive_counter not 3 = 4
+2020/09/01 19:00:04.94 2 5 Infor:waiting for quiet
+2020/09/01 19:00:06.47 2 5 Infor:quiet restarting queue
+2020/09/01 19:00:06.47 2 5 Debug:message Mess 41 House C funAllUnitsOff not acknowledged, restarting queue transmission 0
+2020/09/01 19:00:06.70 2 5 Debug:receive_counter not 3 = 1
+2020/09/01 19:00:06.73 2 5 Debug:GPIO receive_counter not 3 = 4
+2020/09/01 19:

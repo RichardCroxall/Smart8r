@@ -1,6 +1,8 @@
 #include "include/runtime.h"
 #include "include/huedevice.h"
 
+#define NULL 0
+
 extern CX10House house;
 
 
@@ -559,9 +561,14 @@ void readMarkerRecord(FILE* fin)
 
 void readFile()
 {
+    struct stat st;
+    int result = stat(RUNTIME_FILENAME, &st);
+    assert(result == 0);
 #ifndef _WIN32
     FILE* fin = fopen(RUNTIME_FILENAME, "ra");
 #else
+    struct tm* ptm = gmtime(& st.st_mtime);
+    printf("filename %s size %d modify date:%d:%d:%d %d/%d/%d\n", RUNTIME_FILENAME, st.st_size, ptm->tm_hour, ptm->tm_min, ptm->tm_sec, ptm->tm_mday, ptm->tm_mon + 1, ptm->tm_year + 1900);
     FILE* fin = fopen(RUNTIME_FILENAME, "r");
 #endif
     assert(fin != nullptr);

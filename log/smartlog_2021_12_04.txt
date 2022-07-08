@@ -1,0 +1,2534 @@
+2021/12/04 00:02:30.00 1 2 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 00:02:30.00 1 10 Debug:RefreshDevices
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.WallLights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.LEDLights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.Moodlights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.Amplifier
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.Tv
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Kitchen.Tv
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.Amplifier
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.Tv
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Bed1.Dummy
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Smart.Dog
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Hall.PIRLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Landing.PIRLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 00:02:30.00 1 2 Infor:Refresh device Garage.OutsideLight
+2021/12/04 00:02:30.00 1 2 Infor:sorting 4 timers
+2021/12/04 00:02:30.00 1 2 Infor:listing 4 timers
+2021/12/04 00:02:30.00 1 2 Infor:listing timer 0
+2021/12/04 00:02:30.00 1 2 Infor:fireTimeDate 1638577800
+2021/12/04 00:02:30.00 1 2 Debug:timer [0] = 04/12/2021 00:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 0 of 24
+2021/12/04 00:02:30.00 1 10 Infor:listing timer 1
+2021/12/04 00:02:30.00 1 10 Infor:fireTimeDate 1638579585
+2021/12/04 00:02:30.00 1 10 Debug:timer [1] = 04/12/2021 00:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 1 of 7
+2021/12/04 00:02:30.00 1 2 Infor:listing timer 2
+2021/12/04 00:02:30.00 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 00:02:30.00 1 2 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 00:02:30.00 1 8 Infor:listing timer 3
+2021/12/04 00:02:30.00 1 8 Infor:fireTimeDate 1638604132
+2021/12/04 00:02:30.00 1 8 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 00:02:30.00 1 1 Debug:X10 action starting ...
+2021/12/04 00:02:30.00 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 00:02:30.00 1 2 Debug:X10 action complete
+2021/12/04 00:02:30.01 2 4 Infor:quiet restarting queue
+2021/12/04 00:02:30.01 1 7 Debug:Hue action starting ...
+2021/12/04 00:02:30.01 1 0 Debug:Hue action complete
+2021/12/04 00:02:30.20 3 2 Debug:Hue Lamp 1 0
+2021/12/04 00:02:30.31 3 4 Debug:Hue Lamp 2 0
+2021/12/04 00:02:30.33 3 1 Debug:Hue Lamp 3 0
+2021/12/04 00:02:30.44 3 2 Debug:Hue Lamp 4 0
+2021/12/04 00:02:30.45 3 1 Debug:Hue Lamp 5 0
+2021/12/04 00:02:30.49 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 00:02:30.50 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 00:02:30.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 00:02:30.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 00:02:30.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 00:02:30.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 00:02:30.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 00:02:30.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 00:02:30.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 00:02:30.50 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 00:02:30.55 1 6 Debug:Lounge.WallLights off
+2021/12/04 00:02:30.55 1 5 Debug:Lounge.CeilingLights off
+2021/12/04 00:02:30.55 1 3 Debug:Lounge.LEDLights off
+2021/12/04 00:02:30.55 1 3 Debug:DiningRoom.CeilingLight off
+2021/12/04 00:02:30.56 1 4 Debug:Lounge.Moodlights off
+2021/12/04 00:02:30.56 1 2 Debug:UtilityRoom.Lights off
+2021/12/04 00:02:30.56 1 2 Debug:Conservatory.FloorLights off
+2021/12/04 00:02:30.56 1 6 Debug:Conservatory.HighWallLights off
+2021/12/04 00:02:30.56 1 2 Debug:Conservatory.LowWallLights off
+2021/12/04 00:02:30.56 1 2 Debug:Lounge.SatelliteReceiver off
+2021/12/04 00:02:30.56 1 6 Debug:Kitchen.Amplifier off
+2021/12/04 00:02:30.56 1 2 Debug:Lounge.Amplifier off
+2021/12/04 00:02:30.56 1 2 Debug:Lounge.Tv off
+2021/12/04 00:02:30.56 1 2 Debug:Kitchen.Tv off
+2021/12/04 00:02:30.56 1 2 Debug:Hue action starting ...
+2021/12/04 00:02:30.56 1 9 Debug:Hue action complete
+2021/12/04 00:02:30.56 3 4 Debug:Hue Lamp 6 0
+2021/12/04 00:02:30.58 3 1 Debug:Hue Lamp 6 0
+2021/12/04 00:02:30.66 1 6 Debug:Hue action starting ...
+2021/12/04 00:02:30.66 1 6 Debug:Hue action complete
+2021/12/04 00:02:30.99 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 00:02:31.00 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 00:02:31.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 00:02:31.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 00:02:31.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 00:02:31.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 00:02:31.00 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 00:02:31.00 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 00:02:31.00 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 00:02:31.10 1 4 Debug:X10 action starting ...
+2021/12/04 00:02:31.49 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 00:02:31.50 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 00:02:31.50 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 00:02:31.50 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 00:02:31.50 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 00:02:31.50 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 00:02:31.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 00:02:31.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 00:02:31.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 00:02:31.50 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 00:02:31.51 1 4 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 00:02:31.51 1 4 Debug:X10 action complete
+2021/12/04 00:02:31.52 2 3 Infor:waiting for quiet
+2021/12/04 00:02:31.64 2 3 Infor:quiet restarting queue
+2021/12/04 00:02:32.12 2 3 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 00:02:32.13 2 3 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 00:02:32.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 00:02:32.13 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 00:02:32.16 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 00:02:32.16 1 5 Debug:Bed1.RichardsLight off
+2021/12/04 00:02:32.17 1 2 Debug:Bed1.SylviasLight off
+2021/12/04 00:02:32.17 1 0 Debug:Bed1.ComputerLight off
+2021/12/04 00:02:32.17 1 2 Debug:Bed1.TripleSpotlight off
+2021/12/04 00:02:32.17 1 3 Debug:Bed1.Amplifier off
+2021/12/04 00:02:32.17 1 3 Debug:Bed1.Tv off
+2021/12/04 00:02:32.17 1 2 Debug:Bed1.Dummy off
+2021/12/04 00:02:32.62 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 00:02:32.63 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 00:02:32.63 2 9 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 00:02:32.63 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 00:02:32.63 2 6 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 00:02:32.63 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 00:02:32.63 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 00:02:32.63 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 00:02:32.63 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 00:02:32.63 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 00:02:32.72 1 10 Debug:X10 action starting ...
+2021/12/04 00:02:33.12 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 00:02:33.13 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 00:02:33.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 00:02:33.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 00:02:33.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 00:02:33.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 00:02:33.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 00:02:33.13 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 00:02:33.13 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 00:02:33.13 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 00:02:33.14 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:33.14 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 00:02:33.14 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 00:02:33.14 1 2 Debug:X10 action complete
+2021/12/04 00:02:33.15 2 9 Infor:waiting for quiet
+2021/12/04 00:02:33.27 2 2 Infor:quiet restarting queue
+2021/12/04 00:02:33.75 2 11 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 00:02:33.76 2 11 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 00:02:33.76 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 00:02:33.76 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 00:02:33.79 1 6 Debug:Smart.GoogleAlexa off
+2021/12/04 00:02:33.79 1 3 Debug:Smart.Dog off
+2021/12/04 00:02:34.25 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 00:02:34.26 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 00:02:34.26 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 00:02:34.26 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 00:02:34.34 1 6 Debug:X10 action starting ...
+2021/12/04 00:02:34.75 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 00:02:34.76 2 5 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 00:02:34.76 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 00:02:34.76 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 00:02:34.77 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:34.77 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 00:02:34.77 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 00:02:34.77 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:34.77 1 2 Debug:X10 action complete
+2021/12/04 00:02:34.78 2 10 Infor:waiting for quiet
+2021/12/04 00:02:34.90 2 5 Infor:quiet restarting queue
+2021/12/04 00:02:35.38 2 7 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 00:02:35.39 2 7 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 00:02:35.42 1 10 Debug:X10 action starting ...
+2021/12/04 00:02:35.88 2 7 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 00:02:35.89 2 7 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 00:02:35.89 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 00:02:35.90 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:35.90 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 00:02:35.90 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 00:02:35.90 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:35.90 1 2 Debug:Garage.OutsideLight on
+2021/12/04 00:02:35.90 1 2 Debug:X10 action complete
+2021/12/04 00:02:35.91 2 10 Infor:waiting for quiet
+2021/12/04 00:02:36.03 2 5 Infor:quiet restarting queue
+2021/12/04 00:02:36.51 2 5 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 00:02:36.52 2 5 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 00:02:36.56 1 10 Debug:X10 action starting ...
+2021/12/04 00:02:37.01 2 6 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 00:02:37.02 2 6 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 00:02:37.02 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 00:02:37.03 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:37.03 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 00:02:37.03 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 00:02:37.03 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:37.03 1 2 Debug:X10 action complete
+2021/12/04 00:02:37.04 2 11 Infor:waiting for quiet
+2021/12/04 00:02:37.16 2 4 Infor:quiet restarting queue
+2021/12/04 00:02:37.64 2 6 Infor:x10 message received Mess 16c House L UNIT1
+2021/12/04 00:02:37.65 2 6 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2021/12/04 00:02:38.14 2 6 Infor:x10 message received Mess 17c House L UNIT2
+2021/12/04 00:02:38.15 2 6 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2021/12/04 00:02:38.64 2 7 Infor:x10 message received Mess 164 House L UNIT3
+2021/12/04 00:02:38.65 2 7 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2021/12/04 00:02:38.68 1 4 Debug:X10 action starting ...
+2021/12/04 00:02:39.14 2 7 Infor:x10 message received Mess 167 House L funOff
+2021/12/04 00:02:39.15 2 7 Debug:GPIODevice Mess 167 House L funOff UNIT1
+2021/12/04 00:02:39.15 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT2
+2021/12/04 00:02:39.15 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT3
+2021/12/04 00:02:39.15 2 10 Infor:GPIO x10 message received Mess 167 House L funOff
+2021/12/04 00:02:39.16 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:39.16 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 00:02:39.16 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 00:02:39.16 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 00:02:39.16 1 2 Debug:Hall.PIRLight off
+2021/12/04 00:02:39.16 1 2 Debug:Landing.PIRLight off
+2021/12/04 00:02:39.16 1 2 Debug:Kitchen.PIRLight off
+2021/12/04 00:02:39.16 1 2 Debug:X10 action complete
+2021/12/04 00:02:39.17 2 10 Infor:waiting for quiet
+2021/12/04 00:02:39.29 2 11 Infor:quiet restarting queue
+2021/12/04 00:02:39.77 2 10 Infor:x10 message received Mess 16c House L UNIT1
+2021/12/04 00:02:39.78 2 10 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2021/12/04 01:02:39.46 2 11 Infor:x10 message received Mess 17c House L UNIT2
+2021/12/04 01:02:39.47 2 11 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2021/12/04 01:02:39.96 2 7 Infor:x10 message received Mess 164 House L UNIT3
+2021/12/04 01:02:39.97 2 7 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2021/12/04 01:02:40.46 2 7 Infor:x10 message received Mess 167 House L funOff
+2021/12/04 01:02:40.47 2 7 Debug:GPIODevice Mess 167 House L funOff UNIT1
+2021/12/04 01:02:40.47 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT2
+2021/12/04 01:02:40.47 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT3
+2021/12/04 01:02:40.47 2 10 Infor:GPIO x10 message received Mess 167 House L funOff
+2021/12/04 01:02:40.48 1 4 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 01:02:40.48 1 4 Debug:RefreshDevices
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.WallLights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.LEDLights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.Moodlights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.Amplifier
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.Tv
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Kitchen.Tv
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.Amplifier
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.Tv
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Bed1.Dummy
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Smart.Dog
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Hall.PIRLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Landing.PIRLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 01:02:40.48 1 2 Infor:Refresh device Garage.OutsideLight
+2021/12/04 01:02:40.48 1 2 Infor:sorting 4 timers
+2021/12/04 01:02:40.48 1 2 Infor:listing 4 timers
+2021/12/04 01:02:40.48 1 2 Infor:listing timer 0
+2021/12/04 01:02:40.48 1 2 Infor:fireTimeDate 1638579585
+2021/12/04 01:02:40.48 1 2 Debug:timer [0] = 04/12/2021 00:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 1 of 7
+2021/12/04 01:02:40.48 1 7 Infor:listing timer 1
+2021/12/04 01:02:40.48 1 7 Infor:fireTimeDate 1638581400
+2021/12/04 01:02:40.48 1 7 Debug:timer [1] = 04/12/2021 01:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 1 of 24
+2021/12/04 01:02:40.48 1 2 Infor:listing timer 2
+2021/12/04 01:02:40.48 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 01:02:40.48 1 2 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 01:02:40.48 1 6 Infor:listing timer 3
+2021/12/04 01:02:40.48 1 6 Infor:fireTimeDate 1638604132
+2021/12/04 01:02:40.48 1 6 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 01:02:40.48 1 6 Debug:Hall.PIRLight off
+2021/12/04 01:02:40.48 1 2 Debug:Landing.PIRLight off
+2021/12/04 01:02:40.48 1 6 Debug:Kitchen.PIRLight off
+2021/12/04 01:02:40.48 1 6 Debug:X10 action starting ...
+2021/12/04 01:02:40.48 1 6 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 01:02:40.48 1 6 Debug:X10 action complete
+2021/12/04 01:02:40.48 1 2 Debug:Hue action starting ...
+2021/12/04 01:02:40.48 1 2 Debug:Hue action complete
+2021/12/04 01:02:40.48 1 2 Infor:sorting 4 timers
+2021/12/04 01:02:40.48 1 2 Infor:listing 4 timers
+2021/12/04 01:02:40.48 1 2 Infor:listing timer 0
+2021/12/04 01:02:40.48 1 2 Infor:fireTimeDate 1638581400
+2021/12/04 01:02:40.48 1 2 Debug:timer [0] = 04/12/2021 01:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 1 of 24
+2021/12/04 01:02:40.48 1 2 Infor:listing timer 1
+2021/12/04 01:02:40.48 1 2 Infor:fireTimeDate 1638597585
+2021/12/04 01:02:40.48 1 2 Debug:timer [1] = 04/12/2021 05:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 2 of 7
+2021/12/04 01:02:40.48 1 2 Infor:listing timer 2
+2021/12/04 01:02:40.48 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 01:02:40.48 1 2 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 01:02:40.49 1 0 Infor:listing timer 3
+2021/12/04 01:02:40.49 1 0 Infor:fireTimeDate 1638604132
+2021/12/04 01:02:40.49 1 0 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 01:02:40.49 2 11 Infor:waiting for quiet
+2021/12/04 01:02:40.61 2 11 Infor:quiet restarting queue
+2021/12/04 01:02:40.88 3 6 Debug:Hue Lamp 1 0
+2021/12/04 01:02:40.99 3 1 Debug:Hue Lamp 2 0
+2021/12/04 01:02:41.01 3 4 Debug:Hue Lamp 3 0
+2021/12/04 01:02:41.09 2 10 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 01:02:41.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 01:02:41.10 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 01:02:41.10 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 01:02:41.10 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 01:02:41.10 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 01:02:41.10 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 01:02:41.10 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 01:02:41.10 2 2 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 01:02:41.12 3 4 Debug:Hue Lamp 4 0
+2021/12/04 01:02:41.13 3 1 Debug:Hue Lamp 5 0
+2021/12/04 01:02:41.16 1 0 Debug:Lounge.WallLights off
+2021/12/04 01:02:41.16 1 10 Debug:Lounge.CeilingLights off
+2021/12/04 01:02:41.16 1 10 Debug:Lounge.LEDLights off
+2021/12/04 01:02:41.16 1 2 Debug:DiningRoom.CeilingLight off
+2021/12/04 01:02:41.16 1 2 Debug:Lounge.Moodlights off
+2021/12/04 01:02:41.16 1 2 Debug:UtilityRoom.Lights off
+2021/12/04 01:02:41.16 1 0 Debug:Conservatory.FloorLights off
+2021/12/04 01:02:41.16 1 0 Debug:Conservatory.HighWallLights off
+2021/12/04 01:02:41.16 1 6 Debug:Conservatory.LowWallLights off
+2021/12/04 01:02:41.16 1 10 Debug:Lounge.SatelliteReceiver off
+2021/12/04 01:02:41.16 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 01:02:41.16 1 10 Debug:Lounge.Amplifier off
+2021/12/04 01:02:41.16 1 2 Debug:Lounge.Tv off
+2021/12/04 01:02:41.16 1 6 Debug:Kitchen.Tv off
+2021/12/04 01:02:41.16 1 2 Debug:Hue action starting ...
+2021/12/04 01:02:41.16 1 2 Debug:Hue action complete
+2021/12/04 01:02:41.23 3 2 Debug:Hue Lamp 6 0
+2021/12/04 01:02:41.25 3 1 Debug:Hue Lamp 6 0
+2021/12/04 01:02:41.27 1 0 Debug:Hue action starting ...
+2021/12/04 01:02:41.27 1 3 Debug:Hue action complete
+2021/12/04 01:02:41.59 2 4 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 01:02:41.60 2 4 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 01:02:41.60 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 01:02:41.60 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 01:02:41.60 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 01:02:41.60 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 01:02:41.60 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 01:02:41.60 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 01:02:41.60 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 01:02:41.60 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 01:02:41.71 1 1 Debug:X10 action starting ...
+2021/12/04 01:02:42.09 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 01:02:42.10 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 01:02:42.10 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 01:02:42.10 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 01:02:42.10 2 3 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 01:02:42.10 2 3 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 01:02:42.10 2 3 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 01:02:42.10 2 3 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 01:02:42.11 1 1 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 01:02:42.11 1 1 Debug:X10 action complete
+2021/12/04 01:02:42.12 2 0 Infor:waiting for quiet
+2021/12/04 01:02:42.24 2 1 Infor:quiet restarting queue
+2021/12/04 01:02:42.72 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 01:02:42.73 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 01:02:42.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 01:02:42.73 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 01:02:42.77 1 11 Debug:Bed1.CeilingLight off
+2021/12/04 01:02:42.77 1 11 Debug:Bed1.RichardsLight off
+2021/12/04 01:02:42.77 1 11 Debug:Bed1.SylviasLight off
+2021/12/04 01:02:42.77 1 11 Debug:Bed1.ComputerLight off
+2021/12/04 01:02:42.77 1 11 Debug:Bed1.TripleSpotlight off
+2021/12/04 01:02:42.77 1 11 Debug:Bed1.Amplifier off
+2021/12/04 01:02:42.77 1 2 Debug:Bed1.Tv off
+2021/12/04 01:02:42.77 1 6 Debug:Bed1.Dummy off
+2021/12/04 01:02:43.22 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 01:02:43.23 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 01:02:43.23 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 01:02:43.23 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 01:02:43.33 1 6 Debug:X10 action starting ...
+2021/12/04 01:02:43.72 2 6 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 01:02:43.73 2 6 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 01:02:43.73 2 6 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 01:02:43.73 2 6 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 01:02:43.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 01:02:43.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 01:02:43.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 01:02:43.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 01:02:43.73 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 01:02:43.73 2 11 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 01:02:43.74 1 6 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:43.74 1 6 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 01:02:43.74 1 6 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 01:02:43.74 1 6 Debug:X10 action complete
+2021/12/04 01:02:43.75 2 11 Infor:waiting for quiet
+2021/12/04 01:02:43.87 2 7 Infor:quiet restarting queue
+2021/12/04 01:02:44.35 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 01:02:44.36 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 01:02:44.36 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 01:02:44.36 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 01:02:44.39 1 2 Debug:Smart.GoogleAlexa off
+2021/12/04 01:02:44.39 1 6 Debug:Smart.Dog off
+2021/12/04 01:02:44.85 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 01:02:44.86 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 01:02:44.86 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 01:02:44.86 2 0 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 01:02:44.95 1 8 Debug:X10 action starting ...
+2021/12/04 01:02:45.35 2 0 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 01:02:45.36 2 0 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 01:02:45.36 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 01:02:45.36 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 01:02:45.37 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:45.37 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 01:02:45.37 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 01:02:45.37 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:45.37 1 2 Debug:X10 action complete
+2021/12/04 01:02:45.38 2 10 Infor:waiting for quiet
+2021/12/04 01:02:45.50 2 11 Infor:quiet restarting queue
+2021/12/04 01:02:45.98 2 11 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 01:02:45.99 2 11 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 01:02:46.02 1 1 Debug:X10 action starting ...
+2021/12/04 01:02:46.48 2 7 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 01:02:46.49 2 7 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 01:02:46.49 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 01:02:46.50 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:46.50 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 01:02:46.50 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 01:02:46.50 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:46.50 1 2 Debug:Garage.OutsideLight on
+2021/12/04 01:02:46.50 1 2 Debug:X10 action complete
+2021/12/04 01:02:46.51 2 10 Infor:waiting for quiet
+2021/12/04 01:02:46.63 2 0 Infor:quiet restarting queue
+2021/12/04 01:02:47.11 2 7 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 01:02:47.12 2 0 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 01:02:47.16 1 6 Debug:X10 action starting ...
+2021/12/04 01:02:47.61 2 3 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 01:02:47.62 2 3 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 01:02:47.62 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 01:02:47.63 1 9 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:47.63 1 9 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 01:02:47.63 1 9 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 01:02:47.63 1 9 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 01:02:47.63 1 9 Debug:X10 action complete
+2021/12/04 02:02:52.00 1 11 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 02:02:52.00 1 3 Debug:RefreshDevices
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.WallLights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.LEDLights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.Moodlights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.Amplifier
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.Tv
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Kitchen.Tv
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.Amplifier
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.Tv
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Bed1.Dummy
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Smart.Dog
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Hall.PIRLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Landing.PIRLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 02:02:52.00 1 3 Infor:Refresh device Garage.OutsideLight
+2021/12/04 02:02:52.00 1 3 Infor:sorting 4 timers
+2021/12/04 02:02:52.00 1 3 Infor:listing 4 timers
+2021/12/04 02:02:52.00 1 3 Infor:listing timer 0
+2021/12/04 02:02:52.00 1 3 Infor:fireTimeDate 1638585000
+2021/12/04 02:02:52.00 1 3 Debug:timer [0] = 04/12/2021 02:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 2 of 24
+2021/12/04 02:02:52.00 1 2 Infor:listing timer 1
+2021/12/04 02:02:52.00 1 2 Infor:fireTimeDate 1638597585
+2021/12/04 02:02:52.00 1 2 Debug:timer [1] = 04/12/2021 05:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 2 of 7
+2021/12/04 02:02:52.01 1 8 Infor:listing timer 2
+2021/12/04 02:02:52.01 1 8 Infor:fireTimeDate 1638601200
+2021/12/04 02:02:52.01 1 8 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 02:02:52.01 1 3 Infor:listing timer 3
+2021/12/04 02:02:52.01 1 3 Infor:fireTimeDate 1638604132
+2021/12/04 02:02:52.01 1 3 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 02:02:52.01 1 8 Debug:X10 action starting ...
+2021/12/04 02:02:52.01 1 3 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 02:02:52.01 1 3 Debug:X10 action complete
+2021/12/04 02:02:52.01 1 3 Debug:Hue action starting ...
+2021/12/04 02:02:52.01 1 1 Debug:Hue action complete
+2021/12/04 02:02:52.02 2 7 Infor:quiet restarting queue
+2021/12/04 02:02:52.50 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 02:02:52.51 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 02:02:52.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 02:02:52.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 02:02:52.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 02:02:52.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 02:02:52.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 02:02:52.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 02:02:52.51 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 02:02:52.51 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 02:02:52.55 1 8 Debug:Lounge.WallLights off
+2021/12/04 02:02:52.55 1 9 Debug:Lounge.CeilingLights off
+2021/12/04 02:02:52.55 1 2 Debug:Lounge.LEDLights off
+2021/12/04 02:02:52.55 1 0 Debug:DiningRoom.CeilingLight off
+2021/12/04 02:02:52.55 1 2 Debug:Lounge.Moodlights off
+2021/12/04 02:02:52.55 1 2 Debug:UtilityRoom.Lights off
+2021/12/04 02:02:52.56 1 2 Debug:Conservatory.FloorLights off
+2021/12/04 02:02:52.56 1 2 Debug:Conservatory.HighWallLights off
+2021/12/04 02:02:52.56 1 2 Debug:Conservatory.LowWallLights off
+2021/12/04 02:02:52.56 1 2 Debug:Lounge.SatelliteReceiver off
+2021/12/04 02:02:52.56 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 02:02:52.56 1 2 Debug:Lounge.Amplifier off
+2021/12/04 02:02:52.56 1 2 Debug:Lounge.Tv off
+2021/12/04 02:02:52.56 1 2 Debug:Kitchen.Tv off
+2021/12/04 02:02:52.96 3 4 Debug:Hue Lamp 1 0
+2021/12/04 02:02:53.00 2 6 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 02:02:53.01 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 02:02:53.01 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 02:02:53.01 2 9 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 02:02:53.01 2 1 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 02:02:53.01 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 02:02:53.01 2 1 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 02:02:53.01 2 1 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 02:02:53.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 02:02:53.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 02:02:53.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 02:02:53.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 02:02:53.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 02:02:53.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 02:02:53.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 02:02:53.01 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 02:02:53.07 3 1 Debug:Hue Lamp 2 0
+2021/12/04 02:02:53.08 3 1 Debug:Hue Lamp 3 0
+2021/12/04 02:02:53.10 1 7 Debug:X10 action starting ...
+2021/12/04 02:02:53.19 3 1 Debug:Hue Lamp 4 0
+2021/12/04 02:02:53.21 3 3 Debug:Hue Lamp 5 0
+2021/12/04 02:02:53.31 3 4 Debug:Hue Lamp 6 0
+2021/12/04 02:02:53.50 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 02:02:53.51 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 02:02:53.51 2 9 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 02:02:53.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 02:02:53.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 02:02:53.51 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 02:02:53.52 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 02:02:53.52 1 2 Debug:X10 action complete
+2021/12/04 02:02:53.52 1 2 Debug:Hue action starting ...
+2021/12/04 02:02:53.52 1 2 Debug:Hue action complete
+2021/12/04 02:02:53.53 2 10 Infor:waiting for quiet
+2021/12/04 02:02:53.65 2 11 Infor:quiet restarting queue
+2021/12/04 02:02:54.13 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 02:02:54.14 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 02:02:54.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 02:02:54.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 02:02:54.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 02:02:54.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 02:02:54.14 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 02:02:54.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 02:02:54.14 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 02:02:54.14 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 02:02:54.18 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 02:02:54.18 1 6 Debug:Bed1.RichardsLight off
+2021/12/04 02:02:54.18 1 2 Debug:Bed1.SylviasLight off
+2021/12/04 02:02:54.18 1 6 Debug:Bed1.ComputerLight off
+2021/12/04 02:02:54.19 1 6 Debug:Bed1.TripleSpotlight off
+2021/12/04 02:02:54.19 1 2 Debug:Bed1.Amplifier off
+2021/12/04 02:02:54.19 1 8 Debug:Bed1.Tv off
+2021/12/04 02:02:54.19 1 2 Debug:Bed1.Dummy off
+2021/12/04 02:02:54.34 3 1 Debug:Hue Lamp 4 0
+2021/12/04 02:02:54.45 3 8 Debug:Hue Lamp 5 0
+2021/12/04 02:02:54.46 3 1 Debug:Hue Lamp 6 0
+2021/12/04 02:02:54.52 1 8 Debug:Hue action starting ...
+2021/12/04 02:02:54.52 1 9 Debug:Hue action complete
+2021/12/04 02:02:54.63 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 02:02:54.64 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 02:02:54.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 02:02:54.64 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 02:02:54.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 02:02:54.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 02:02:54.64 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 02:02:54.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 02:02:54.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 02:02:54.64 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 02:02:54.73 1 1 Debug:X10 action starting ...
+2021/12/04 02:02:55.13 2 4 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 02:02:55.14 2 4 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 02:02:55.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 02:02:55.14 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 02:02:55.15 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:55.15 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 02:02:55.15 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 02:02:55.15 1 2 Debug:X10 action complete
+2021/12/04 02:02:55.16 2 0 Infor:waiting for quiet
+2021/12/04 02:02:55.28 2 11 Infor:quiet restarting queue
+2021/12/04 02:02:55.76 2 10 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 02:02:55.77 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 02:02:55.77 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 02:02:55.77 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 02:02:55.81 1 4 Debug:Smart.GoogleAlexa off
+2021/12/04 02:02:55.81 1 1 Debug:Smart.Dog off
+2021/12/04 02:02:56.26 2 10 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 02:02:56.27 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 02:02:56.27 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 02:02:56.27 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 02:02:56.36 1 9 Debug:X10 action starting ...
+2021/12/04 02:02:56.76 2 11 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 02:02:56.77 2 11 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 02:02:56.77 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 02:02:56.77 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 02:02:56.78 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:56.78 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 02:02:56.78 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 02:02:56.78 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:56.78 1 2 Debug:X10 action complete
+2021/12/04 02:02:56.79 2 10 Infor:waiting for quiet
+2021/12/04 02:02:56.91 2 11 Infor:quiet restarting queue
+2021/12/04 02:02:57.39 2 7 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 02:02:57.40 2 7 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 02:02:57.44 1 4 Debug:X10 action starting ...
+2021/12/04 02:02:57.89 2 7 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 02:02:57.90 2 7 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 02:02:57.90 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 02:02:57.91 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:57.91 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 02:02:57.91 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 02:02:57.91 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:57.91 1 2 Debug:Garage.OutsideLight on
+2021/12/04 02:02:57.91 1 6 Debug:X10 action complete
+2021/12/04 02:02:57.92 2 10 Infor:waiting for quiet
+2021/12/04 02:02:58.04 2 7 Infor:quiet restarting queue
+2021/12/04 02:02:58.52 2 7 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 02:02:58.53 2 7 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 02:02:58.57 1 0 Debug:X10 action starting ...
+2021/12/04 02:02:59.02 2 7 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 02:02:59.03 2 7 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 02:02:59.03 2 7 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 02:02:59.04 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:59.04 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 02:02:59.04 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 02:02:59.04 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 02:02:59.04 1 2 Debug:X10 action complete
+2021/12/04 02:02:59.05 2 7 Infor:waiting for quiet
+2021/12/04 02:02:59.17 2 7 Infor:quiet restarting queue
+2021/12/04 02:02:59.65 2 11 Infor:x10 message received Mess 16c House L UNIT1
+2021/12/04 02:02:59.66 2 11 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2021/12/04 02:03:00.15 2 7 Infor:x10 message received Mess 17c House L UNIT2
+2021/12/04 02:03:00.16 2 7 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2021/12/04 02:03:00.65 2 11 Infor:x10 message received Mess 164 House L UNIT3
+2021/12/04 02:03:00.66 2 11 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2021/12/04 02:03:00.69 1 2 Debug:X10 action starting ...
+2021/12/04 02:03:01.15 2 6 Infor:x10 message received Mess 167 House L funOff
+2021/12/04 02:03:01.16 2 11 Debug:GPIODevice Mess 167 House L funOff UNIT1
+2021/12/04 02:03:01.16 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT2
+2021/12/04 02:03:01.16 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT3
+2021/12/04 02:03:01.16 2 0 Infor:GPIO x10 message received Mess 167 House L funOff
+2021/12/04 02:03:01.17 1 6 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 02:03:01.17 1 6 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 02:03:01.17 1 6 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 02:03:01.17 1 6 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 02:03:01.17 1 6 Debug:Hall.PIRLight off
+2021/12/04 02:03:01.17 1 6 Debug:Landing.PIRLight off
+2021/12/04 02:03:01.17 1 9 Debug:Kitchen.PIRLight off
+2021/12/04 02:03:01.17 1 5 Debug:X10 action complete
+2021/12/04 03:03:01.00 1 6 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 03:03:01.00 1 6 Debug:RefreshDevices
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.WallLights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.LEDLights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.Moodlights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.Amplifier
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.Tv
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Kitchen.Tv
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.Amplifier
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.Tv
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Bed1.Dummy
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Smart.Dog
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Hall.PIRLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Landing.PIRLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 03:03:01.00 1 9 Infor:Refresh device Garage.OutsideLight
+2021/12/04 03:03:01.00 1 9 Infor:sorting 4 timers
+2021/12/04 03:03:01.00 1 9 Infor:listing 4 timers
+2021/12/04 03:03:01.00 1 9 Infor:listing timer 0
+2021/12/04 03:03:01.00 1 9 Infor:fireTimeDate 1638588600
+2021/12/04 03:03:01.00 1 9 Debug:timer [0] = 04/12/2021 03:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 3 of 24
+2021/12/04 03:03:01.00 1 9 Infor:listing timer 1
+2021/12/04 03:03:01.00 1 9 Infor:fireTimeDate 1638597585
+2021/12/04 03:03:01.00 1 9 Debug:timer [1] = 04/12/2021 05:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 2 of 7
+2021/12/04 03:03:01.00 1 7 Infor:listing timer 2
+2021/12/04 03:03:01.00 1 7 Infor:fireTimeDate 1638601200
+2021/12/04 03:03:01.00 1 7 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 03:03:01.00 1 7 Infor:listing timer 3
+2021/12/04 03:03:01.00 1 7 Infor:fireTimeDate 1638604132
+2021/12/04 03:03:01.00 1 7 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 03:03:01.00 1 2 Debug:Hue action starting ...
+2021/12/04 03:03:01.00 1 2 Debug:Hue action complete
+2021/12/04 03:03:01.01 2 5 Infor:waiting for quiet
+2021/12/04 03:03:01.13 2 7 Infor:quiet restarting queue
+2021/12/04 03:03:01.36 3 6 Debug:Hue Lamp 1 0
+2021/12/04 03:03:01.47 3 4 Debug:Hue Lamp 2 0
+2021/12/04 03:03:01.48 3 4 Debug:Hue Lamp 3 0
+2021/12/04 03:03:01.59 3 8 Debug:Hue Lamp 4 0
+2021/12/04 03:03:01.60 3 4 Debug:Hue Lamp 5 0
+2021/12/04 03:03:01.61 2 6 Infor:x10 message received Mess 16c House L UNIT1
+2021/12/04 03:03:01.62 2 6 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2021/12/04 03:03:01.66 1 5 Debug:Hue action starting ...
+2021/12/04 03:03:01.66 1 9 Debug:Hue action complete
+2021/12/04 03:03:01.72 3 1 Debug:Hue Lamp 6 0
+2021/12/04 03:03:01.73 3 10 Debug:Hue Lamp 6 0
+2021/12/04 03:03:01.77 1 0 Debug:Hue action starting ...
+2021/12/04 03:03:01.77 1 0 Debug:Hue action complete
+2021/12/04 03:03:02.11 2 11 Infor:x10 message received Mess 17c House L UNIT2
+2021/12/04 03:03:02.12 2 11 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2021/12/04 03:03:02.61 2 5 Infor:x10 message received Mess 164 House L UNIT3
+2021/12/04 03:03:02.62 2 5 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2021/12/04 03:03:02.66 1 10 Debug:X10 action starting ...
+2021/12/04 03:03:03.11 2 7 Infor:x10 message received Mess 167 House L funOff
+2021/12/04 03:03:03.12 2 7 Debug:GPIODevice Mess 167 House L funOff UNIT1
+2021/12/04 03:03:03.12 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT2
+2021/12/04 03:03:03.12 2 2 Debug:GPIODevice Mess 167 House L funOff UNIT3
+2021/12/04 03:03:03.12 2 6 Infor:GPIO x10 message received Mess 167 House L funOff
+2021/12/04 03:03:03.13 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 03:03:03.13 1 2 Debug:Hall.PIRLight off
+2021/12/04 03:03:03.13 1 2 Debug:Landing.PIRLight off
+2021/12/04 03:03:03.13 1 0 Debug:Kitchen.PIRLight off
+2021/12/04 03:03:03.13 1 2 Debug:X10 action complete
+2021/12/04 03:03:03.14 2 6 Infor:waiting for quiet
+2021/12/04 03:03:03.26 2 11 Infor:quiet restarting queue
+2021/12/04 03:03:03.74 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 03:03:03.75 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 03:03:03.75 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 03:03:03.75 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 03:03:03.75 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 03:03:03.75 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 03:03:03.75 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 03:03:03.75 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 03:03:03.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 03:03:03.75 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 03:03:03.79 1 4 Debug:Lounge.WallLights off
+2021/12/04 03:03:03.79 1 9 Debug:Lounge.CeilingLights off
+2021/12/04 03:03:03.80 1 2 Debug:Lounge.LEDLights off
+2021/12/04 03:03:03.80 1 3 Debug:DiningRoom.CeilingLight off
+2021/12/04 03:03:03.80 1 10 Debug:Lounge.Moodlights off
+2021/12/04 03:03:03.80 1 0 Debug:UtilityRoom.Lights off
+2021/12/04 03:03:03.80 1 1 Debug:Conservatory.FloorLights off
+2021/12/04 03:03:03.80 1 2 Debug:Conservatory.HighWallLights off
+2021/12/04 03:03:03.80 1 2 Debug:Conservatory.LowWallLights off
+2021/12/04 03:03:03.80 1 2 Debug:Lounge.SatelliteReceiver off
+2021/12/04 03:03:03.80 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 03:03:03.80 1 2 Debug:Lounge.Amplifier off
+2021/12/04 03:03:03.80 1 2 Debug:Lounge.Tv off
+2021/12/04 03:03:03.80 1 2 Debug:Kitchen.Tv off
+2021/12/04 03:03:04.24 2 2 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 03:03:04.25 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 03:03:04.25 2 5 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 03:03:04.25 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 03:03:04.25 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 03:03:04.25 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 03:03:04.25 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 03:03:04.34 1 4 Debug:X10 action starting ...
+2021/12/04 03:03:04.74 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 03:03:04.75 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 03:03:04.75 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 03:03:04.75 2 8 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 03:03:04.75 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 03:03:04.75 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 03:03:04.75 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 03:03:04.76 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 03:03:04.76 1 2 Debug:X10 action complete
+2021/12/04 03:03:04.77 2 0 Infor:waiting for quiet
+2021/12/04 03:03:04.89 2 7 Infor:quiet restarting queue
+2021/12/04 03:03:05.37 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 03:03:05.38 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 03:03:05.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 03:03:05.38 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 03:03:05.41 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 03:03:05.41 1 3 Debug:Bed1.RichardsLight off
+2021/12/04 03:03:05.42 1 9 Debug:Bed1.SylviasLight off
+2021/12/04 03:03:05.42 1 2 Debug:Bed1.ComputerLight off
+2021/12/04 03:03:05.42 1 2 Debug:Bed1.TripleSpotlight off
+2021/12/04 03:03:05.42 1 2 Debug:Bed1.Amplifier off
+2021/12/04 03:03:05.42 1 2 Debug:Bed1.Tv off
+2021/12/04 03:03:05.42 1 2 Debug:Bed1.Dummy off
+2021/12/04 03:03:05.87 2 3 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 03:03:05.88 2 3 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 03:03:05.88 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 03:03:05.88 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 03:03:05.88 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 03:03:05.88 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 03:03:05.88 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 03:03:05.88 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 03:03:05.88 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 03:03:05.88 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 03:03:05.97 1 7 Debug:X10 action starting ...
+2021/12/04 03:03:06.37 2 10 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 03:03:06.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 03:03:06.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 03:03:06.38 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 03:03:06.38 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 03:03:06.38 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 03:03:06.38 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 03:03:06.38 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 03:03:06.38 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 03:03:06.38 2 6 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 03:03:06.39 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:06.39 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 03:03:06.39 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 03:03:06.39 1 2 Debug:X10 action complete
+2021/12/04 03:03:06.40 2 6 Infor:waiting for quiet
+2021/12/04 03:03:06.52 2 4 Infor:quiet restarting queue
+2021/12/04 03:03:07.00 2 2 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 03:03:07.01 2 2 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 03:03:07.01 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 03:03:07.01 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 03:03:07.04 1 4 Debug:Smart.GoogleAlexa off
+2021/12/04 03:03:07.04 1 6 Debug:Smart.Dog off
+2021/12/04 03:03:07.50 2 4 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 03:03:07.51 2 4 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 03:03:07.51 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 03:03:07.51 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 03:03:07.59 1 10 Debug:X10 action starting ...
+2021/12/04 03:03:08.00 2 3 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 03:03:08.01 2 3 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 03:03:08.01 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 03:03:08.01 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 03:03:08.02 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:08.02 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 03:03:08.02 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 03:03:08.02 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:08.02 1 2 Debug:X10 action complete
+2021/12/04 03:03:08.03 2 11 Infor:waiting for quiet
+2021/12/04 03:03:08.15 2 11 Infor:quiet restarting queue
+2021/12/04 03:03:08.63 2 11 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 03:03:08.64 2 11 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 03:03:08.69 1 4 Debug:X10 action starting ...
+2021/12/04 03:03:09.13 2 11 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 03:03:09.14 2 11 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 03:03:09.14 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 03:03:09.15 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:09.15 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 03:03:09.15 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 03:03:09.15 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:09.15 1 2 Debug:Garage.OutsideLight on
+2021/12/04 03:03:09.15 1 2 Debug:X10 action complete
+2021/12/04 03:03:09.16 2 10 Infor:waiting for quiet
+2021/12/04 03:03:09.28 2 11 Infor:quiet restarting queue
+2021/12/04 03:03:09.76 2 11 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 03:03:09.77 2 11 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 03:03:09.81 1 2 Debug:X10 action starting ...
+2021/12/04 03:03:10.26 2 11 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 03:03:10.27 2 11 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 03:03:10.27 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 03:03:10.28 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:10.28 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 03:03:10.28 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 03:03:10.28 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 03:03:10.28 1 2 Debug:X10 action complete
+2021/12/04 04:03:10.00 1 9 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 04:03:10.00 1 9 Debug:RefreshDevices
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.WallLights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.LEDLights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.Moodlights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.Amplifier
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.Tv
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Kitchen.Tv
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.Amplifier
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.Tv
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Bed1.Dummy
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Smart.Dog
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Hall.PIRLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Landing.PIRLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 04:03:10.00 1 9 Infor:Refresh device Garage.OutsideLight
+2021/12/04 04:03:10.00 1 9 Infor:sorting 4 timers
+2021/12/04 04:03:10.00 1 9 Infor:listing 4 timers
+2021/12/04 04:03:10.00 1 9 Infor:listing timer 0
+2021/12/04 04:03:10.00 1 9 Infor:fireTimeDate 1638592200
+2021/12/04 04:03:10.00 1 9 Debug:timer [0] = 04/12/2021 04:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 4 of 24
+2021/12/04 04:03:10.00 1 6 Infor:listing timer 1
+2021/12/04 04:03:10.00 1 6 Infor:fireTimeDate 1638597585
+2021/12/04 04:03:10.00 1 6 Debug:timer [1] = 04/12/2021 05:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 2 of 7
+2021/12/04 04:03:10.00 1 10 Infor:listing timer 2
+2021/12/04 04:03:10.00 1 10 Infor:fireTimeDate 1638601200
+2021/12/04 04:03:10.00 1 10 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 04:03:10.00 1 6 Infor:listing timer 3
+2021/12/04 04:03:10.00 1 6 Infor:fireTimeDate 1638604132
+2021/12/04 04:03:10.00 1 6 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 04:03:10.00 1 6 Debug:X10 action starting ...
+2021/12/04 04:03:10.00 1 6 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 04:03:10.00 1 6 Debug:X10 action complete
+2021/12/04 04:03:10.00 1 6 Debug:Hue action starting ...
+2021/12/04 04:03:10.00 1 6 Debug:Hue action complete
+2021/12/04 04:03:10.01 2 3 Infor:waiting for quiet
+2021/12/04 04:03:10.03 2 9 Infor:quiet restarting queue
+2021/12/04 04:03:10.45 3 1 Debug:Hue Lamp 1 0
+2021/12/04 04:03:10.51 2 5 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 04:03:10.52 2 5 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 04:03:10.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 04:03:10.52 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 04:03:10.52 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 04:03:10.52 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 04:03:10.52 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 04:03:10.52 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 04:03:10.52 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 04:03:10.55 1 5 Debug:Lounge.WallLights off
+2021/12/04 04:03:10.55 1 9 Debug:Lounge.CeilingLights off
+2021/12/04 04:03:10.55 1 9 Debug:Lounge.LEDLights off
+2021/12/04 04:03:10.55 1 6 Debug:DiningRoom.CeilingLight off
+2021/12/04 04:03:10.55 1 2 Debug:Lounge.Moodlights off
+2021/12/04 04:03:10.55 1 6 Debug:UtilityRoom.Lights off
+2021/12/04 04:03:10.55 1 8 Debug:Conservatory.FloorLights off
+2021/12/04 04:03:10.55 1 0 Debug:Conservatory.HighWallLights off
+2021/12/04 04:03:10.55 1 8 Debug:Conservatory.LowWallLights off
+2021/12/04 04:03:10.55 1 2 Debug:Lounge.SatelliteReceiver off
+2021/12/04 04:03:10.55 1 3 Debug:Kitchen.Amplifier off
+2021/12/04 04:03:10.55 1 2 Debug:Lounge.Amplifier off
+2021/12/04 04:03:10.55 1 2 Debug:Lounge.Tv off
+2021/12/04 04:03:10.55 1 0 Debug:Kitchen.Tv off
+2021/12/04 04:03:10.56 3 4 Debug:Hue Lamp 2 0
+2021/12/04 04:03:10.57 3 1 Debug:Hue Lamp 3 0
+2021/12/04 04:03:10.68 3 2 Debug:Hue Lamp 4 0
+2021/12/04 04:03:10.70 3 2 Debug:Hue Lamp 5 0
+2021/12/04 04:03:10.77 1 1 Debug:Hue action starting ...
+2021/12/04 04:03:10.77 1 9 Debug:Hue action complete
+2021/12/04 04:03:10.81 3 1 Debug:Hue Lamp 6 0
+2021/12/04 04:03:10.83 3 2 Debug:Hue Lamp 6 0
+2021/12/04 04:03:10.88 1 4 Debug:Hue action starting ...
+2021/12/04 04:03:10.88 1 10 Debug:Hue action complete
+2021/12/04 04:03:11.01 2 10 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 04:03:11.02 2 1 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 04:03:11.02 2 4 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 04:03:11.02 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 04:03:11.02 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 04:03:11.02 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 04:03:11.02 2 2 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 04:03:11.10 1 2 Debug:X10 action starting ...
+2021/12/04 04:03:11.51 2 4 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 04:03:11.52 2 4 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 04:03:11.52 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 04:03:11.52 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 04:03:11.52 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 04:03:11.52 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 04:03:11.52 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 04:03:11.52 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 04:03:11.53 1 10 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 04:03:11.53 1 10 Debug:X10 action complete
+2021/12/04 04:03:11.54 2 2 Infor:waiting for quiet
+2021/12/04 04:03:11.66 2 5 Infor:quiet restarting queue
+2021/12/04 04:03:12.14 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 04:03:12.15 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 04:03:12.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 04:03:12.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 04:03:12.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 04:03:12.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 04:03:12.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 04:03:12.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 04:03:12.15 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 04:03:12.15 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 04:03:12.18 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 04:03:12.18 1 0 Debug:Bed1.RichardsLight off
+2021/12/04 04:03:12.18 1 0 Debug:Bed1.SylviasLight off
+2021/12/04 04:03:12.19 1 6 Debug:Bed1.ComputerLight off
+2021/12/04 04:03:12.19 1 0 Debug:Bed1.TripleSpotlight off
+2021/12/04 04:03:12.19 1 6 Debug:Bed1.Amplifier off
+2021/12/04 04:03:12.19 1 6 Debug:Bed1.Tv off
+2021/12/04 04:03:12.19 1 0 Debug:Bed1.Dummy off
+2021/12/04 04:03:12.64 2 4 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 04:03:12.65 2 5 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 04:03:12.65 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 04:03:12.65 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 04:03:12.73 1 2 Debug:X10 action starting ...
+2021/12/04 04:03:13.14 2 0 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 04:03:13.15 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 04:03:13.15 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 04:03:13.15 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 04:03:13.16 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:13.16 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 04:03:13.16 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 04:03:13.16 1 2 Debug:X10 action complete
+2021/12/04 04:03:13.17 2 7 Infor:waiting for quiet
+2021/12/04 04:03:13.29 2 7 Infor:quiet restarting queue
+2021/12/04 04:03:13.77 2 3 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 04:03:13.78 2 3 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 04:03:13.78 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 04:03:13.78 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 04:03:13.83 1 2 Debug:Smart.GoogleAlexa off
+2021/12/04 04:03:13.83 1 6 Debug:Smart.Dog off
+2021/12/04 04:03:14.27 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 04:03:14.28 2 5 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 04:03:14.28 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 04:03:14.28 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 04:03:14.38 1 2 Debug:X10 action starting ...
+2021/12/04 04:03:14.77 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 04:03:14.78 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 04:03:14.78 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 04:03:14.78 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 04:03:14.79 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:14.79 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 04:03:14.79 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 04:03:14.79 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:14.79 1 2 Debug:X10 action complete
+2021/12/04 04:03:14.80 2 10 Infor:waiting for quiet
+2021/12/04 04:03:14.92 2 11 Infor:quiet restarting queue
+2021/12/04 04:03:15.40 2 6 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 04:03:15.41 2 6 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 04:03:15.45 1 2 Debug:X10 action starting ...
+2021/12/04 04:03:15.90 2 11 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 04:03:15.91 2 11 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 04:03:15.91 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 04:03:15.92 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:15.92 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 04:03:15.92 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 04:03:15.92 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:15.92 1 2 Debug:Garage.OutsideLight on
+2021/12/04 04:03:15.92 1 2 Debug:X10 action complete
+2021/12/04 04:03:15.93 2 10 Infor:waiting for quiet
+2021/12/04 04:03:16.05 2 7 Infor:quiet restarting queue
+2021/12/04 04:03:16.53 2 5 Infor:x10 message received Mess 174 House L UNIT4
+2021/12/04 04:03:16.54 2 5 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2021/12/04 04:03:16.57 1 8 Debug:X10 action starting ...
+2021/12/04 04:03:17.03 2 5 Infor:x10 message received Mess 165 House L funOn
+2021/12/04 04:03:17.04 2 5 Debug:GPIODevice Mess 165 House L funOn UNIT4
+2021/12/04 04:03:17.04 2 10 Infor:GPIO x10 message received Mess 165 House L funOn
+2021/12/04 04:03:17.05 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:17.05 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 04:03:17.05 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 04:03:17.05 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 04:03:17.05 1 2 Debug:X10 action complete
+2021/12/04 04:03:17.06 2 11 Infor:waiting for quiet
+2021/12/04 04:03:17.18 2 7 Infor:quiet restarting queue
+2021/12/04 04:03:17.66 2 6 Infor:x10 message received Mess 16c House L UNIT1
+2021/12/04 04:03:17.67 2 6 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2021/12/04 04:03:18.16 2 6 Infor:x10 message received Mess 17c House L UNIT2
+2021/12/04 04:03:18.17 2 6 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2021/12/04 04:03:18.66 2 6 Infor:x10 message received Mess 164 House L UNIT3
+2021/12/04 04:03:18.67 2 7 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2021/12/04 05:03:18.00 1 2 Debug:X10 action starting ...
+2021/12/04 05:03:18.45 2 6 Infor:x10 message received Mess 167 House L funOff
+2021/12/04 05:03:18.46 2 6 Debug:GPIODevice Mess 167 House L funOff UNIT1
+2021/12/04 05:03:18.46 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT2
+2021/12/04 05:03:18.46 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT3
+2021/12/04 05:03:18.46 2 8 Infor:GPIO x10 message received Mess 167 House L funOff
+2021/12/04 05:03:18.47 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 05:03:18.47 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 05:03:18.47 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 05:03:18.47 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 05:03:18.47 1 2 Debug:Hall.PIRLight off
+2021/12/04 05:03:18.47 1 2 Debug:Landing.PIRLight off
+2021/12/04 05:03:18.47 1 0 Debug:Kitchen.PIRLight off
+2021/12/04 05:03:18.47 1 2 Debug:X10 action complete
+2021/12/04 05:03:18.47 1 2 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 05:03:18.47 1 2 Debug:RefreshDevices
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.WallLights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.LEDLights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.Moodlights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.Amplifier
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.Tv
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Kitchen.Tv
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.Amplifier
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.Tv
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Bed1.Dummy
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Smart.Dog
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Hall.PIRLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Landing.PIRLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 05:03:18.47 1 2 Infor:Refresh device Garage.OutsideLight
+2021/12/04 05:03:18.47 1 2 Infor:sorting 4 timers
+2021/12/04 05:03:18.47 1 2 Infor:listing 4 timers
+2021/12/04 05:03:18.47 1 2 Infor:listing timer 0
+2021/12/04 05:03:18.47 1 2 Infor:fireTimeDate 1638595800
+2021/12/04 05:03:18.47 1 2 Debug:timer [0] = 04/12/2021 05:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 5 of 24
+2021/12/04 05:03:18.47 1 2 Infor:listing timer 1
+2021/12/04 05:03:18.47 1 2 Infor:fireTimeDate 1638597585
+2021/12/04 05:03:18.47 1 2 Debug:timer [1] = 04/12/2021 05:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 2 of 7
+2021/12/04 05:03:18.47 1 2 Infor:listing timer 2
+2021/12/04 05:03:18.47 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 05:03:18.47 1 2 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 05:03:18.47 1 2 Infor:listing timer 3
+2021/12/04 05:03:18.47 1 2 Infor:fireTimeDate 1638604132
+2021/12/04 05:03:18.47 1 2 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 05:03:18.47 1 2 Infor:Switch Off Timeout Garage.OutsideLight now=1638594198 mSwitchOnTimeout=2130706432 mSwitchOffTimeout=1638594047
+2021/12/04 05:03:18.47 1 2 Debug:Hue action starting ...
+2021/12/04 05:03:18.47 1 2 Debug:Hue action complete
+2021/12/04 05:03:18.48 2 10 Infor:waiting for quiet
+2021/12/04 05:03:18.60 2 2 Infor:quiet restarting queue
+2021/12/04 05:03:19.08 2 3 Infor:x10 message received Mess 16c House L UNIT1
+2021/12/04 05:03:19.09 2 3 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2021/12/04 05:03:19.22 3 4 Debug:Hue Lamp 1 0
+2021/12/04 05:03:19.33 3 4 Debug:Hue Lamp 2 0
+2021/12/04 05:03:19.35 3 4 Debug:Hue Lamp 3 0
+2021/12/04 05:03:19.46 3 6 Debug:Hue Lamp 4 0
+2021/12/04 05:03:19.48 3 8 Debug:Hue Lamp 5 0
+2021/12/04 05:03:19.57 1 11 Debug:Hue action starting ...
+2021/12/04 05:03:19.57 1 4 Debug:Hue action complete
+2021/12/04 05:03:19.58 2 2 Infor:x10 message received Mess 17c House L UNIT2
+2021/12/04 05:03:19.58 3 0 Debug:Hue Lamp 6 0
+2021/12/04 05:03:19.59 2 2 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2021/12/04 05:03:19.60 3 6 Debug:Hue Lamp 6 0
+2021/12/04 05:03:19.68 1 2 Debug:Hue action starting ...
+2021/12/04 05:03:19.68 1 6 Debug:Hue action complete
+2021/12/04 05:03:20.08 2 9 Infor:x10 message received Mess 164 House L UNIT3
+2021/12/04 05:03:20.09 2 9 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2021/12/04 05:03:20.12 1 6 Debug:X10 action starting ...
+2021/12/04 05:03:20.58 2 3 Infor:x10 message received Mess 167 House L funOff
+2021/12/04 05:03:20.59 2 3 Debug:GPIODevice Mess 167 House L funOff UNIT1
+2021/12/04 05:03:20.59 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT2
+2021/12/04 05:03:20.59 2 10 Debug:GPIODevice Mess 167 House L funOff UNIT3
+2021/12/04 05:03:20.59 2 10 Infor:GPIO x10 message received Mess 167 House L funOff
+2021/12/04 05:03:20.60 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 05:03:20.60 1 2 Debug:Hall.PIRLight off
+2021/12/04 05:03:20.60 1 2 Debug:Landing.PIRLight off
+2021/12/04 05:03:20.60 1 10 Debug:Kitchen.PIRLight off
+2021/12/04 05:03:20.60 1 2 Debug:X10 action complete
+2021/12/04 05:03:20.61 2 6 Infor:waiting for quiet
+2021/12/04 05:03:20.73 2 6 Infor:quiet restarting queue
+2021/12/04 05:03:21.21 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 05:03:21.22 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 05:03:21.22 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 05:03:21.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 05:03:21.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 05:03:21.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 05:03:21.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 05:03:21.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 05:03:21.22 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 05:03:21.26 1 2 Debug:Lounge.WallLights off
+2021/12/04 05:03:21.26 1 4 Debug:Lounge.CeilingLights off
+2021/12/04 05:03:21.26 1 4 Debug:Lounge.LEDLights off
+2021/12/04 05:03:21.26 1 2 Debug:DiningRoom.CeilingLight off
+2021/12/04 05:03:21.26 1 2 Debug:Lounge.Moodlights off
+2021/12/04 05:03:21.27 1 2 Debug:UtilityRoom.Lights off
+2021/12/04 05:03:21.27 1 2 Debug:Conservatory.FloorLights off
+2021/12/04 05:03:21.27 1 2 Debug:Conservatory.HighWallLights off
+2021/12/04 05:03:21.27 1 2 Debug:Conservatory.LowWallLights off
+2021/12/04 05:03:21.27 1 2 Debug:Lounge.SatelliteReceiver off
+2021/12/04 05:03:21.27 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 05:03:21.27 1 2 Debug:Lounge.Amplifier off
+2021/12/04 05:03:21.27 1 2 Debug:Lounge.Tv off
+2021/12/04 05:03:21.27 1 10 Debug:Kitchen.Tv off
+2021/12/04 05:03:21.71 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 05:03:21.72 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 05:03:21.72 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 05:03:21.72 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 05:03:21.72 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 05:03:21.72 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 05:03:21.72 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 05:03:21.72 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 05:03:21.72 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 05:03:21.72 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 05:03:21.81 1 4 Debug:X10 action starting ...
+2021/12/04 05:03:22.21 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 05:03:22.22 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 05:03:22.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 05:03:22.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 05:03:22.22 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 05:03:22.22 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 05:03:22.22 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 05:03:22.23 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 05:03:22.23 1 2 Debug:X10 action complete
+2021/12/04 05:03:22.24 2 10 Infor:waiting for quiet
+2021/12/04 05:03:22.36 2 6 Infor:quiet restarting queue
+2021/12/04 05:03:22.84 2 9 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 05:03:22.85 2 9 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 05:03:22.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 05:03:22.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 05:03:22.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 05:03:22.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 05:03:22.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 05:03:22.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 05:03:22.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 05:03:22.85 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 05:03:22.88 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 05:03:22.88 1 8 Debug:Bed1.RichardsLight off
+2021/12/04 05:03:22.88 1 2 Debug:Bed1.SylviasLight off
+2021/12/04 05:03:22.89 1 2 Debug:Bed1.ComputerLight off
+2021/12/04 05:03:22.89 1 2 Debug:Bed1.TripleSpotlight off
+2021/12/04 05:03:22.89 1 2 Debug:Bed1.Amplifier off
+2021/12/04 05:03:22.89 1 2 Debug:Bed1.Tv off
+2021/12/04 05:03:22.89 1 0 Debug:Bed1.Dummy off
+2021/12/04 05:03:23.34 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 05:03:23.35 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 05:03:23.35 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 05:03:23.35 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 05:03:23.44 1 6 Debug:X10 action starting ...
+2021/12/04 05:03:23.84 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 05:03:23.85 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 05:03:23.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 05:03:23.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 05:03:23.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 05:03:23.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 05:03:23.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 05:03:23.85 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 05:03:23.85 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 05:03:23.85 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 05:03:23.86 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 05:03:23.86 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 05:03:23.86 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 05:03:23.86 1 2 Debug:X10 action complete
+2021/12/04 05:03:23.87 2 10 Infor:waiting for quiet
+2021/12/04 05:03:23.99 2 11 Infor:quiet restarting queue
+2021/12/04 05:03:24.47 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 05:03:24.48 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 05:03:24.48 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 05:03:24.48 2 0 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 05:03:24.53 1 10 Debug:Smart.GoogleAlexa off
+2021/12/04 05:03:24.53 1 10 Debug:Smart.Dog off
+2021/12/04 05:03:24.97 2 3 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 05:03:24.98 2 3 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 05:03:24.98 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 05:03:24.98 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 05:03:25.08 1 6 Debug:X10 action starting ...
+2021/12/04 05:03:25.47 2 9 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 05:03:25.48 2 9 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 05:03:25.48 2 9 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 05:03:25.48 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 05:03:25.49 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 05:03:25.49 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 05:03:25.49 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 05:03:25.49 1 2 Debug:X10 action complete
+2021/12/04 05:03:25.50 2 10 Infor:waiting for quiet
+2021/12/04 05:03:25.62 2 7 Infor:quiet restarting queue
+2021/12/04 05:03:26.10 2 7 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 05:03:26.11 2 7 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 05:03:26.11 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 05:03:26.11 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 05:03:26.11 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 05:03:26.11 2 0 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 05:03:26.14 1 6 Debug:Garage.OutsideLight off
+2021/12/04 05:03:26.60 2 6 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 05:03:26.61 2 6 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 05:03:26.61 2 1 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 05:03:26.61 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 05:03:26.61 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 05:03:26.61 2 6 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 05:03:26.68 1 10 Debug:X10 action starting ...
+2021/12/04 05:03:27.10 2 6 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 05:03:27.11 2 6 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 05:03:27.11 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 05:03:27.11 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 05:03:27.11 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 05:03:27.11 2 10 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 05:03:27.12 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 05:03:27.12 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 05:03:27.12 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 05:03:27.12 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 05:03:27.12 1 2 Debug:X10 action complete
+2021/12/04 06:03:29.00 1 2 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 06:03:29.00 1 10 Debug:RefreshDevices
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.WallLights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.LEDLights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.Moodlights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.Amplifier
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.Tv
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Kitchen.Tv
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.Amplifier
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.Tv
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Bed1.Dummy
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Smart.Dog
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Hall.PIRLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Landing.PIRLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 06:03:29.00 1 10 Infor:Refresh device Garage.OutsideLight
+2021/12/04 06:03:29.00 1 10 Infor:sorting 4 timers
+2021/12/04 06:03:29.00 1 10 Infor:listing 4 timers
+2021/12/04 06:03:29.00 1 10 Infor:listing timer 0
+2021/12/04 06:03:29.00 1 10 Infor:fireTimeDate 1638597585
+2021/12/04 06:03:29.00 1 10 Debug:timer [0] = 04/12/2021 05:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 2 of 7
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 1
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638599400
+2021/12/04 06:03:29.01 1 2 Debug:timer [1] = 04/12/2021 06:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 6 of 24
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 2
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 06:03:29.01 1 2 Debug:timer [2] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 3
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638604132
+2021/12/04 06:03:29.01 1 2 Debug:timer [3] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 06:03:29.01 1 2 Debug:X10 action starting ...
+2021/12/04 06:03:29.01 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 06:03:29.01 1 2 Debug:X10 action complete
+2021/12/04 06:03:29.01 1 2 Debug:Hue action starting ...
+2021/12/04 06:03:29.01 1 2 Debug:Hue action complete
+2021/12/04 06:03:29.01 1 2 Infor:sorting 4 timers
+2021/12/04 06:03:29.01 1 2 Infor:listing 4 timers
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 0
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638599400
+2021/12/04 06:03:29.01 1 2 Debug:timer [0] = 04/12/2021 06:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 6 of 24
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 1
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 06:03:29.01 1 2 Debug:timer [1] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 2
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638604132
+2021/12/04 06:03:29.01 1 2 Debug:timer [2] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 06:03:29.01 1 2 Infor:listing timer 3
+2021/12/04 06:03:29.01 1 2 Infor:fireTimeDate 1638604725
+2021/12/04 06:03:29.01 1 2 Debug:timer [3] = 04/12/2021 07:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 3 of 7
+2021/12/04 06:03:29.02 2 7 Infor:quiet restarting queue
+2021/12/04 06:03:29.30 3 4 Debug:Hue Lamp 1 0
+2021/12/04 06:03:29.41 3 4 Debug:Hue Lamp 2 0
+2021/12/04 06:03:29.42 3 4 Debug:Hue Lamp 3 0
+2021/12/04 06:03:29.50 2 6 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 06:03:29.51 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 06:03:29.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 06:03:29.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 06:03:29.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 06:03:29.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 06:03:29.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 06:03:29.51 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 06:03:29.53 3 1 Debug:Hue Lamp 4 0
+2021/12/04 06:03:29.55 3 6 Debug:Hue Lamp 5 0
+2021/12/04 06:03:29.57 1 2 Debug:Lounge.WallLights off
+2021/12/04 06:03:29.57 1 10 Debug:Lounge.CeilingLights off
+2021/12/04 06:03:29.57 1 2 Debug:Lounge.LEDLights off
+2021/12/04 06:03:29.57 1 2 Debug:DiningRoom.CeilingLight off
+2021/12/04 06:03:29.57 1 2 Debug:Lounge.Moodlights off
+2021/12/04 06:03:29.57 1 2 Debug:UtilityRoom.Lights off
+2021/12/04 06:03:29.57 1 2 Debug:Conservatory.FloorLights off
+2021/12/04 06:03:29.57 1 2 Debug:Conservatory.HighWallLights off
+2021/12/04 06:03:29.57 1 2 Debug:Conservatory.LowWallLights off
+2021/12/04 06:03:29.57 1 0 Debug:Lounge.SatelliteReceiver off
+2021/12/04 06:03:29.57 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 06:03:29.57 1 2 Debug:Lounge.Amplifier off
+2021/12/04 06:03:29.58 1 9 Debug:Lounge.Tv off
+2021/12/04 06:03:29.58 1 10 Debug:Kitchen.Tv off
+2021/12/04 06:03:29.58 1 10 Debug:Hue action starting ...
+2021/12/04 06:03:29.58 1 2 Debug:Hue action complete
+2021/12/04 06:03:29.66 3 4 Debug:Hue Lamp 6 0
+2021/12/04 06:03:29.67 3 1 Debug:Hue Lamp 6 0
+2021/12/04 06:03:29.68 1 2 Debug:Hue action starting ...
+2021/12/04 06:03:29.68 1 2 Debug:Hue action complete
+2021/12/04 06:03:30.00 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 06:03:30.01 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 06:03:30.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 06:03:30.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 06:03:30.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 06:03:30.01 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 06:03:30.01 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 06:03:30.01 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 06:03:30.01 2 2 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 06:03:30.11 1 0 Debug:X10 action starting ...
+2021/12/04 06:03:30.50 2 5 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 06:03:30.51 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 06:03:30.51 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 06:03:30.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 06:03:30.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 06:03:30.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 06:03:30.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 06:03:30.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 06:03:30.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 06:03:30.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 06:03:30.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 06:03:30.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 06:03:30.51 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 06:03:30.51 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 06:03:30.51 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 06:03:30.51 2 6 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 06:03:30.52 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 06:03:30.52 1 2 Debug:X10 action complete
+2021/12/04 06:03:30.53 2 6 Infor:waiting for quiet
+2021/12/04 06:03:30.65 2 5 Infor:quiet restarting queue
+2021/12/04 06:03:31.13 2 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 06:03:31.14 2 5 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 06:03:31.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 06:03:31.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 06:03:31.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 06:03:31.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 06:03:31.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 06:03:31.14 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 06:03:31.14 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 06:03:31.14 2 6 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 06:03:31.17 1 9 Debug:Bed1.CeilingLight off
+2021/12/04 06:03:31.17 1 9 Debug:Bed1.RichardsLight off
+2021/12/04 06:03:31.18 1 2 Debug:Bed1.SylviasLight off
+2021/12/04 06:03:31.18 1 10 Debug:Bed1.ComputerLight off
+2021/12/04 06:03:31.18 1 10 Debug:Bed1.TripleSpotlight off
+2021/12/04 06:03:31.18 1 1 Debug:Bed1.Amplifier off
+2021/12/04 06:03:31.18 1 2 Debug:Bed1.Tv off
+2021/12/04 06:03:31.18 1 2 Debug:Bed1.Dummy off
+2021/12/04 06:03:31.63 2 6 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 06:03:31.64 2 6 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 06:03:31.64 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 06:03:31.64 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 06:03:31.73 1 2 Debug:X10 action starting ...
+2021/12/04 06:03:32.13 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 06:03:32.14 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 06:03:32.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 06:03:32.14 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 06:03:32.14 2 2 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 06:03:32.14 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 06:03:32.14 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 06:03:32.14 2 2 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 06:03:32.14 2 2 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 06:03:32.14 2 2 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 06:03:32.15 1 4 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 06:03:32.15 1 4 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 06:03:32.15 1 4 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 06:03:32.15 1 4 Debug:X10 action complete
+2021/12/04 06:03:32.16 2 2 Infor:waiting for quiet
+2021/12/04 06:03:32.28 2 2 Infor:quiet restarting queue
+2021/12/04 06:03:32.76 2 11 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 06:03:32.77 2 11 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 06:03:32.77 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 06:03:32.77 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 06:03:32.80 1 9 Debug:Smart.GoogleAlexa off
+2021/12/04 06:03:32.80 1 9 Debug:Smart.Dog off
+2021/12/04 06:03:33.26 2 10 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 06:03:33.27 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 06:03:33.27 2 0 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 06:03:33.27 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 06:03:33.35 1 2 Debug:X10 action starting ...
+2021/12/04 06:03:33.76 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 06:03:33.77 2 5 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 06:03:33.77 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 06:03:33.77 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 06:03:33.78 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 06:03:33.78 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 06:03:33.78 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 06:03:33.78 1 2 Debug:X10 action complete
+2021/12/04 06:03:33.79 2 10 Infor:waiting for quiet
+2021/12/04 06:03:33.91 2 4 Infor:quiet restarting queue
+2021/12/04 06:03:34.39 2 4 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 06:03:34.40 2 4 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 06:03:34.40 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 06:03:34.40 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 06:03:34.40 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 06:03:34.40 2 10 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 06:03:34.44 1 2 Debug:Hall.PIRLight off
+2021/12/04 06:03:34.44 1 1 Debug:Landing.PIRLight off
+2021/12/04 06:03:34.44 1 1 Debug:Kitchen.PIRLight off
+2021/12/04 06:03:34.44 1 1 Debug:Garage.OutsideLight off
+2021/12/04 06:03:34.89 2 10 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 06:03:34.90 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 06:03:34.90 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 06:03:34.90 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 06:03:34.90 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 06:03:34.90 2 0 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 06:03:34.99 1 9 Debug:X10 action starting ...
+2021/12/04 06:03:35.39 2 11 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 06:03:35.40 2 11 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 06:03:35.40 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 06:03:35.40 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 06:03:35.40 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 06:03:35.40 2 10 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 06:03:35.41 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 06:03:35.41 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 06:03:35.41 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 06:03:35.41 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 06:03:35.41 1 2 Debug:X10 action complete
+2021/12/04 07:03:37.00 1 2 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 07:03:37.00 1 6 Debug:RefreshDevices
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.WallLights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.LEDLights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.Moodlights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.Amplifier
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.Tv
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Kitchen.Tv
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.Amplifier
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.Tv
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Bed1.Dummy
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Smart.Dog
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Hall.PIRLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Landing.PIRLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 07:03:37.00 1 2 Infor:Refresh device Garage.OutsideLight
+2021/12/04 07:03:37.00 1 2 Infor:sorting 4 timers
+2021/12/04 07:03:37.00 1 2 Infor:listing 4 timers
+2021/12/04 07:03:37.00 1 2 Infor:listing timer 0
+2021/12/04 07:03:37.00 1 2 Infor:fireTimeDate 1638601200
+2021/12/04 07:03:37.00 1 2 Debug:timer [0] = 04/12/2021 07:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2021/12/04 07:03:37.00 1 2 Infor:listing timer 1
+2021/12/04 07:03:37.00 1 2 Infor:fireTimeDate 1638603000
+2021/12/04 07:03:37.00 1 2 Debug:timer [1] = 04/12/2021 07:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 7 of 24
+2021/12/04 07:03:37.00 1 6 Infor:listing timer 2
+2021/12/04 07:03:37.00 1 6 Infor:fireTimeDate 1638604132
+2021/12/04 07:03:37.00 1 6 Debug:timer [2] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 07:03:37.00 1 6 Infor:listing timer 3
+2021/12/04 07:03:37.00 1 6 Infor:fireTimeDate 1638604725
+2021/12/04 07:03:37.00 1 6 Debug:timer [3] = 04/12/2021 07:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 3 of 7
+2021/12/04 07:03:37.00 1 2 Debug:X10 action starting ...
+2021/12/04 07:03:37.00 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:03:37.00 1 2 Debug:X10 action complete
+2021/12/04 07:03:37.00 1 6 Debug:Hue action starting ...
+2021/12/04 07:03:37.00 1 6 Debug:Hue action complete
+2021/12/04 07:03:37.00 1 6 Infor:device Smart.Dog wanted state = 1 switchontime 1638601417 switchofftime 1638644617
+2021/12/04 07:03:37.00 1 6 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1638601417 switchofftime 1638602617
+2021/12/04 07:03:37.00 1 6 Infor:device Lounge.WallLights wanted state = 1 switchontime 1638602557 switchofftime 1638603817
+2021/12/04 07:03:37.00 1 6 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1638603757 switchofftime 1638605017
+2021/12/04 07:03:37.00 1 6 Infor:sorting 4 timers
+2021/12/04 07:03:37.00 1 6 Infor:listing 4 timers
+2021/12/04 07:03:37.00 1 6 Infor:listing timer 0
+2021/12/04 07:03:37.00 1 6 Infor:fireTimeDate 1638603000
+2021/12/04 07:03:37.00 1 6 Debug:timer [0] = 04/12/2021 07:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 7 of 24
+2021/12/04 07:03:37.00 1 2 Infor:listing timer 1
+2021/12/04 07:03:37.00 1 2 Infor:fireTimeDate 1638604132
+2021/12/04 07:03:37.00 1 2 Debug:timer [1] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 07:03:37.00 1 2 Infor:listing timer 2
+2021/12/04 07:03:37.00 1 2 Infor:fireTimeDate 1638604725
+2021/12/04 07:03:37.00 1 2 Debug:timer [2] = 04/12/2021 07:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 3 of 7
+2021/12/04 07:03:37.01 1 2 Infor:listing timer 3
+2021/12/04 07:03:37.01 1 2 Infor:fireTimeDate 1638604800
+2021/12/04 07:03:37.01 1 2 Debug:timer [3] = 04/12/2021 08:00:00 GMT 0 tmr security seq securityam ev 1 of 2
+2021/12/04 07:03:37.01 2 11 Infor:quiet restarting queue
+2021/12/04 07:03:37.47 3 4 Debug:Hue Lamp 1 0
+2021/12/04 07:03:37.49 2 10 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 07:03:37.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 07:03:37.50 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 07:03:37.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 07:03:37.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 07:03:37.50 2 10 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:03:37.55 1 2 Debug:Lounge.WallLights off
+2021/12/04 07:03:37.55 1 0 Debug:Lounge.CeilingLights off
+2021/12/04 07:03:37.56 1 2 Debug:Lounge.LEDLights off
+2021/12/04 07:03:37.56 1 2 Debug:DiningRoom.CeilingLight off
+2021/12/04 07:03:37.56 1 2 Debug:Lounge.Moodlights off
+2021/12/04 07:03:37.56 1 2 Debug:UtilityRoom.Lights off
+2021/12/04 07:03:37.56 1 2 Debug:Conservatory.FloorLights off
+2021/12/04 07:03:37.56 1 2 Debug:Conservatory.HighWallLights off
+2021/12/04 07:03:37.56 1 2 Debug:Conservatory.LowWallLights off
+2021/12/04 07:03:37.56 1 2 Debug:Lounge.SatelliteReceiver off
+2021/12/04 07:03:37.56 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 07:03:37.56 1 2 Debug:Lounge.Amplifier off
+2021/12/04 07:03:37.56 1 2 Debug:Lounge.Tv off
+2021/12/04 07:03:37.56 1 2 Debug:Kitchen.Tv off
+2021/12/04 07:03:37.58 3 1 Debug:Hue Lamp 2 0
+2021/12/04 07:03:37.59 3 2 Debug:Hue Lamp 3 0
+2021/12/04 07:03:37.71 3 1 Debug:Hue Lamp 4 0
+2021/12/04 07:03:37.72 3 4 Debug:Hue Lamp 5 0
+2021/12/04 07:03:37.78 1 2 Debug:Hue action starting ...
+2021/12/04 07:03:37.78 1 9 Debug:Hue action complete
+2021/12/04 07:03:37.84 3 1 Debug:Hue Lamp 6 0
+2021/12/04 07:03:37.85 3 5 Debug:Hue Lamp 6 0
+2021/12/04 07:03:37.89 1 4 Debug:Hue action starting ...
+2021/12/04 07:03:37.89 1 9 Debug:Hue action complete
+2021/12/04 07:03:37.99 2 7 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:03:38.00 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 07:03:38.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 07:03:38.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 07:03:38.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 07:03:38.00 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 07:03:38.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 07:03:38.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 07:03:38.00 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 07:03:38.00 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:03:38.10 1 9 Debug:X10 action starting ...
+2021/12/04 07:03:38.49 2 1 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:03:38.50 2 3 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 07:03:38.50 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 07:03:38.50 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:03:38.51 1 4 Debug:X10 action complete
+2021/12/04 07:03:38.52 2 0 Infor:waiting for quiet
+2021/12/04 07:03:38.64 2 9 Infor:quiet restarting queue
+2021/12/04 07:03:39.12 2 5 Infor:x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:39.13 2 5 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:39.18 1 2 Debug:X10 action starting ...
+2021/12/04 07:03:39.62 2 10 Infor:x10 message received Mess 1c5 House B funOn
+2021/12/04 07:03:39.63 2 10 Debug:GPIODevice Mess 1c5 House B funOn UNIT4
+2021/12/04 07:03:39.63 2 10 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2021/12/04 07:03:39.64 1 2 Debug:DiningRoom.CeilingLight on
+2021/12/04 07:03:39.64 1 2 Debug:X10 action complete
+2021/12/04 07:03:39.65 2 10 Infor:waiting for quiet
+2021/12/04 07:03:39.77 2 8 Infor:quiet restarting queue
+2021/12/04 07:03:40.25 2 10 Infor:x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:40.26 2 11 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:40.30 1 2 Debug:X10 action starting ...
+2021/12/04 07:03:40.75 2 2 Infor:x10 message received Mess 1c5 House B funOn
+2021/12/04 07:03:40.76 2 2 Debug:GPIODevice Mess 1c5 House B funOn UNIT4
+2021/12/04 07:03:40.76 2 10 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2021/12/04 07:03:40.77 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:03:40.77 1 2 Debug:X10 action complete
+2021/12/04 07:03:40.78 2 10 Infor:waiting for quiet
+2021/12/04 07:03:40.90 2 5 Infor:quiet restarting queue
+2021/12/04 07:03:41.38 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:03:41.39 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 07:03:41.39 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 07:03:41.39 2 9 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 07:03:41.39 2 5 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 07:03:41.39 2 6 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 07:03:41.39 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 07:03:41.39 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 07:03:41.39 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 07:03:41.39 2 7 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:03:41.41 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 07:03:41.42 1 0 Debug:Bed1.RichardsLight off
+2021/12/04 07:03:41.42 1 2 Debug:Bed1.SylviasLight off
+2021/12/04 07:03:41.42 1 10 Debug:Bed1.ComputerLight off
+2021/12/04 07:03:41.42 1 10 Debug:Bed1.TripleSpotlight off
+2021/12/04 07:03:41.42 1 0 Debug:Bed1.Amplifier off
+2021/12/04 07:03:41.42 1 2 Debug:Bed1.Tv off
+2021/12/04 07:03:41.42 1 2 Debug:Bed1.Dummy off
+2021/12/04 07:03:41.88 2 7 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:03:41.89 2 7 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 07:03:41.89 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 07:03:41.89 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 07:03:41.89 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 07:03:41.89 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 07:03:41.89 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 07:03:41.89 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 07:03:41.89 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 07:03:41.89 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:03:41.96 1 4 Debug:X10 action starting ...
+2021/12/04 07:03:42.38 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:03:42.39 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 07:03:42.39 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 07:03:42.39 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:03:42.40 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:42.40 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:42.40 1 2 Debug:X10 action complete
+2021/12/04 07:03:42.41 2 1 Infor:waiting for quiet
+2021/12/04 07:03:42.53 2 3 Infor:quiet restarting queue
+2021/12/04 07:03:43.01 2 5 Infor:x10 message received Mess bc House G UNIT2
+2021/12/04 07:03:43.02 2 5 Infor:GPIO x10 message received Mess bc House G UNIT2
+2021/12/04 07:03:43.06 1 10 Debug:X10 action starting ...
+2021/12/04 07:03:43.51 2 7 Infor:x10 message received Mess a5 House G funOn
+2021/12/04 07:03:43.52 2 7 Debug:GPIODevice Mess a5 House G funOn UNIT2
+2021/12/04 07:03:43.52 2 10 Infor:GPIO x10 message received Mess a5 House G funOn
+2021/12/04 07:03:43.53 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:43.53 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:43.53 1 2 Debug:Smart.Dog on
+2021/12/04 07:03:43.53 1 2 Debug:X10 action complete
+2021/12/04 07:03:43.54 2 10 Infor:waiting for quiet
+2021/12/04 07:03:43.66 2 11 Infor:quiet restarting queue
+2021/12/04 07:03:44.14 2 7 Infor:x10 message received Mess bc House G UNIT2
+2021/12/04 07:03:44.15 2 7 Infor:GPIO x10 message received Mess bc House G UNIT2
+2021/12/04 07:03:44.20 1 4 Debug:X10 action starting ...
+2021/12/04 07:03:44.64 2 1 Infor:x10 message received Mess a5 House G funOn
+2021/12/04 07:03:44.65 2 1 Debug:GPIODevice Mess a5 House G funOn UNIT2
+2021/12/04 07:03:44.65 2 10 Infor:GPIO x10 message received Mess a5 House G funOn
+2021/12/04 07:03:44.66 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:44.66 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:44.66 1 2 Debug:X10 action complete
+2021/12/04 07:03:44.67 2 10 Infor:waiting for quiet
+2021/12/04 07:03:44.79 2 10 Infor:quiet restarting queue
+2021/12/04 07:03:45.27 2 11 Infor:x10 message received Mess ac House G UNIT1
+2021/12/04 07:03:45.28 2 11 Infor:GPIO x10 message received Mess ac House G UNIT1
+2021/12/04 07:03:45.32 1 4 Debug:X10 action starting ...
+2021/12/04 07:03:45.77 2 10 Infor:x10 message received Mess a7 House G funOff
+2021/12/04 07:03:45.78 2 10 Debug:GPIODevice Mess a7 House G funOff UNIT1
+2021/12/04 07:03:45.78 2 10 Infor:GPIO x10 message received Mess a7 House G funOff
+2021/12/04 07:03:45.79 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:45.79 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:45.79 1 2 Debug:Smart.GoogleAlexa off
+2021/12/04 07:03:45.79 1 2 Debug:X10 action complete
+2021/12/04 07:03:45.80 2 11 Infor:waiting for quiet
+2021/12/04 07:03:45.92 2 9 Infor:quiet restarting queue
+2021/12/04 07:03:46.40 2 7 Infor:x10 message received Mess ac House G UNIT1
+2021/12/04 07:03:46.41 2 7 Infor:GPIO x10 message received Mess ac House G UNIT1
+2021/12/04 07:03:46.45 1 2 Debug:X10 action starting ...
+2021/12/04 07:03:46.90 2 4 Infor:x10 message received Mess a7 House G funOff
+2021/12/04 07:03:46.91 2 4 Debug:GPIODevice Mess a7 House G funOff UNIT1
+2021/12/04 07:03:46.91 2 10 Infor:GPIO x10 message received Mess a7 House G funOff
+2021/12/04 07:03:46.92 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:46.92 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:46.92 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:03:46.92 1 2 Debug:X10 action complete
+2021/12/04 07:03:46.93 2 6 Infor:waiting for quiet
+2021/12/04 07:03:47.05 2 2 Infor:quiet restarting queue
+2021/12/04 07:03:47.53 2 9 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:03:47.54 2 9 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 07:03:47.54 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 07:03:47.54 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 07:03:47.54 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 07:03:47.54 2 10 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:03:47.58 1 6 Debug:Hall.PIRLight off
+2021/12/04 07:03:47.58 1 0 Debug:Landing.PIRLight off
+2021/12/04 07:03:47.58 1 2 Debug:Kitchen.PIRLight off
+2021/12/04 07:03:47.58 1 2 Debug:Garage.OutsideLight off
+2021/12/04 07:03:48.03 2 5 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:03:48.04 2 5 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 07:03:48.04 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 07:03:48.04 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 07:03:48.04 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 07:03:48.04 2 10 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:03:48.13 1 4 Debug:X10 action starting ...
+2021/12/04 07:03:48.53 2 7 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:03:48.54 2 7 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 07:03:48.54 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 07:03:48.54 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 07:03:48.54 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 07:03:48.54 2 10 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:03:48.55 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:48.55 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:48.55 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 07:03:48.55 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:48.55 1 2 Debug:X10 action complete
+2021/12/04 07:03:54.95 1 0 Infor:device Smart.Dog wanted state = 0 switchontime 2130706432 switchofftime 1638601434
+2021/12/04 07:03:54.95 1 0 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1638601434
+2021/12/04 07:03:54.95 1 0 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1638601434
+2021/12/04 07:03:54.95 1 0 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1638601434
+2021/12/04 07:03:54.95 1 0 Infor:timeout HouseEmptyTimeout expiry 1638608634 duration 7200 defaultDuration 7200
+2021/12/04 07:03:54.95 1 0 Debug:Lounge.WallLights on
+2021/12/04 07:03:54.96 1 4 Debug:X10 action starting ...
+2021/12/04 07:03:54.96 2 7 Infor:quiet restarting queue
+2021/12/04 07:03:54.96 1 4 Debug:X10 action complete
+2021/12/04 07:03:55.44 2 5 Infor:x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:55.45 2 5 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:55.51 1 6 Debug:X10 action starting ...
+2021/12/04 07:03:55.94 2 10 Infor:x10 message received Mess 1c7 House B funOff
+2021/12/04 07:03:55.95 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT4
+2021/12/04 07:03:55.95 2 10 Infor:GPIO x10 message received Mess 1c7 House B funOff
+2021/12/04 07:03:55.96 1 2 Debug:DiningRoom.CeilingLight off
+2021/12/04 07:03:55.96 1 2 Debug:X10 action complete
+2021/12/04 07:03:55.97 2 10 Infor:waiting for quiet
+2021/12/04 07:03:56.09 2 4 Infor:quiet restarting queue
+2021/12/04 07:03:56.57 2 11 Infor:x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:56.58 2 11 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:03:56.62 1 2 Debug:X10 action starting ...
+2021/12/04 07:03:57.07 2 8 Infor:x10 message received Mess 1c7 House B funOff
+2021/12/04 07:03:57.08 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT4
+2021/12/04 07:03:57.08 2 10 Infor:GPIO x10 message received Mess 1c7 House B funOff
+2021/12/04 07:03:57.09 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:57.09 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:57.09 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:03:57.09 1 2 Debug:X10 action complete
+2021/12/04 07:03:57.10 2 10 Infor:waiting for quiet
+2021/12/04 07:03:57.22 2 9 Infor:quiet restarting queue
+2021/12/04 07:03:57.70 2 10 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:03:57.71 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 07:03:57.71 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 07:03:57.71 2 0 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:03:57.76 1 6 Debug:Smart.Dog off
+2021/12/04 07:03:58.20 2 0 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:03:58.21 2 0 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 07:03:58.21 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 07:03:58.21 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:03:58.31 1 2 Debug:X10 action starting ...
+2021/12/04 07:03:58.70 2 11 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:03:58.71 2 0 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 07:03:58.71 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 07:03:58.71 2 0 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:03:58.72 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:58.72 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:03:58.72 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 07:03:58.72 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 07:03:58.72 1 2 Debug:X10 action complete
+2021/12/04 07:30:17.00 1 2 Warni:ResynchClockToHostRealTimeClock
+2021/12/04 07:30:17.00 1 10 Debug:RefreshDevices
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.WallLights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.CeilingLights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.LEDLights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device DiningRoom.CeilingLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.Moodlights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device UtilityRoom.Lights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Conservatory.FloorLights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Conservatory.HighWallLights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Conservatory.LowWallLights
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.SatelliteReceiver
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Kitchen.Amplifier
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.Amplifier
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.Tv
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Kitchen.Tv
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.MoodLight1
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.MoodLight2
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.MoodLight3
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.MoodLight4
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.MoodLight5
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Lounge.MoodLight6
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.CeilingLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.RichardsLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.SylviasLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.ComputerLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.TripleSpotlight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.Amplifier
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.Tv
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Bed1.Dummy
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Smart.GoogleAlexa
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Smart.Dog
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Hall.PIRLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Landing.PIRLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Kitchen.PIRLight
+2021/12/04 07:30:17.00 1 2 Infor:Refresh device Garage.OutsideLight
+2021/12/04 07:30:17.00 1 2 Infor:sorting 4 timers
+2021/12/04 07:30:17.00 1 2 Infor:listing 4 timers
+2021/12/04 07:30:17.00 1 2 Infor:listing timer 0
+2021/12/04 07:30:17.00 1 2 Infor:fireTimeDate 1638604132
+2021/12/04 07:30:17.00 1 2 Debug:timer [0] = 04/12/2021 07:48:52 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2021/12/04 07:30:17.00 1 2 Infor:listing timer 1
+2021/12/04 07:30:17.00 1 2 Infor:fireTimeDate 1638604725
+2021/12/04 07:30:17.00 1 2 Debug:timer [1] = 04/12/2021 07:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 3 of 7
+2021/12/04 07:30:17.00 1 2 Infor:listing timer 2
+2021/12/04 07:30:17.00 1 2 Infor:fireTimeDate 1638604800
+2021/12/04 07:30:17.00 1 2 Debug:timer [2] = 04/12/2021 08:00:00 GMT 0 tmr security seq securityam ev 1 of 2
+2021/12/04 07:30:17.00 1 2 Infor:listing timer 3
+2021/12/04 07:30:17.00 1 2 Infor:fireTimeDate 1638606600
+2021/12/04 07:30:17.00 1 2 Debug:timer [3] = 04/12/2021 08:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 8 of 24
+2021/12/04 07:30:17.00 1 2 Debug:X10 action starting ...
+2021/12/04 07:30:17.00 1 2 Debug:X10 action complete
+2021/12/04 07:30:17.00 1 2 Debug:Hue action starting ...
+2021/12/04 07:30:17.00 1 2 Debug:Hue action complete
+2021/12/04 07:30:17.01 2 7 Infor:quiet restarting queue
+2021/12/04 07:30:17.49 2 9 Infor:x10 message received Mess 1cc House B UNIT1
+2021/12/04 07:30:17.50 2 9 Infor:GPIO x10 message received Mess 1cc House B UNIT1
+2021/12/04 07:30:17.55 1 0 Debug:X10 action starting ...
+2021/12/04 07:30:17.59 3 10 Debug:Hue Lamp 1 0
+2021/12/04 07:30:17.70 3 1 Debug:Hue Lamp 2 0
+2021/12/04 07:30:17.72 3 1 Debug:Hue Lamp 3 0
+2021/12/04 07:30:17.83 3 1 Debug:Hue Lamp 4 0
+2021/12/04 07:30:17.84 3 8 Debug:Hue Lamp 5 0
+2021/12/04 07:30:17.96 3 1 Debug:Hue Lamp 6 0
+2021/12/04 07:30:17.99 2 7 Infor:x10 message received Mess 1c5 House B funOn
+2021/12/04 07:30:18.00 2 7 Debug:GPIODevice Mess 1c5 House B funOn UNIT1
+2021/12/04 07:30:18.00 2 10 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2021/12/04 07:30:18.01 1 2 Debug:Lounge.WallLights on
+2021/12/04 07:30:18.01 1 2 Debug:X10 action complete
+2021/12/04 07:30:18.01 1 6 Debug:Hue action starting ...
+2021/12/04 07:30:18.01 1 6 Debug:Hue action complete
+2021/12/04 07:30:18.02 2 10 Infor:waiting for quiet
+2021/12/04 07:30:18.14 2 7 Infor:quiet restarting queue
+2021/12/04 07:30:18.62 2 9 Infor:x10 message received Mess 1cc House B UNIT1
+2021/12/04 07:30:18.63 2 0 Infor:GPIO x10 message received Mess 1cc House B UNIT1
+2021/12/04 07:30:18.67 1 11 Debug:X10 action starting ...
+2021/12/04 07:30:18.98 3 2 Debug:Hue Lamp 1 0
+2021/12/04 07:30:19.09 3 2 Debug:Hue Lamp 2 0
+2021/12/04 07:30:19.10 3 1 Debug:Hue Lamp 3 0
+2021/12/04 07:30:19.12 2 9 Infor:x10 message received Mess 1c5 House B funOn
+2021/12/04 07:30:19.13 2 9 Debug:GPIODevice Mess 1c5 House B funOn UNIT1
+2021/12/04 07:30:19.13 2 9 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2021/12/04 07:30:19.14 1 2 Debug:X10 action complete
+2021/12/04 07:30:19.15 2 0 Infor:waiting for quiet
+2021/12/04 07:30:19.21 3 1 Debug:Hue Lamp 4 0
+2021/12/04 07:30:19.23 3 1 Debug:Hue Lamp 5 0
+2021/12/04 07:30:19.25 1 6 Debug:Hue action starting ...
+2021/12/04 07:30:19.25 1 10 Debug:Hue action complete
+2021/12/04 07:30:19.27 2 5 Infor:quiet restarting queue
+2021/12/04 07:30:19.34 3 1 Debug:Hue Lamp 6 0
+2021/12/04 07:30:19.75 2 1 Infor:x10 message received Mess 1dc House B UNIT2
+2021/12/04 07:30:19.76 2 1 Infor:GPIO x10 message received Mess 1dc House B UNIT2
+2021/12/04 07:30:20.25 2 7 Infor:x10 message received Mess 1c4 House B UNIT3
+2021/12/04 07:30:20.26 2 7 Infor:GPIO x10 message received Mess 1c4 House B UNIT3
+2021/12/04 07:30:20.75 2 2 Infor:x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:30:20.76 2 2 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:30:21.25 2 7 Infor:x10 message received Mess 1d2 House B UNIT6
+2021/12/04 07:30:21.26 2 7 Infor:GPIO x10 message received Mess 1d2 House B UNIT6
+2021/12/04 07:30:21.75 2 6 Infor:x10 message received Mess 1ca House B UNIT7
+2021/12/04 07:30:21.76 2 6 Infor:GPIO x10 message received Mess 1ca House B UNIT7
+2021/12/04 07:30:22.25 2 3 Infor:x10 message received Mess 1ce House B UNIT9
+2021/12/04 07:30:22.26 2 3 Infor:GPIO x10 message received Mess 1ce House B UNIT9
+2021/12/04 07:30:22.75 2 3 Infor:x10 message received Mess 1de House B UNIT10
+2021/12/04 07:30:22.76 2 3 Infor:GPIO x10 message received Mess 1de House B UNIT10
+2021/12/04 07:30:23.25 2 3 Infor:x10 message received Mess 1c6 House B UNIT11
+2021/12/04 07:30:23.26 2 3 Infor:GPIO x10 message received Mess 1c6 House B UNIT11
+2021/12/04 07:30:23.75 2 4 Infor:x10 message received Mess 1d6 House B UNIT12
+2021/12/04 07:30:23.76 2 4 Infor:GPIO x10 message received Mess 1d6 House B UNIT12
+2021/12/04 07:30:24.25 2 11 Infor:x10 message received Mess 1c0 House B UNIT13
+2021/12/04 07:30:24.26 2 10 Infor:GPIO x10 message received Mess 1c0 House B UNIT13
+2021/12/04 07:30:24.75 2 11 Infor:x10 message received Mess 1d0 House B UNIT14
+2021/12/04 07:30:24.76 2 11 Infor:GPIO x10 message received Mess 1d0 House B UNIT14
+2021/12/04 07:30:25.25 2 2 Infor:x10 message received Mess 1c8 House B UNIT15
+2021/12/04 07:30:25.26 2 2 Infor:GPIO x10 message received Mess 1c8 House B UNIT15
+2021/12/04 07:30:25.75 2 7 Infor:x10 message received Mess 1d8 House B UNIT16
+2021/12/04 07:30:25.76 2 7 Infor:GPIO x10 message received Mess 1d8 House B UNIT16
+2021/12/04 07:30:25.77 1 2 Debug:X10 action starting ...
+2021/12/04 07:30:26.25 2 2 Infor:x10 message received Mess 1c7 House B funOff
+2021/12/04 07:30:26.26 2 2 Debug:GPIODevice Mess 1c7 House B funOff UNIT2
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT3
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT4
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT6
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT7
+2021/12/04 07:30:26.26 2 11 Debug:GPIODevice Mess 1c7 House B funOff UNIT9
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT10
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT11
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT12
+2021/12/04 07:30:26.26 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT13
+2021/12/04 07:30:26.26 2 0 Debug:GPIODevice Mess 1c7 House B funOff UNIT14
+2021/12/04 07:30:26.26 2 0 Debug:GPIODevice Mess 1c7 House B funOff UNIT15
+2021/12/04 07:30:26.26 2 0 Debug:GPIODevice Mess 1c7 House B funOff UNIT16
+2021/12/04 07:30:26.26 2 10 Infor:GPIO x10 message received Mess 1c7 House B funOff
+2021/12/04 07:30:26.27 1 2 Debug:Lounge.CeilingLights off
+2021/12/04 07:30:26.27 1 2 Debug:Lounge.LEDLights off
+2021/12/04 07:30:26.27 1 2 Debug:DiningRoom.CeilingLight off
+2021/12/04 07:30:26.27 1 2 Debug:Lounge.Moodlights off
+2021/12/04 07:30:26.27 1 6 Debug:UtilityRoom.Lights off
+2021/12/04 07:30:26.27 1 6 Debug:Conservatory.FloorLights off
+2021/12/04 07:30:26.27 1 6 Debug:Conservatory.HighWallLights off
+2021/12/04 07:30:26.27 1 6 Debug:Conservatory.LowWallLights off
+2021/12/04 07:30:26.27 1 6 Debug:Lounge.SatelliteReceiver off
+2021/12/04 07:30:26.27 1 2 Debug:Kitchen.Amplifier off
+2021/12/04 07:30:26.27 1 2 Debug:Lounge.Amplifier off
+2021/12/04 07:30:26.27 1 2 Debug:Lounge.Tv off
+2021/12/04 07:30:26.27 1 2 Debug:Kitchen.Tv off
+2021/12/04 07:30:26.27 1 2 Debug:X10 action complete
+2021/12/04 07:30:26.28 2 10 Infor:waiting for quiet
+2021/12/04 07:30:26.40 2 7 Infor:quiet restarting queue
+2021/12/04 07:30:26.88 2 7 Infor:x10 message received Mess 1dc House B UNIT2
+2021/12/04 07:30:26.89 2 7 Infor:GPIO x10 message received Mess 1dc House B UNIT2
+2021/12/04 07:30:27.38 2 5 Infor:x10 message received Mess 1c4 House B UNIT3
+2021/12/04 07:30:27.39 2 5 Infor:GPIO x10 message received Mess 1c4 House B UNIT3
+2021/12/04 07:30:27.88 2 7 Infor:x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:30:27.89 2 7 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2021/12/04 07:30:28.38 2 5 Infor:x10 message received Mess 1d2 House B UNIT6
+2021/12/04 07:30:28.39 2 5 Infor:GPIO x10 message received Mess 1d2 House B UNIT6
+2021/12/04 07:30:28.88 2 5 Infor:x10 message received Mess 1ca House B UNIT7
+2021/12/04 07:30:28.89 2 5 Infor:GPIO x10 message received Mess 1ca House B UNIT7
+2021/12/04 07:30:29.38 2 10 Infor:x10 message received Mess 1ce House B UNIT9
+2021/12/04 07:30:29.39 2 10 Infor:GPIO x10 message received Mess 1ce House B UNIT9
+2021/12/04 07:30:29.88 2 7 Infor:x10 message received Mess 1de House B UNIT10
+2021/12/04 07:30:29.89 2 7 Infor:GPIO x10 message received Mess 1de House B UNIT10
+2021/12/04 07:30:30.38 2 1 Infor:x10 message received Mess 1c6 House B UNIT11
+2021/12/04 07:30:30.39 2 1 Infor:GPIO x10 message received Mess 1c6 House B UNIT11
+2021/12/04 07:30:30.88 2 11 Infor:x10 message received Mess 1d6 House B UNIT12
+2021/12/04 07:30:30.89 2 11 Infor:GPIO x10 message received Mess 1d6 House B UNIT12
+2021/12/04 07:30:31.38 2 7 Infor:x10 message received Mess 1c0 House B UNIT13
+2021/12/04 07:30:31.39 2 7 Infor:GPIO x10 message received Mess 1c0 House B UNIT13
+2021/12/04 07:30:31.88 2 7 Infor:x10 message received Mess 1d0 House B UNIT14
+2021/12/04 07:30:31.89 2 7 Infor:GPIO x10 message received Mess 1d0 House B UNIT14
+2021/12/04 07:30:32.38 2 7 Infor:x10 message received Mess 1c8 House B UNIT15
+2021/12/04 07:30:32.39 2 7 Infor:GPIO x10 message received Mess 1c8 House B UNIT15
+2021/12/04 07:30:32.88 2 7 Infor:x10 message received Mess 1d8 House B UNIT16
+2021/12/04 07:30:32.89 2 7 Infor:GPIO x10 message received Mess 1d8 House B UNIT16
+2021/12/04 07:30:32.91 1 10 Debug:X10 action starting ...
+2021/12/04 07:30:33.38 2 4 Infor:x10 message received Mess 1c7 House B funOff
+2021/12/04 07:30:33.39 2 4 Debug:GPIODevice Mess 1c7 House B funOff UNIT2
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT3
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT4
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT6
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT7
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT9
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT10
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT11
+2021/12/04 07:30:33.39 2 0 Debug:GPIODevice Mess 1c7 House B funOff UNIT12
+2021/12/04 07:30:33.39 2 0 Debug:GPIODevice Mess 1c7 House B funOff UNIT13
+2021/12/04 07:30:33.39 2 0 Debug:GPIODevice Mess 1c7 House B funOff UNIT14
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT15
+2021/12/04 07:30:33.39 2 10 Debug:GPIODevice Mess 1c7 House B funOff UNIT16
+2021/12/04 07:30:33.39 2 10 Infor:GPIO x10 message received Mess 1c7 House B funOff
+2021/12/04 07:30:33.40 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:30:33.40 1 2 Debug:X10 action complete
+2021/12/04 07:30:33.41 2 11 Infor:waiting for quiet
+2021/12/04 07:30:33.53 2 11 Infor:quiet restarting queue
+2021/12/04 07:30:34.01 2 10 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:30:34.02 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 07:30:34.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 07:30:34.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 07:30:34.02 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 07:30:34.02 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 07:30:34.02 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 07:30:34.02 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 07:30:34.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 07:30:34.02 2 2 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:30:34.06 1 2 Debug:Bed1.CeilingLight off
+2021/12/04 07:30:34.06 1 2 Debug:Bed1.RichardsLight off
+2021/12/04 07:30:34.06 1 7 Debug:Bed1.SylviasLight off
+2021/12/04 07:30:34.07 1 7 Debug:Bed1.ComputerLight off
+2021/12/04 07:30:34.07 1 9 Debug:Bed1.TripleSpotlight off
+2021/12/04 07:30:34.07 1 6 Debug:Bed1.Amplifier off
+2021/12/04 07:30:34.07 1 6 Debug:Bed1.Tv off
+2021/12/04 07:30:34.07 1 6 Debug:Bed1.Dummy off
+2021/12/04 07:30:34.51 2 2 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:30:34.52 2 2 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 07:30:34.52 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 07:30:34.52 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 07:30:34.52 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 07:30:34.52 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 07:30:34.52 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 07:30:34.52 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 07:30:34.52 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 07:30:34.52 2 0 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:30:34.61 1 6 Debug:X10 action starting ...
+2021/12/04 07:30:35.01 2 11 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:30:35.02 2 11 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT1
+2021/12/04 07:30:35.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT2
+2021/12/04 07:30:35.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT3
+2021/12/04 07:30:35.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT4
+2021/12/04 07:30:35.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT5
+2021/12/04 07:30:35.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT13
+2021/12/04 07:30:35.02 2 10 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT15
+2021/12/04 07:30:35.02 2 0 Debug:GPIODevice Mess 41 House C funAllUnitsOff UNIT16
+2021/12/04 07:30:35.02 2 10 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2021/12/04 07:30:35.03 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:30:35.03 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:30:35.03 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:30:35.03 1 2 Debug:X10 action complete
+2021/12/04 07:30:35.04 2 10 Infor:waiting for quiet
+2021/12/04 07:30:35.16 2 11 Infor:quiet restarting queue
+2021/12/04 07:30:35.64 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:30:35.65 2 5 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 07:30:35.65 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 07:30:35.65 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:30:35.69 1 10 Debug:Smart.GoogleAlexa off
+2021/12/04 07:30:35.69 1 10 Debug:Smart.Dog off
+2021/12/04 07:30:36.14 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:30:36.15 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 07:30:36.15 2 7 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 07:30:36.15 2 7 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:30:36.25 1 8 Debug:X10 action starting ...
+2021/12/04 07:30:36.64 2 7 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:30:36.65 2 6 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT1
+2021/12/04 07:30:36.65 2 10 Debug:GPIODevice Mess a1 House G funAllUnitsOff UNIT2
+2021/12/04 07:30:36.65 2 10 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2021/12/04 07:30:36.66 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:30:36.66 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:30:36.66 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:30:36.66 1 2 Debug:X10 action complete
+2021/12/04 07:30:36.67 2 5 Infor:waiting for quiet
+2021/12/04 07:30:36.79 2 5 Infor:quiet restarting queue
+2021/12/04 07:30:37.27 2 6 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:30:37.28 2 6 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 07:30:37.28 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 07:30:37.28 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 07:30:37.28 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 07:30:37.28 2 0 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:30:37.32 1 6 Debug:Hall.PIRLight off
+2021/12/04 07:30:37.32 1 6 Debug:Landing.PIRLight off
+2021/12/04 07:30:37.32 1 10 Debug:Kitchen.PIRLight off
+2021/12/04 07:30:37.33 1 0 Debug:Garage.OutsideLight off
+2021/12/04 07:30:37.77 2 11 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:30:37.78 2 11 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 07:30:37.78 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 07:30:37.78 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 07:30:37.78 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 07:30:37.78 2 0 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:30:37.87 1 2 Debug:X10 action starting ...
+2021/12/04 07:30:38.27 2 6 Infor:x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:30:38.28 2 6 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT1
+2021/12/04 07:30:38.28 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT2
+2021/12/04 07:30:38.28 2 10 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT3
+2021/12/04 07:30:38.28 2 0 Debug:GPIODevice Mess 161 House L funAllUnitsOff UNIT4
+2021/12/04 07:30:38.28 2 0 Infor:GPIO x10 message received Mess 161 House L funAllUnitsOff
+2021/12/04 07:30:38.29 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:30:38.29 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:30:38.29 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 07:30:38.29 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 07:30:38.29 1 2 Debug:X10 action complete
+2021/12/04 07:49:41.00 1 6 Infor:device Conservatory.FloorLights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Conservatory.HighWallLights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Conservatory.LowWallLights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.CeilingLights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.LEDLights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.Moodlights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.MoodLight1 wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.MoodLight2 wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.MoodLight3 wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.MoodLight4 wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.MoodLight5 wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Lounge.MoodLight6 wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Hall.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Landing.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Bed1.RichardsLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Bed1.SylviasLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Bed1.ComputerLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Bed1.TripleSpotlight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Kitchen.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device UtilityRoom.Lights wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:device Garage.OutsideLight wanted state = 0 switchontime 2130706432 switchofftime 1638604181
+2021/12/04 07:49:41.00 1 6 Infor:sorting 4 timers
+2021/12/04 07:49:41.00 1 6 Infor:listing 4 timers
+2021/12/04 07:49:41.00 1 6 Infor:listing timer 0
+2021/12/04 07:49:41.00 1 6 Infor:fireTimeDate 1638604725
+2021/12/04 07:49:41.00 1 6 Debug:timer [0] = 04/12/2021 07:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 3 of 7
+2021/12/04 07:49:41.00 1 9 Infor:listing timer 1
+2021/12/04 07:49:41.00 1 9 Infor:fireTimeDate 1638604800
+2021/12/04 07:49:41.00 1 9 Debug:timer [1] = 04/12/2021 08:00:00 GMT 0 tmr security seq securityam ev 1 of 2
+2021/12/04 07:49:41.01 1 2 Infor:listing timer 2
+2021/12/04 07:49:41.01 1 2 Infor:fireTimeDate 1638606600
+2021/12/04 07:49:41.01 1 2 Debug:timer [2] = 04/12/2021 08:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 8 of 24
+2021/12/04 07:49:41.01 1 2 Infor:listing timer 3
+2021/12/04 07:49:41.01 1 2 Infor:fireTimeDate 1638630217
+2021/12/04 07:49:41.01 1 2 Debug:timer [3] = 04/12/2021 15:03:37 GMT 0 tmr Darkness seq sunset ev 0 of 2
+2021/12/04 07:49:41.01 1 2 Debug:X10 action starting ...
+2021/12/04 07:49:41.01 1 2 Infor:mUpdateDevicesAllUnitsOff() returned true
+2021/12/04 07:49:41.01 1 2 Debug:X10 action complete
+2021/12/04 07:49:41.01 1 2 Debug:Hue action starting ...
+2021/12/04 07:49:41.01 1 2 Debug:Hue action complete
+2021/12/04 07:49:41.02 2 4 Infor:quiet restarting queue
+2021/12/04 07:49:41.50 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:49:41.51 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 07:49:41.51 2 8 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 07:49:41.51 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 07:49:41.51 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 07:49:41.51 2 7 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:50:41.00 1 2 Debug:Lounge.WallLights off
+2021/12/04 07:50:41.45 2 11 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:50:41.46 2 11 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 07:50:41.46 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 07:50:41.46 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 07:50:41.46 2 7 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 07:50:41.46 2 8 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 07:50:41.46 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 07:50:41.46 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 07:50:41.46 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 07:50:41.46 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 07:50:41.46 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 07:50:41.46 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 07:50:41.46 2 2 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 07:50:41.46 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 07:50:41.46 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 07:50:41.46 2 0 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:50:41.55 1 4 Debug:X10 action starting ...
+2021/12/04 07:50:41.95 2 6 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:50:41.96 2 6 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT1
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT2
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT3
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT4
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT6
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT7
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT9
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT10
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT11
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT12
+2021/12/04 07:50:41.96 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT13
+2021/12/04 07:50:41.96 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT14
+2021/12/04 07:50:41.96 2 0 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT15
+2021/12/04 07:50:41.96 2 10 Debug:GPIODevice Mess 1c1 House B funAllUnitsOff UNIT16
+2021/12/04 07:50:41.96 2 1 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2021/12/04 07:50:41.97 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:50:41.97 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:50:41.97 1 2 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 07:50:41.97 1 2 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 07:50:41.97 1 2 Debug:X10 action complete
+2021/12/04 07:59:00.00 1 1 Infor:sorting 4 timers
+2021/12/04 07:59:00.00 1 1 Infor:listing 4 timers
+2021/12/04 07:59:00.00 1 1 Infor:listing timer 0
+2021/12/04 07:59:00.00 1 1 Infor:fireTimeDate 1638604785
+2021/12/04 07:59:00.00 1 1 Debug:timer [0] = 04/12/2021 07:59:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 4 of 7
+2021/12/04 07:59:00.00 1 1 Infor:listing timer 1
+2021/12/04 07:59:00.00 1 1 Infor:fireTimeDate 1638604800
+2021/12/04 07:59:00.00 1 1 Debug:timer [1] = 04/12/2021 08:00:00 GMT 0 tmr security seq securityam ev 1 of 2
+2021/12/04 07:59:00.00 1 2 Infor:listing timer 2
+2021/12/04 07:59:00.00 1 2 Infor:fireTimeDate 1638606600
+2021/12/04 07:59:00.00 1 2 Debug:timer [2] = 04/12/2021 08:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 8 of 24
+2021/12/04 07:59:00.00 1 4 Infor:listing timer 3
+2021/12/04 07:59:00.00 1 4 Infor:fireTimeDate 1638630217
+2021/12/04 07:59:00.00 1 4 Debug:timer [3] = 04/12/2021 15:03:37 GMT 0 tmr Darkness seq sunset ev 0 of 2
+2021/12/04 07:59:45.09 1 2 Infor:device Bed1.Amplifier wanted state = 1 switchontime 1638604785 switchofftime 1638608505
+2021/12/04 07:59:45.09 1 2 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1638604845 switchofftime 1638605385
+2021/12/04 07:59:45.09 1 2 Infor:sorting 4 timers
+2021/12/04 07:59:45.09 1 2 Infor:listing 4 timers
+2021/12/04 07:59:45.09 1 2 Infor:listing timer 0
+2021/12/04 07:59:45.09 1 2 Infor:fireTimeDate 1638604800
+2021/12/04 07:59:45.09 1 2 Debug:timer [0] = 04/12/2021 08:00:00 GMT 0 tmr security seq securityam ev 1 of 2
+2021/12/04 07:59:45.09 1 3 Infor:listing timer 1
+2021/12/04 07:59:45.09 1 3 Infor:fireTimeDate 1638606600
+2021/12/04 07:59:45.09 1 3 Debug:timer [1] = 04/12/2021 08:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 8 of 24
+2021/12/04 07:59:45.09 1 6 Infor:listing timer 2
+2021/12/04 07:59:45.09 1 6 Infor:fireTimeDate 1638608325
+2021/12/04 07:59:45.09 1 6 Debug:timer [2] = 04/12/2021 08:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 5 of 7
+2021/12/04 07:59:45.09 1 10 Infor:listing timer 3
+2021/12/04 07:59:45.09 1 10 Infor:fireTimeDate 1638630217
+2021/12/04 07:59:45.09 1 10 Debug:timer [3] = 04/12/2021 15:03:37 GMT 0 tmr Darkness seq sunset ev 0 of 2
+2021/12/04 07:59:45.09 1 2 Debug:X10 action starting ...
+2021/12/04 07:59:45.09 1 10 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:59:45.09 1 10 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:59:45.09 1 10 Debug:X10 action complete
+2021/12/04 07:59:45.10 2 5 Infor:quiet restarting queue
+2021/12/04 07:59:45.58 2 5 Infor:x10 message received Mess 40 House C UNIT13
+2021/12/04 07:59:45.59 2 5 Infor:GPIO x10 message received Mess 40 House C UNIT13
+2021/12/04 07:59:45.64 1 2 Debug:X10 action starting ...
+2021/12/04 07:59:46.08 2 6 Infor:x10 message received Mess 45 House C funOn
+2021/12/04 07:59:46.09 2 6 Debug:GPIODevice Mess 45 House C funOn UNIT13
+2021/12/04 07:59:46.09 2 10 Infor:GPIO x10 message received Mess 45 House C funOn
+2021/12/04 07:59:46.10 1 2 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:59:46.10 1 2 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:59:46.10 1 2 Debug:Bed1.Amplifier on
+2021/12/04 07:59:46.10 1 2 Debug:X10 action complete
+2021/12/04 07:59:46.11 2 10 Infor:waiting for quiet
+2021/12/04 07:59:46.23 2 11 Infor:quiet restarting queue
+2021/12/04 07:59:46.71 2 7 Infor:x10 message received Mess 40 House C UNIT13
+2021/12/04 07:59:46.72 2 7 Infor:GPIO x10 message received Mess 40 House C UNIT13
+2021/12/04 07:59:46.75 1 2 Debug:X10 action starting ...
+2021/12/04 07:59:47.21 2 4 Infor:x10 message received Mess 45 House C funOn
+2021/12/04 07:59:47.22 2 4 Debug:GPIODevice Mess 45 House C funOn UNIT13
+2021/12/04 07:59:47.22 2 10 Infor:GPIO x10 message received Mess 45 House C funOn
+2021/12/04 07:59:47.23 1 0 Infor:housecode 2 device 1 not mStateLampOnChangePossible
+2021/12/04 07:59:47.23 1 0 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2021/12/04 07:59:47.23 1 0 Infor:housecode 11 device 0 not mStateLampOnChangePossible
+2021/12/04 07:59:47.23 1 0 Infor:housecode 11 device 1 not mStateLampOnChangePossible
+2021/12/04 07:59:47.23 1 0 Debug:X10 action complete
+2021/12/04 08:00:00.08 1 8 Infor:sorting 4 timers
+2021/12/04 08:00:00.08 1 8 Infor:listing 4 timers
+2021/12/04 08:00:00.08 1 8 Infor:listing timer 0
+2021/12/04 08:00:00.08 1 8 Infor:fireTimeDate 1638606600
+2021/12/04 08:00:00.08 1 8 Debug:timer [0] = 04/12/2021 08:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 8 of 24
+2021/12/04 08:00:00.08 1 10 Infor:listing timer 1
+2021/12/04 08:00:00.08 1 10 Infor:fireTimeDate 1638608325
+2021/12/04 08:00:00.08 1 10 Debug:timer [1] = 04/12/2021 08:58:45 GMT 0 tmr wakeupTimer seq SaturdayMorningNews ev 5 of 7
+2021/12/04 08:00:00.08 1 2 Infor:listing timer 2
+2021/12/04 08:00:00.08 1 2 Infor:fireTimeDate 1638630217
+2021/12/04 08:00:00.08 1 2 Debug:timer [2] = 04/12/2021 15:03:37 GMT 0 tmr Darkness seq sunset ev 0 of 2
+2021/12/04 08:00:00.08 1 2 Infor:listing timer 3
+2021/12/04 08:00:00.08 1 2 Infor:fireTimeDate 1638644400
+2021/12/04 08:00:00.08 1 2 Debug:timer [3] = 04/12/2021 19:00:00 GMT 0 tmr security seq securitypm ev 0 of 5
+2021/12/04 08:00:39.00 1 2 Debug:Joining...
+2021/12/04 08:00:39.01 1 6 Debug:Joined
+2021/12/04 08:00:39.01 1 6 Debug:goodbye cruel world

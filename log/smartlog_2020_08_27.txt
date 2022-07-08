@@ -1,0 +1,119 @@
+2020/08/27 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/27 15:11:23.00 1 5 Debug:world started!
+2020/08/27 15:11:23.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:11:23.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/27 15:11:23.00 1 5 Debug:X10 action complete
+2020/08/27 15:11:23.00 3 5 Debug:threadstart for tw523 class started
+2020/08/27 15:11:23.00 2 5 Debug:threadstart for HueThread class started
+2020/08/27 15:11:23.00 1 5 Debug:Hue action starting ...
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/27 15:11:23.00 1 5 Debug:Hue action complete
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.Amplifier off
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.TripleSpotlight off
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.SylviasLight off
+2020/08/27 15:11:23.00 2 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.Tv off
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.CeilingLight off
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.ComputerLight off
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.Dummy off
+2020/08/27 15:11:23.00 3 5 Debug:Bed1.RichardsLight off
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/27 15:11:23.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/27 15:11:23.00 1 5 Debug:X10 action complete
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/27 15:11:23.00 3 5 Debug:Smart.GoogleAlexa off
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/27 15:11:23.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Debug:X10 action complete
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 172 House L UNIT6
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 165 House L funOn
+2020/08/27 15:11:23.00 3 5 Debug:Garage.XmasLights on
+2020/08/27 15:11:23.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Debug:X10 action complete
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 164 House L UNIT3
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 16c House L UNIT1
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 174 House L UNIT4
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 17c House L UNIT2
+2020/08/27 15:11:23.00 3 5 Debug:X10_sent_message=Mess 167 House L funOff
+2020/08/27 15:11:23.00 3 5 Debug:Kitchen.PIRLight off
+2020/08/27 15:11:23.00 3 5 Debug:Hall.PIRLight off
+2020/08/27 15:11:23.00 3 5 Debug:Garage.OutsideLight off
+2020/08/27 15:11:23.00 3 5 Debug:Landing.PIRLight off
+2020/08/27 15:11:23.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/27 15:11:23.00 1 5 Infor:mUpdateDevicesAllUnits2020/08/27 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/27 15:27:33.00 1 5 Debug:world started!
+2020/08/27 15:27:33.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:27:33.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/27 15:27:33.00 1 5 Debug:X10 action complete
+2020/08/27 15:27:33.00 1 5 Debug:Hue action starting ...
+2020/08/27 15:27:33.00 1 5 Debug:Hue action complete
+2020/08/27 15:27:33.00 2 5 Debug:threadstart for tw523 class started
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.Amplifier off
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.TripleSpotlight off
+2020/08/27 15:27:33.00 3 5 Debug:threadstart for HueThread class started
+2020/08/27 15:27:33.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.SylviasLight off
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.Tv off
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.CeilingLight off
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.ComputerLight off
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.Dummy off
+2020/08/27 15:27:33.00 2 5 Debug:Bed1.RichardsLight off
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/27 15:27:33.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/27 15:27:33.00 1 5 Debug:X10 action complete
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/27 15:27:33.00 2 5 Debug:Smart.GoogleAlexa off
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/27 15:27:33.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Debug:X10 action complete
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 172 House L UNIT6
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 165 House L funOn
+2020/08/27 15:27:33.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:27:33.00 2 5 Debug:Garage.XmasLights on
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Debug:X10 action complete
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 164 House L UNIT3
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 16c House L UNIT1
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 174 House L UNIT4
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 17c House L UNIT2
+2020/08/27 15:27:33.00 2 5 Debug:X10_sent_message=Mess 167 House L funOff
+2020/08/27 15:27:33.00 2 5 Debug:Kitchen.PIRLight off
+2020/08/27 15:27:33.00 2 5 Debug:Hall.PIRLight off
+2020/08/27 15:27:33.00 2 5 Debug:Garage.OutsideLight off
+2020/08/27 15:27:33.00 2 5 Debug:Landing.PIRLight off
+2020/08/27 15:27:33.00 1 5 Debug:X10 action starting ...
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/27 15:27:33.00 1 5 Infor:mUpdateDevicesAllUnits

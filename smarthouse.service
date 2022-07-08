@@ -1,0 +1,15 @@
+[Unit]
+Description=Smart House Service
+After=multi-user.target
+
+[Service]
+Type=idle
+
+User=pi
+ExecStart=/home/pi/smart8r/smart batch
+
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

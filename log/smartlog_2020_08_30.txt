@@ -1,0 +1,581 @@
+2020/08/30 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/30 17:23:21.00 1 5 Debug:world started!
+2020/08/30 17:23:21.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:23:21.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 17:23:21.00 1 5 Debug:X10 action complete
+2020/08/30 17:23:21.00 1 5 Debug:Hue action starting ...
+2020/08/30 17:23:21.00 2 5 Debug:threadstart for HueThread class started
+2020/08/30 17:23:21.00 1 5 Debug:Hue action complete
+2020/08/30 17:23:21.00 3 5 Debug:threadstart for tw523 class started
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.Amplifier off
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.TripleSpotlight off
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.SylviasLight off
+2020/08/30 17:23:21.00 2 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.Tv off
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.CeilingLight off
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.ComputerLight off
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.Dummy off
+2020/08/30 17:23:21.00 3 5 Debug:Bed1.RichardsLight off
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 17:23:21.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 17:23:21.00 1 5 Debug:X10 action complete
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 17:23:21.00 3 5 Debug:Smart.GoogleAlexa off
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 17:23:21.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Debug:X10 action complete
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 172 House L UNIT6
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 165 House L funOn
+2020/08/30 17:23:21.00 3 5 Debug:Garage.XmasLights on
+2020/08/30 17:23:21.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Debug:X10 action complete
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 164 House L UNIT3
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 16c House L UNIT1
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 174 House L UNIT4
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 17c House L UNIT2
+2020/08/30 17:23:21.00 3 5 Debug:X10_sent_message=Mess 167 House L funOff
+2020/08/30 17:23:21.00 3 5 Debug:Kitchen.PIRLight off
+2020/08/30 17:23:21.00 3 5 Debug:Hall.PIRLight off
+2020/08/30 17:23:21.00 3 5 Debug:Garage.OutsideLight off
+2020/08/30 17:23:21.00 3 5 Debug:Landing.PIRLight off
+2020/08/30 17:23:21.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 17:23:21.00 1 5 Infor:mUpdateDevicesAllUnits2020/08/30 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/30 17:59:23.00 1 5 Debug:world started!
+2020/08/30 17:59:23.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:59:23.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 17:59:23.00 1 5 Debug:X10 action complete
+2020/08/30 17:59:23.00 1 5 Debug:Hue action starting ...
+2020/08/30 17:59:23.00 2 5 Debug:threadstart for tw523 class started
+2020/08/30 17:59:23.00 3 5 Debug:threadstart for HueThread class started
+2020/08/30 17:59:23.00 1 5 Debug:Hue action complete
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.Amplifier off
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.TripleSpotlight off
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.SylviasLight off
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.Tv off
+2020/08/30 17:59:23.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.CeilingLight off
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.ComputerLight off
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.Dummy off
+2020/08/30 17:59:23.00 2 5 Debug:Bed1.RichardsLight off
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 17:59:23.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 17:59:23.00 1 5 Debug:X10 action complete
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 17:59:23.00 2 5 Debug:Smart.GoogleAlexa off
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 17:59:23.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Debug:X10 action complete
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 172 House L UNIT6
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 165 House L funOn
+2020/08/30 17:59:23.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:59:23.00 2 5 Debug:Garage.XmasLights on
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Debug:X10 action complete
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 164 House L UNIT3
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 16c House L UNIT1
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 174 House L UNIT4
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 17c House L UNIT2
+2020/08/30 17:59:23.00 2 5 Debug:X10_sent_message=Mess 167 House L funOff
+2020/08/30 17:59:23.00 2 5 Debug:Kitchen.PIRLight off
+2020/08/30 17:59:23.00 2 5 Debug:Hall.PIRLight off
+2020/08/30 17:59:23.00 2 5 Debug:Garage.OutsideLight off
+2020/08/30 17:59:23.00 2 5 Debug:Landing.PIRLight off
+2020/08/30 17:59:23.00 1 5 Debug:X10 action starting ...
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 17:59:23.00 1 5 Infor:mUpdateDevicesAllUnits2020/08/30 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/30 18:00:16.00 1 5 Debug:world started!
+2020/08/30 18:00:16.00 1 5 Debug:X10 action starting ...
+2020/08/30 18:00:16.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 18:00:16.00 1 5 Debug:X10 action complete
+2020/08/30 18:00:16.00 1 5 Debug:Hue action starting ...
+2020/08/30 18:00:16.00 1 5 Debug:Hue action complete
+2020/08/30 18:00:16.00 1 5 Infor:Switch Off Timeout Garage.XmasLights now=1598810416 mSwitchOnTimeout=2130706432 mSwitchOffTimeout=1598810400
+2020/08/30 18:00:16.00 3 5 Debug:threadstart for HueThread class started
+2020/08/30 18:00:16.00 2 5 Debug:threadstart for tw523 class started
+2020/08/30 18:00:16.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.Amplifier off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.TripleSpotlight off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.SylviasLight off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.Tv off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.CeilingLight off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.ComputerLight off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.Dummy off
+2020/08/30 18:00:16.00 2 5 Debug:Bed1.RichardsLight off
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 18:00:16.00 1 5 Debug:X10 action starting ...
+2020/08/30 18:00:16.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 18:00:16.00 1 5 Debug:X10 action complete
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:Smart.GoogleAlexa off
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess a1 House G funAllUnitsOff
+2020/08/30 18:00:16.00 1 5 Debug:X10 action starting ...
+2020/08/30 18:00:16.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 18:00:16.00 1 5 Debug:X10 action complete
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:Kitchen.PIRLight off
+2020/08/30 18:00:16.00 2 5 Debug:Hall.PIRLight off
+2020/08/30 18:00:16.00 2 5 Debug:Garage.XmasLights off
+2020/08/30 18:00:16.00 2 5 Debug:Garage.OutsideLight off
+2020/08/30 18:00:16.00 2 5 Debug:Landing.PIRLight off
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 161 House L funAllUnitsOff
+2020/08/30 18:00:16.00 1 5 Debug:X10 action starting ...
+2020/08/30 18:00:16.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/08/30 18:00:16.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 18:00:16.00 1 5 Debug:X10 action complete
+2020/08/30 18:00:16.00 2 5 Debug:X10_sent_message=Mess 1c1 House B funAllUnitsOff
+2020/08/30 18:00:16.00 2 5 Debug:Kitchen.Amplifier off
+2020/08/30 18:00:16.00 2 5 Debug:Lounge.LightsByTvAndPiano off
+2020/08/30 18:00:16.00 2 5 Debug:Lounge.LEDLights off
+2020/08/30 18:00:16.00 2 5 Debug:Conservatory.LowWallLights off
+2020/08/30 18:00:16.00 2 5 Debug:Lounge.Tv off
+2020/08/30 18:00:16.00 2 5 Debug:UtilityRoom.Lights off
+2020/08/30 18:00:16.00 2 5 Debug:Lounge.WallLights off
+2020/08/30 18:00:16.00 2 5 Debug:Conservatory.FloorLights off
+2020/08/30 18:00:16.00 2 5 Debug:Lounge.Amplifier off
+2020/08/302020/08/30 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/08/30 18:08:19.00 1 5 Debug:world started!
+2020/08/30 18:08:19.00 1 5 Debug:X10 action starting ...
+2020/08/30 18:08:19.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 18:08:19.00 1 5 Debug:X10 action complete
+2020/08/30 18:08:19.00 1 5 Debug:Hue action starting ...
+2020/08/30 18:08:19.00 2 5 Debug:threadstart for tw523 class started
+2020/08/30 18:08:19.00 3 5 Debug:threadstart for HueThread class started
+2020/08/30 18:08:19.00 1 5 Debug:Hue action complete
+2020/08/30 18:08:19.00 1 5 Infor:Switch Off Timeout Garage.XmasLights now=1598810899 mSwitchOnTimeout=2130706432 mSwitchOffTimeout=1598810400
+2020/08/30 18:08:19.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 18:08:19.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.Amplifier off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.TripleSpotlight off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.SylviasLight off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.Tv off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.CeilingLight off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.ComputerLight off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.Dummy off
+2020/08/30 18:08:19.00 2 5 Debug:Bed1.RichardsLight off
+2020/08/30 18:08:19.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 18:08:19.00 2 5 Debug:X10_sent_message=Mess 41 House C funAllUnitsOff
+2020/08/30 18:08:19.01 1 5 Debug:X10 action starting ...
+2020/08/30 18:08:19.01 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/08/30 18:08:19.01 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/08/30 18:08:19.01 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/08/30 18:08:19.01 1 5 Debug:X10 action complete
+2020/08/30 01:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:listing 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 0
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598764473
+2020/08/30 01:00:00.00 1 5 Debug:timer [0] = 30/08/2020 05:14:33 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 1
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598767200
+2020/08/30 01:00:00.00 1 5 Debug:timer [1] = 30/08/2020 06:00:00 GMT 0 tmr Xmas seq jollymorning ev 0 of 1
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 2
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598767200
+2020/08/30 01:00:00.00 1 5 Debug:timer [2] = 30/08/2020 06:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 3
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598821140
+2020/08/30 01:00:00.00 1 5 Debug:timer [3] = 30/08/2020 20:59:00 GMT 0 tmr wakeupTimer seq lie-in ev 0 of 7
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 4
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598830200
+2020/08/30 01:00:00.00 1 5 Debug:timer [4] = 30/08/2020 23:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 0 of 24
+2020/08/30 01:00:00.00 1 5 Debug:crossings = 25
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.FloorLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.HighWallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.LowWallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.CeilingLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.LEDLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.LightsByTvAndPiano wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.Moodlights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight1 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight2 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight3 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight4 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight5 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight6 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Hall.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Landing.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.RichardsLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.SylviasLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.ComputerLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.TripleSpotlight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Kitchen.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device UtilityRoom.Lights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Garage.OutsideLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Garage.XmasLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:sorting 5 timers
+2020/08/30 07:00:00.00 1 5 Infor:device Garage.XmasLights wanted state = 1 switchontime 1598767200 switchofftime 1598810400
+2020/08/30 07:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 07:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 08:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 18:59:38.00 1 5 Infor:sorting 5 timers
+2020/08/30 19:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 19:59:38.00 1 5 Infor:device Garage.XmasLights wanted state = 1 switchontime 1598813978 switchofftime 1598857178
+2020/08/30 19:59:38.00 1 5 Infor:device Garage.OutsideLight wanted state = 1 switchontime 1598813978 switchofftime 1598857178
+2020/08/30 19:59:38.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598813978 switchofftime 1598815178
+2020/08/30 19:59:38.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598815118 switchofftime 1598816378
+2020/08/30 19:59:38.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598816318 switchofftime 1598817578
+2020/08/30 19:59:38.00 1 5 Infor:sorting 5 timers
+2020/08/30 20:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598814000 switchofftime 1598815200
+2020/08/30 20:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598815140 switchofftime 1598816400
+2020/08/30 20:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598816340 switchofftime 1598817600
+2020/08/30 20:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 21:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598817600 switchofftime 1598818800
+2020/08/30 21:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598818740 switchofftime 1598820000
+2020/08/30 21:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598819940 switchofftime 1598821200
+2020/08/30 21:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 21:59:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 22:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598821200 switchofftime 1598822400
+2020/08/30 22:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598822340 switchofftime 1598823600
+2020/08/30 22:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598823540 switchofftime 1598824800
+2020/08/30 22:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 23:00:00.00 1 5 Infor:device Garage.XmasLights wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 23:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/31 00:30:00.00 1 5 Debug:RefreshDevices
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.TripleSpotlight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.SylviasLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.CeilingLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.ComputerLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Dummy
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.RichardsLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Smart.GoogleAlexa
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Hall.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Garage.XmasLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Garage.OutsideLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Landing.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.LightsByTvAndPiano
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.LEDLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.LowWallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device UtilityRoom.Lights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.WallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.FloorLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Moodlights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device DiningRoom.CeilingLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.SatelliteReceiver
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.CeilingLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.HighWallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight1
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight2
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight3
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight4
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight5
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight6
+2020/08/31 00:30:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:listing 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 0
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598764473
+2020/08/30 01:00:00.00 1 5 Debug:timer [0] = 30/08/2020 05:14:33 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 1
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598767200
+2020/08/30 01:00:00.00 1 5 Debug:timer [1] = 30/08/2020 06:00:00 GMT 0 tmr Xmas seq jollymorning ev 0 of 1
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 2
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598767200
+2020/08/30 01:00:00.00 1 5 Debug:timer [2] = 30/08/2020 06:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 3
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598821140
+2020/08/30 01:00:00.00 1 5 Debug:timer [3] = 30/08/2020 20:59:00 GMT 0 tmr wakeupTimer seq lie-in ev 0 of 7
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 4
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598830200
+2020/08/30 01:00:00.00 1 5 Debug:timer [4] = 30/08/2020 23:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 0 of 24
+2020/08/30 01:00:00.00 1 5 Debug:crossings = 25
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.FloorLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.HighWallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.LowWallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.CeilingLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.LEDLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.LightsByTvAndPiano wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.Moodlights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight1 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight2 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight3 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight4 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight5 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight6 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Hall.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Landing.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.RichardsLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.SylviasLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.ComputerLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.TripleSpotlight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Kitchen.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device UtilityRoom.Lights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Garage.OutsideLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Garage.XmasLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:sorting 5 timers
+2020/08/30 07:00:00.00 1 5 Infor:device Garage.XmasLights wanted state = 1 switchontime 1598767200 switchofftime 1598810400
+2020/08/30 07:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 07:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 08:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 18:59:38.00 1 5 Infor:sorting 5 timers
+2020/08/30 19:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 19:59:38.00 1 5 Infor:device Garage.XmasLights wanted state = 1 switchontime 1598813978 switchofftime 1598857178
+2020/08/30 19:59:38.00 1 5 Infor:device Garage.OutsideLight wanted state = 1 switchontime 1598813978 switchofftime 1598857178
+2020/08/30 19:59:38.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598813978 switchofftime 1598815178
+2020/08/30 19:59:38.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598815118 switchofftime 1598816378
+2020/08/30 19:59:38.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598816318 switchofftime 1598817578
+2020/08/30 19:59:38.00 1 5 Infor:sorting 5 timers
+2020/08/30 20:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598814000 switchofftime 1598815200
+2020/08/30 20:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598815140 switchofftime 1598816400
+2020/08/30 20:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598816340 switchofftime 1598817600
+2020/08/30 20:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 21:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598817600 switchofftime 1598818800
+2020/08/30 21:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598818740 switchofftime 1598820000
+2020/08/30 21:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598819940 switchofftime 1598821200
+2020/08/30 21:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 21:59:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 22:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598821200 switchofftime 1598822400
+2020/08/30 22:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598822340 switchofftime 1598823600
+2020/08/30 22:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598823540 switchofftime 1598824800
+2020/08/30 22:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 23:00:00.00 1 5 Infor:device Garage.XmasLights wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 23:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/31 00:30:00.00 1 5 Debug:RefreshDevices
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.TripleSpotlight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.SylviasLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.CeilingLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.ComputerLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Dummy
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.RichardsLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Smart.GoogleAlexa
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Hall.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Garage.XmasLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Garage.OutsideLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Landing.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.LightsByTvAndPiano
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.LEDLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.LowWallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device UtilityRoom.Lights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.WallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.FloorLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Moodlights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device DiningRoom.CeilingLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.SatelliteReceiver
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.CeilingLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.HighWallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight1
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight2
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight3
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight4
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight5
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight6
+2020/08/31 00:30:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:listing 5 timers
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 0
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598764473
+2020/08/30 01:00:00.00 1 5 Debug:timer [0] = 30/08/2020 05:14:33 GMT 0 tmr Darkness seq sunrise ev 0 of 1
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 1
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598767200
+2020/08/30 01:00:00.00 1 5 Debug:timer [1] = 30/08/2020 06:00:00 GMT 0 tmr Xmas seq jollymorning ev 0 of 1
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 2
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598767200
+2020/08/30 01:00:00.00 1 5 Debug:timer [2] = 30/08/2020 06:00:00 GMT 0 tmr security seq securityam ev 0 of 2
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 3
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598821140
+2020/08/30 01:00:00.00 1 5 Debug:timer [3] = 30/08/2020 20:59:00 GMT 0 tmr wakeupTimer seq lie-in ev 0 of 7
+2020/08/30 01:00:00.00 1 5 Infor:listing timer 4
+2020/08/30 01:00:00.00 1 5 Infor:fireTimeDate 1598830200
+2020/08/30 01:00:00.00 1 5 Debug:timer [4] = 30/08/2020 23:30:00 GMT 0 tmr refreshdevices seq refreshingdevices ev 0 of 24
+2020/08/30 01:00:00.00 1 5 Debug:crossings = 25
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.FloorLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.HighWallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Conservatory.LowWallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.CeilingLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.LEDLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.LightsByTvAndPiano wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.Moodlights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight1 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight2 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight3 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight4 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight5 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.MoodLight6 wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Hall.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Landing.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.RichardsLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.SylviasLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.ComputerLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.TripleSpotlight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Kitchen.PIRLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device UtilityRoom.Lights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Garage.OutsideLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Garage.XmasLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598764473
+2020/08/30 06:14:33.00 1 5 Infor:sorting 5 timers
+2020/08/30 07:00:00.00 1 5 Infor:device Garage.XmasLights wanted state = 1 switchontime 1598767200 switchofftime 1598810400
+2020/08/30 07:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 07:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598767200
+2020/08/30 07:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 08:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598770800
+2020/08/30 08:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 18:59:38.00 1 5 Infor:sorting 5 timers
+2020/08/30 19:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598810400
+2020/08/30 19:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 19:59:38.00 1 5 Infor:device Garage.XmasLights wanted state = 1 switchontime 1598813978 switchofftime 1598857178
+2020/08/30 19:59:38.00 1 5 Infor:device Garage.OutsideLight wanted state = 1 switchontime 1598813978 switchofftime 1598857178
+2020/08/30 19:59:38.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598813978 switchofftime 1598815178
+2020/08/30 19:59:38.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598815118 switchofftime 1598816378
+2020/08/30 19:59:38.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598816318 switchofftime 1598817578
+2020/08/30 19:59:38.00 1 5 Infor:sorting 5 timers
+2020/08/30 20:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598814000 switchofftime 1598815200
+2020/08/30 20:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598815140 switchofftime 1598816400
+2020/08/30 20:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598816340 switchofftime 1598817600
+2020/08/30 20:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 21:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598817600 switchofftime 1598818800
+2020/08/30 21:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598818740 switchofftime 1598820000
+2020/08/30 21:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598819940 switchofftime 1598821200
+2020/08/30 21:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 21:59:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 22:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 1 switchontime 1598821200 switchofftime 1598822400
+2020/08/30 22:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 1 switchontime 1598822340 switchofftime 1598823600
+2020/08/30 22:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1598823540 switchofftime 1598824800
+2020/08/30 22:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 23:00:00.00 1 5 Infor:device Garage.XmasLights wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/30 23:00:00.00 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1598824800
+2020/08/30 23:00:00.00 1 5 Infor:sorting 5 timers
+2020/08/31 00:30:00.00 1 5 Debug:RefreshDevices
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.TripleSpotlight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.SylviasLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.CeilingLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.ComputerLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.Dummy
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Bed1.RichardsLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Smart.GoogleAlexa
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Hall.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Garage.XmasLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Garage.OutsideLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Landing.PIRLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.LightsByTvAndPiano
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.LEDLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.LowWallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device UtilityRoom.Lights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.WallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.FloorLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Amplifier
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.Moodlights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device DiningRoom.CeilingLight
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.SatelliteReceiver
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Kitchen.Tv
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.CeilingLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Conservatory.HighWallLights
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight1
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight2
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight3
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight4
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight5
+2020/08/31 00:30:00.00 1 5 Infor:Refresh device Lounge.MoodLight6
+2020/08/31 00:30:00.00 1 5 Infor:sorting 5 timers

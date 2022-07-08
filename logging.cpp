@@ -30,9 +30,16 @@ CLogging::CLogging()
 }
 
 
-void CLogging::EnableLogging()
+void CLogging::EnableLogging(bool localInteractive)
 {
-    printLoggingLevel = LevelDebug;
+	if (localInteractive)
+	{
+        printLoggingLevel = LevelDebug;
+	}
+    else
+    {
+        printLoggingLevel = LevelWarn;
+    }
     writeLoggingLevel = LevelInfo;
 }
 

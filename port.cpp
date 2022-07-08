@@ -119,7 +119,7 @@ int GPIOGet(int port)
     if (bytesRead != 1 ||
         (buffer[0] < '0' || buffer[0] >'1'))
     {
-        logging.logError("bytesRead=%d, buffer[0]=%d\n");
+        logging.logError("port=%d, bytesRead=%d, buffer[0]=%d\n", port, bytesRead, buffer[0]);
     }
 
     return buffer[0] != '0';

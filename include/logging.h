@@ -33,7 +33,7 @@ protected:
 public:
     CLogging();
     ~CLogging();
-    void EnableLogging(void);
+    void EnableLogging(bool localInteractive);
 
     void logFatal(const char* format, ...);
     void logError(const char* format, ...);

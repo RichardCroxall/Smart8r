@@ -11,6 +11,9 @@
 #include <errno.h>
 #include <math.h>
 #include <map>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <time.h>
 
 #include <iostream>
 #include <thread>

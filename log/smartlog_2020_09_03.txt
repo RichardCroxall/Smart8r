@@ -1,0 +1,409 @@
+2020/09/03 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/09/03 18:39:43.00 1 5 Debug:world started!
+2020/09/03 18:39:43.00 1 5 Debug:X10 action starting ...
+2020/09/03 18:39:43.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 18:39:43.00 1 5 Debug:X10 action complete
+2020/09/03 18:39:43.00 1 5 Debug:Hue action starting ...
+2020/09/03 18:39:43.00 1 5 Debug:Hue action complete
+2020/09/03 18:39:43.00 1 5 Infor:Switch Off Timeout Garage.XmasLights now=1599158383 mSwitchOnTimeout=2130706432 mSwitchOffTimeout=1599156000
+2020/09/03 18:39:43.00 2 5 Debug:threadstart for HueThread class started
+2020/09/03 18:39:43.00 3 5 Debug:threadstart for tw523 class started
+2020/09/03 18:39:43.00 3 5 Infor:waiting for quiet
+2020/09/03 18:39:43.00 3 5 Infor:lost zero crossing sync previous 0 now 1
+2020/09/03 18:39:43.00 2 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/09/03 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/09/03 19:02:56.00 1 5 Debug:world started!
+2020/09/03 19:02:56.00 1 5 Debug:X10 action starting ...
+2020/09/03 19:02:56.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 19:02:56.00 3 5 Debug:threadstart for HueThread class started
+2020/09/03 19:02:56.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/09/03 19:02:56.00 2 5 Debug:threadstart for tw523 class started
+2020/09/03 19:02:56.00 2 5 Infor:waiting for quiet
+2020/09/03 19:02:56.00 2 5 Infor:lost zero crossing sync previous 0 now 1
+2020/09/03 19:02:56.00 1 5 Debug:X10 action complete
+2020/09/03 19:02:56.00 1 5 Debug:Hue action starting ...
+2020/09/03 19:02:56.00 1 5 Debug:Hue action complete
+2020/09/03 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/09/03 19:03:45.00 1 5 Debug:world started!
+2020/09/03 19:03:45.00 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:45.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 19:03:45.00 2 5 Debug:threadstart for tw523 class started
+2020/09/03 19:03:45.00 2 5 Infor:waiting for quiet
+2020/09/03 19:03:45.00 1 5 Debug:X10 action complete
+2020/09/03 19:03:45.00 3 5 Debug:threadstart for HueThread class started
+2020/09/03 19:03:45.00 1 5 Debug:Hue action starting ...
+2020/09/03 19:03:45.00 3 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/09/03 19:03:45.00 1 5 Debug:Hue action complete
+2020/09/03 19:03:45.41 2 5 Infor:quiet restarting queue
+2020/09/03 19:03:45.89 2 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:03:45.90 2 5 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.Amplifier off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.TripleSpotlight off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.SylviasLight off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.Tv off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.CeilingLight off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.ComputerLight off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.Dummy off
+2020/09/03 19:03:46.00 1 5 Debug:Bed1.RichardsLight off
+2020/09/03 19:03:46.39 2 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:03:46.40 2 5 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:03:46.89 2 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:03:46.90 2 5 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:03:47.00 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:47.00 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:03:47.00 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:47.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 19:03:47.00 1 5 Debug:X10 action complete
+2020/09/03 19:03:47.01 2 5 Infor:waiting for quiet
+2020/09/03 19:03:47.24 2 5 Infor:quiet restarting queue
+2020/09/03 19:03:47.72 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:03:47.73 2 5 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:03:48.00 1 5 Debug:Smart.GoogleAlexa off
+2020/09/03 19:03:48.01 2 5 Infor:lost zero crossing sync previous 1 now 0
+2020/09/03 19:03:48.22 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:03:48.23 2 5 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:03:48.44 3 5 Debug:Hue Thread now connected to Hue Hub count 0
+2020/09/03 19:03:48.46 3 5 Debug:Hue Lamp 1 0
+2020/09/03 19:03:48.55 3 5 Debug:Hue Lamp 2 0
+2020/09/03 19:03:48.57 3 5 Debug:Hue Lamp 3 0
+2020/09/03 19:03:48.66 3 5 Debug:Hue Lamp 4 0
+2020/09/03 19:03:48.69 3 5 Debug:Hue Lamp 5 0
+2020/09/03 19:03:48.72 2 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:03:48.73 2 5 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:03:48.77 3 5 Debug:Hue Lamp 6 0
+2020/09/03 19:03:49.01 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:49.01 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:03:49.01 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:49.01 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:03:49.01 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:49.01 1 5 Debug:X10 action complete
+2020/09/03 19:03:49.01 1 5 Debug:Hue action starting ...
+2020/09/03 19:03:49.01 1 5 Debug:Hue action complete
+2020/09/03 19:03:49.02 2 5 Infor:waiting for quiet
+2020/09/03 19:03:49.07 2 5 Infor:quiet restarting queue
+2020/09/03 19:03:49.55 2 5 Infor:x10 message received Mess 172 House L UNIT6
+2020/09/03 19:03:49.56 2 5 Infor:GPIO x10 message received Mess 172 House L UNIT6
+2020/09/03 19:03:50.05 2 5 Infor:x10 message received Mess 174 House L UNIT4
+2020/09/03 19:03:50.06 2 5 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2020/09/03 19:03:50.55 2 5 Infor:x10 message received Mess 165 House L funOn
+2020/09/03 19:03:50.56 2 5 Infor:GPIO x10 message received Mess 165 House L funOn
+2020/09/03 19:03:51.01 1 5 Debug:Garage.XmasLights on
+2020/09/03 19:03:51.01 1 5 Debug:Garage.OutsideLight on
+2020/09/03 19:03:51.01 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:51.01 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:03:51.01 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:51.01 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:03:51.01 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:51.01 1 5 Debug:X10 action complete
+2020/09/03 19:03:51.02 2 5 Infor:quiet restarting queue
+2020/09/03 19:03:51.50 2 5 Infor:x10 message received Mess 164 House L UNIT3
+2020/09/03 19:03:51.51 2 5 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2020/09/03 19:03:52.00 2 5 Infor:x10 message received Mess 16c House L UNIT1
+2020/09/03 19:03:52.01 2 5 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2020/09/03 19:03:52.50 2 5 Infor:x10 message received Mess 17c House L UNIT2
+2020/09/03 19:03:52.51 2 5 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2020/09/03 19:03:53.00 2 5 Infor:x10 message received Mess 167 House L funOff
+2020/09/03 19:03:53.01 2 5 Infor:GPIO x10 message received Mess 167 House L funOff
+2020/09/03 19:03:53.02 1 5 Debug:Kitchen.PIRLight off
+2020/09/03 19:03:53.02 1 5 Debug:Hall.PIRLight off
+2020/09/03 19:03:53.02 1 5 Debug:Landing.PIRLight off
+2020/09/03 19:03:53.02 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:53.02 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:03:53.02 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:53.02 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:03:53.02 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:53.02 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:03:53.02 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:03:53.02 1 5 Infor:housecode 14 device 10 mStateLampOnChangeNeeded 1
+2020/09/03 19:03:53.02 1 5 Debug:X10 action complete
+2020/09/03 19:03:53.03 2 5 Infor:waiting for quiet
+2020/09/03 19:03:53.35 2 5 Infor:quiet restarting queue
+2020/09/03 19:03:53.83 2 5 Infor:x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:03:53.84 2 5 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:03:54.02 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:54.33 2 5 Infor:x10 message received Mess 1c5 House B funOn
+2020/09/03 19:03:54.34 2 5 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2020/09/03 19:03:54.35 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:03:54.35 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:54.35 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:03:54.35 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:03:54.35 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:03:54.35 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:03:54.35 1 5 Infor:housecode 14 device 10 mStateLampOnChangeNeeded 1
+2020/09/03 19:03:54.35 1 5 Debug:DiningRoom.CeilingLight on
+2020/09/03 19:03:54.35 1 5 Debug:X10 action complete
+2020/09/03 19:03:54.36 2 5 Infor:waiting for quiet
+2020/09/03 19:03:54.68 2 5 Infor:quiet restarting queue
+2020/09/03 19:03:55.16 2 5 Infor:x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:03:55.17 2 5 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:03:55.35 1 5 Debug:X10 action starting ...
+2020/09/03 19:03:55.66 2 5 Infor:x10 message received Mess 1c5 House B funOn
+2020/09/03 19:03:55.67 2 5 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2020/09/03 19:03:55.68 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+202020/09/03 01:30:00.00 1 5 Warni:ResynchClockToHostRealTimeClock
+2020/09/03 19:04:47.00 1 5 Debug:world started!
+2020/09/03 19:04:47.00 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:47.00 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 19:04:47.00 1 5 Debug:X10 action complete
+2020/09/03 19:04:47.00 1 5 Debug:Hue action starting ...
+2020/09/03 19:04:47.00 2 5 Debug:threadstart for HueThread class started
+2020/09/03 19:04:47.00 2 5 Debug:Hue Thread attempt to connect to Hub count 0
+2020/09/03 19:04:47.00 3 5 Debug:threadstart for tw523 class started
+2020/09/03 19:04:47.00 3 5 Infor:waiting for quiet
+2020/09/03 19:04:47.00 3 5 Infor:lost zero crossing sync previous 0 now 1
+2020/09/03 19:04:47.00 1 5 Debug:Hue action complete
+2020/09/03 19:04:47.41 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:47.89 3 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:04:47.90 3 5 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.Amplifier off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.TripleSpotlight off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.SylviasLight off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.Tv off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.CeilingLight off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.ComputerLight off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.Dummy off
+2020/09/03 19:04:48.01 1 5 Debug:Bed1.RichardsLight off
+2020/09/03 19:04:48.39 3 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:04:48.40 3 5 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:04:48.89 3 5 Infor:x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:04:48.90 3 5 Infor:GPIO x10 message received Mess 41 House C funAllUnitsOff
+2020/09/03 19:04:49.01 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:49.01 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:04:49.01 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:49.01 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 19:04:49.01 1 5 Debug:X10 action complete
+2020/09/03 19:04:49.02 3 5 Infor:waiting for quiet
+2020/09/03 19:04:49.24 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:49.72 3 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:04:49.73 3 5 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:04:50.01 1 5 Debug:Smart.GoogleAlexa off
+2020/09/03 19:04:50.22 3 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:04:50.23 3 5 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:04:50.72 3 5 Infor:x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:04:50.73 3 5 Infor:GPIO x10 message received Mess a1 House G funAllUnitsOff
+2020/09/03 19:04:51.01 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:51.01 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:04:51.01 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:51.01 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:04:51.01 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:51.01 1 5 Debug:X10 action complete
+2020/09/03 19:04:51.02 3 5 Infor:waiting for quiet
+2020/09/03 19:04:51.07 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:51.55 3 5 Infor:x10 message received Mess 172 House L UNIT6
+2020/09/03 19:04:51.56 3 5 Infor:GPIO x10 message received Mess 172 House L UNIT6
+2020/09/03 19:04:52.05 3 5 Infor:x10 message received Mess 174 House L UNIT4
+2020/09/03 19:04:52.06 3 5 Infor:GPIO x10 message received Mess 174 House L UNIT4
+2020/09/03 19:04:52.46 2 5 Debug:Hue Thread now connected to Hue Hub count 0
+2020/09/03 19:04:52.47 2 5 Debug:Hue Lamp 1 0
+2020/09/03 19:04:52.55 3 5 Infor:x10 message received Mess 165 House L funOn
+2020/09/03 19:04:52.56 3 5 Infor:GPIO x10 message received Mess 165 House L funOn
+2020/09/03 19:04:52.57 2 5 Debug:Hue Lamp 2 0
+2020/09/03 19:04:52.58 2 5 Debug:Hue Lamp 3 0
+2020/09/03 19:04:52.68 2 5 Debug:Hue Lamp 4 0
+2020/09/03 19:04:52.69 2 5 Debug:Hue Lamp 5 0
+2020/09/03 19:04:52.79 2 5 Debug:Hue Lamp 6 0
+2020/09/03 19:04:53.01 1 5 Debug:Garage.XmasLights on
+2020/09/03 19:04:53.01 1 5 Debug:Garage.OutsideLight on
+2020/09/03 19:04:53.01 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:53.01 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:04:53.01 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:53.01 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:04:53.01 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:53.01 1 5 Debug:X10 action complete
+2020/09/03 19:04:53.01 1 5 Debug:Hue action starting ...
+2020/09/03 19:04:53.01 1 5 Debug:Hue action complete
+2020/09/03 19:04:53.02 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:53.50 3 5 Infor:x10 message received Mess 164 House L UNIT3
+2020/09/03 19:04:53.51 3 5 Infor:GPIO x10 message received Mess 164 House L UNIT3
+2020/09/03 19:04:54.00 3 5 Infor:x10 message received Mess 16c House L UNIT1
+2020/09/03 19:04:54.01 3 5 Infor:GPIO x10 message received Mess 16c House L UNIT1
+2020/09/03 19:04:54.50 3 5 Infor:x10 message received Mess 17c House L UNIT2
+2020/09/03 19:04:54.51 3 5 Infor:GPIO x10 message received Mess 17c House L UNIT2
+2020/09/03 19:04:55.00 3 5 Infor:x10 message received Mess 167 House L funOff
+2020/09/03 19:04:55.01 3 5 Infor:GPIO x10 message received Mess 167 House L funOff
+2020/09/03 19:04:55.02 1 5 Debug:Kitchen.PIRLight off
+2020/09/03 19:04:55.02 1 5 Debug:Hall.PIRLight off
+2020/09/03 19:04:55.02 1 5 Debug:Landing.PIRLight off
+2020/09/03 19:04:55.02 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:55.02 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:04:55.02 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:55.02 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:04:55.02 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:55.02 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:04:55.02 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:04:55.02 1 5 Infor:housecode 14 device 10 mStateLampOnChangeNeeded 1
+2020/09/03 19:04:55.02 1 5 Debug:X10 action complete
+2020/09/03 19:04:55.03 3 5 Infor:waiting for quiet
+2020/09/03 19:04:55.35 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:55.83 3 5 Infor:x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:04:55.84 3 5 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:04:56.02 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:56.33 3 5 Infor:x10 message received Mess 1c5 House B funOn
+2020/09/03 19:04:56.34 3 5 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2020/09/03 19:04:56.35 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:04:56.35 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:56.35 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:04:56.35 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:56.35 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:04:56.35 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:04:56.35 1 5 Infor:housecode 14 device 10 mStateLampOnChangeNeeded 1
+2020/09/03 19:04:56.35 1 5 Debug:DiningRoom.CeilingLight on
+2020/09/03 19:04:56.35 1 5 Debug:X10 action complete
+2020/09/03 19:04:56.36 3 5 Infor:waiting for quiet
+2020/09/03 19:04:56.68 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:57.16 3 5 Infor:x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:04:57.17 3 5 Infor:GPIO x10 message received Mess 1d4 House B UNIT4
+2020/09/03 19:04:57.35 1 5 Debug:X10 action starting ...
+2020/09/03 19:04:57.66 3 5 Infor:x10 message received Mess 1c5 House B funOn
+2020/09/03 19:04:57.67 3 5 Infor:GPIO x10 message received Mess 1c5 House B funOn
+2020/09/03 19:04:57.68 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:04:57.68 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:57.68 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:04:57.68 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:04:57.68 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:04:57.68 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:04:57.68 1 5 Debug:X10 action complete
+2020/09/03 19:04:57.69 3 5 Infor:waiting for quiet
+2020/09/03 19:04:58.01 3 5 Infor:quiet restarting queue
+2020/09/03 19:04:58.49 3 5 Infor:x10 message received Mess 1c0 House B UNIT13
+2020/09/03 19:04:58.50 3 5 Infor:GPIO x10 message received Mess 1c0 House B UNIT13
+2020/09/03 19:04:58.99 3 5 Infor:x10 message received Mess 1c2 House B UNIT5
+2020/09/03 19:04:59.00 3 5 Infor:GPIO x10 message received Mess 1c2 House B UNIT5
+2020/09/03 19:04:59.49 3 5 Infor:x10 message received Mess 1c4 House B UNIT3
+2020/09/03 19:04:59.50 3 5 Infor:GPIO x10 message received Mess 1c4 House B UNIT3
+2020/09/03 19:04:59.99 3 5 Infor:x10 message received Mess 1c6 House B UNIT11
+2020/09/03 19:05:00.00 3 5 Infor:GPIO x10 message received Mess 1c6 House B UNIT11
+2020/09/03 19:05:00.49 3 5 Infor:x10 message received Mess 1c8 House B UNIT15
+2020/09/03 19:05:00.50 3 5 Infor:GPIO x10 message received Mess 1c8 House B UNIT15
+2020/09/03 19:05:00.99 3 5 Infor:x10 message received Mess 1ca House B UNIT7
+2020/09/03 19:05:01.00 3 5 Infor:GPIO x10 message received Mess 1ca House B UNIT7
+2020/09/03 19:05:01.49 3 5 Infor:x10 message received Mess 1cc House B UNIT1
+2020/09/03 19:05:01.50 3 5 Infor:GPIO x10 message received Mess 1cc House B UNIT1
+2020/09/03 19:05:01.99 3 5 Infor:x10 message received Mess 1ce House B UNIT9
+2020/09/03 19:05:02.00 3 5 Infor:GPIO x10 message received Mess 1ce House B UNIT9
+2020/09/03 19:05:02.49 3 5 Infor:x10 message received Mess 1d0 House B UNIT14
+2020/09/03 19:05:02.50 3 5 Infor:GPIO x10 message received Mess 1d0 House B UNIT14
+2020/09/03 19:05:02.99 3 5 Infor:x10 message received Mess 1d2 House B UNIT6
+2020/09/03 19:05:03.00 3 5 Infor:GPIO x10 message received Mess 1d2 House B UNIT6
+2020/09/03 19:05:03.49 3 5 Infor:x10 message received Mess 1d6 House B UNIT12
+2020/09/03 19:05:03.50 3 5 Infor:GPIO x10 message received Mess 1d6 House B UNIT12
+2020/09/03 19:05:03.99 3 5 Infor:x10 message received Mess 1d8 House B UNIT16
+2020/09/03 19:05:04.00 3 5 Infor:GPIO x10 message received Mess 1d8 House B UNIT16
+2020/09/03 19:05:04.49 3 5 Infor:x10 message received Mess 1dc House B UNIT2
+2020/09/03 19:05:04.50 3 5 Infor:GPIO x10 message received Mess 1dc House B UNIT2
+2020/09/03 19:05:04.99 3 5 Infor:x10 message received Mess 1de House B UNIT10
+2020/09/03 19:05:05.00 3 5 Infor:GPIO x10 message received Mess 1de House B UNIT10
+2020/09/03 19:05:05.49 3 5 Infor:x10 message received Mess 1c7 House B funOff
+2020/09/03 19:05:05.50 3 5 Infor:GPIO x10 message received Mess 1c7 House B funOff
+2020/09/03 19:05:05.71 1 5 Debug:Kitchen.Amplifier off
+2020/09/03 19:05:05.71 1 5 Debug:Lounge.LightsByTvAndPiano off
+2020/09/03 19:05:05.71 1 5 Debug:Lounge.LEDLights off
+2020/09/03 19:05:05.71 1 5 Debug:Conservatory.LowWallLights off
+2020/09/03 19:05:05.71 1 5 Debug:Lounge.Tv off
+2020/09/03 19:05:05.71 1 5 Debug:UtilityRoom.Lights off
+2020/09/03 19:05:05.71 1 5 Debug:Lounge.WallLights off
+2020/09/03 19:05:05.72 1 5 Debug:Conservatory.FloorLights off
+2020/09/03 19:05:05.72 1 5 Debug:Lounge.Amplifier off
+2020/09/03 19:05:05.72 1 5 Debug:Lounge.Moodlights off
+2020/09/03 19:05:05.72 1 5 Debug:Lounge.SatelliteReceiver off
+2020/09/03 19:05:05.72 1 5 Debug:Kitchen.Tv off
+2020/09/03 19:05:05.72 1 5 Debug:Lounge.CeilingLights off
+2020/09/03 19:05:05.72 1 5 Debug:Conservatory.HighWallLights off
+2020/09/03 19:05:05.72 1 5 Debug:X10 action starting ...
+2020/09/03 19:05:05.72 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:05:05.72 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:05:05.72 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:05:05.72 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:05:05.72 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:05:05.72 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:05:05.72 1 5 Debug:X10 action complete
+2020/09/03 19:06:24.04 1 5 Debug:Bed1.PIR received on
+2020/09/03 19:06:24.04 1 5 Infor:timeout Bedroom1EmptyTimeout expiry 1599161784 duration 1800 defaultDuration 1800
+2020/09/03 19:06:24.04 1 5 Infor:device DiningRoom.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1599159984
+2020/09/03 19:06:24.04 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1599159984
+2020/09/03 19:06:24.04 1 5 Infor:device Bed1.CeilingLight wanted state = 0 switchontime 2130706432 switchofftime 1599159984
+2020/09/03 19:06:24.04 1 5 Infor:timeout HouseEmptyTimeout expiry 1599167184 duration 7200 defaultDuration 7200
+2020/09/03 19:06:24.04 1 5 Infor:device Bed1.CeilingLight wanted state = 1 switchontime 1599159984 switchofftime 1599161184
+2020/09/03 19:06:24.04 1 5 Debug:X10 action starting ...
+2020/09/03 19:06:24.04 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:06:24.04 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:06:24.04 1 5 Debug:X10 action complete
+2020/09/03 19:06:24.05 3 5 Infor:quiet restarting queue
+2020/09/03 19:06:24.53 3 5 Infor:x10 message received Mess 4c House C UNIT1
+2020/09/03 19:06:24.54 3 5 Infor:GPIO x10 message received Mess 4c House C UNIT1
+2020/09/03 19:06:25.03 3 5 Infor:x10 message received Mess 45 House C funOn
+2020/09/03 19:06:25.04 3 5 Infor:GPIO x10 message received Mess 45 House C funOn
+2020/09/03 19:06:25.04 1 5 Debug:Bed1.CeilingLight on
+2020/09/03 19:06:25.04 1 5 Debug:X10 action starting ...
+2020/09/03 19:06:25.05 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:06:25.05 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:06:25.05 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:06:25.05 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:06:25.05 1 5 Infor:mUpdateDevicesAllUnitsOff() returned true
+2020/09/03 19:06:25.05 1 5 Debug:X10 action complete
+2020/09/03 19:06:25.06 3 5 Infor:waiting for quiet
+2020/09/03 19:06:25.38 3 5 Infor:quiet restarting queue
+2020/09/03 19:06:25.86 3 5 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2020/09/03 19:06:25.87 3 5 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2020/09/03 19:06:26.05 1 5 Debug:DiningRoom.CeilingLight off
+2020/09/03 19:06:26.36 3 5 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2020/09/03 19:06:26.37 3 5 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2020/09/03 19:06:26.86 3 5 Infor:x10 message received Mess 1c1 House B funAllUnitsOff
+2020/09/03 19:06:26.87 3 5 Infor:GPIO x10 message received Mess 1c1 House B funAllUnitsOff
+2020/09/03 19:06:27.05 1 5 Debug:X10 action starting ...
+2020/09/03 19:06:27.05 1 5 Infor:housecode 2 device 2 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Infor:housecode 2 device 14 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Infor:housecode 11 device 6 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Infor:housecode 11 device 14 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Infor:housecode 14 device 1 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Infor:housecode 14 device 5 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Infor:housecode 14 device 10 not mStateLampOnChangePossible
+2020/09/03 19:06:27.05 1 5 Debug:X10 action complete
+2020/09/03 19:07:38.08 1 5 Infor:timeout HouseEmptyTimeout expiry 1599167258 duration 7200 defaultDuration 7200
+2020/09/03 19:07:38.08 1 5 Debug:Lounge.Tv on
+2020/09/03 19:07:38.08 1 5 Debug:IRRemote device Lounge.SkyReceiver housecode 7 deviceCode 6 mSetWantedState 1
+2020/09/03 19:07:38.08 1 5 Debug:IRRemote device Lounge.Sky5AmpZone1Tuner housecode 7 deviceCode 2 mSetWantedState 1
+2020/09/03 19:07:38.08 1 5 Debug:IRRemote device Lounge.Sky0AmpZone2Tuner housecode 7 deviceCode 30 mSetWantedState 1
+2020/09/03 19:07:38.08 1 5 Debug:IRRemote device Lounge.Sky3AmpZone1Sky housecode 7 deviceCode 4 mSetWantedState 1
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.Amplifier wanted state = 1 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:timeout loungeAmplifierWarmUpTimeout expiry 1599160078 duration 20 defaultDuration 20
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.Tv wanted state = 1 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device DiningRoom.CeilingLight wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.LightsByTvAndPiano wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight1 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight2 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight3 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight4 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight5 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight6 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.WallLights wanted state = 0 switchontime 2130706432 switchofftime 1599160058
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.CeilingLights wanted state = 0 switchontime 2130706432 switchofftime 1599160058
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.LEDLights wanted state = 1 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight1 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight2 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight3 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight4 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight5 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Infor:device Lounge.MoodLight6 wanted state = 13 switchontime 1599160058 switchofftime 1599203258
+2020/09/03 19:07:38.08 1 5 Debug:Hue action starting ...
+2020/09/03 19:07:38.08 1 5 Debug:Hue action complete
+2020/09/03 19:07:38.09 3 5 Infor:quiet restarting queue
+2020/09/03 19:07:38.57 3 5 Infor:x10 message received Mess e6 House I UNIT11
+2020/09/03 19:07:38.58 3 5 Infor:GPIO x10 message received Mess e6 House I UNIT11
+2020/09/03 19:07:38.86 2 5 Debug:Hue Lamp 1 86
+2020/09/03 19:07:38.86 2 5 Debug:Hue Lamp 1 colour r127 g255 b212
+2020/09/03 19:07:38.86 2 5 Debug:Hue Lamp 1 colour loop 1
+2020/09/03 19:07:39.01 2 5 Debug:Hue Lamp 2 86
+2020/09/03 19:07:39.01 2 5 Debug:Hue Lamp 2 colour r255 g140 b0
+2020/09/03 19:07:39.01 2 5 Debug:Hue Lamp 2 colour loop 1
+2020/09/03 19:07:39.07 3 5 Infor:x10 message received Mess e5 House I funOn
+2020/09/03 19:07:39.08 3 5 Infor:GPIO x10 message received Mess e5 House I funOn
+2020/09/03 19:07:39.13 2 5 Debug:Hue Lamp 3 86
+2020/09/03 19:07:39.13 2 5 Debug:Hue Lamp 3 colour r25 g25 b112
+2020/09/03 19:07:39.13 2 5 Debug:Hue Lamp 3 colour loop 1
+2020/09/03 19:07:39.25 2 5 Debug:Hue Lamp 4 86
+2020/09/03 19:07:39.25 2 5 Debug:Hue Lamp 4 colour r221 g160 b221
+2020/09/03 19:07:39.25 2 5 Debug:Hue Lamp 4 colour loop 1
+2020/09/03 19:07:39.38 2 5 Debug:Hue Lamp 5 86
+2020/09/03 19:07:39.38 2 5 Debug:Hue Lamp 5 colour r152 g251 b152
+2020/09/03 19:07:39.38 2 5 Debug:Hue Lamp 5 colour loop

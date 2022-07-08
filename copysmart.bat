@@ -24,5 +24,8 @@ copy umount g:\smart8r\
 copy smart.smt g:\smart8r\
 copy hub.json g:\smart8r\
 copy start g:\smart8r\
+copy smarthouse.service g:\smart8r\
+copy enableauto g:\smart8r\
+copy checkstatus g:\smart8r\
 
 echo finished copying code.

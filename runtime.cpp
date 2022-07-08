@@ -48,18 +48,21 @@ void printTime()
 void setNoKbWait()
 {
 #ifndef _WIN32
-    struct termios newterm;
+    if (interactive)
+    {
+        struct termios newterm;
 
-    int term = open("/dev/tty", O_RDWR);
-    assert(term > 0);
-    int result = ioctl(term, TCGETS, &oldterm);
-    assert(result == 0);
-    newterm = oldterm;
-    newterm.c_lflag &= ~(ICANON | ECHO);
-    newterm.c_cc[VTIME] = 0;
-    newterm.c_cc[VMIN] = 0;
-    ioctl(term, TCSETS, &newterm);
-    close(term);
+        int term = open("/dev/tty", O_RDWR);
+        assert(term > 0);
+        int result = ioctl(term, TCGETS, &oldterm);
+        assert(result == 0);
+        newterm = oldterm;
+        newterm.c_lflag &= ~(ICANON | ECHO);
+        newterm.c_cc[VTIME] = 0;
+        newterm.c_cc[VMIN] = 0;
+        ioctl(term, TCSETS, &newterm);
+        close(term);
+	}
 #else
 #endif
 }
@@ -67,9 +70,12 @@ void setNoKbWait()
 void setKBNormal()
 {
 #ifndef _WIN32
-    int term = open("/dev/tty", O_RDWR);
-    ioctl(term, TCSETS, &oldterm);
-    close(term);
+    if (interactive)
+    {
+        int term = open("/dev/tty", O_RDWR);
+        ioctl(term, TCSETS, &oldterm);
+        close(term);
+	}
 #else
 #endif
 }
@@ -593,7 +599,7 @@ void runtime()
     	//start thread to send Hue messages via the Philips Hub.
         std::thread hueStandardThread(hueThreadStart);
     	
-        logging.EnableLogging();
+        logging.EnableLogging(interactive);
         logging.logDebug("world started!\n");
 
         // set internal time as accurately as possible to system clock
