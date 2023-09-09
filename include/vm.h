@@ -5,7 +5,7 @@ enum class SmartInstructionEnum
     Stop,
     PushDeviceState, //parameters device entry no. current device state left on stack
     SetDeviceState, //parameters device entry no, new device state, delay time, duration time
-    GetTimeoutState,//parameter timeout entry no
+    PushTimeoutState,//parameter timeout entry no
     ResetTimeout,//parameter timeout entry no
     AbsoluteInteger, //on stack
     DecrementInteger, //on stack

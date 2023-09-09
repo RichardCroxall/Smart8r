@@ -35,7 +35,14 @@ void CTimeout::mCheckSwitchOffTimeout(time_t now)
 }
 bool CTimeout::mGetTimeoutExpired(time_t now)
 {
-    return (now >= mExpiryTime);
+    if (mExpiryTime == THE_END_OF_TIME)
+    {
+        return (true);
+    }
+    else
+    {
+        return (now >= mExpiryTime);
+    }
 }
 
 
@@ -75,6 +82,6 @@ void CTimeout::printTimeouts()
         printf("%30s Expiry %s offact %s\n",
             loadMap.timeout[i]->mszIdentifier,
             formatTime(loadMap.timeout[i]->mExpiryTime),
-            loadMap.action[loadMap.timeout[i]->mOffAction]->mszIdentifier);
+            loadMap.timeout[i]->mOffAction < 0 ? "<none>" : loadMap.action[loadMap.timeout[i]->mOffAction]->mszIdentifier);
     }
 }

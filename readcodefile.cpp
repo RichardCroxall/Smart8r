@@ -434,7 +434,7 @@ void readAllActionRecords(FILE* fin)
             }
             break;
 
-            case SmartInstructionEnum::GetTimeoutState://parameter timeout entry no
+            case SmartInstructionEnum::PushTimeoutState://parameter timeout entry no
             {
                 int timeoutEntryNo;
                 const int fieldsScanned3 = fscanf(fin, "%d\n", &timeoutEntryNo);
@@ -443,6 +443,7 @@ void readAllActionRecords(FILE* fin)
                 assert(timeoutEntryNo <= codeHeaderRecord.noTimeoutEntries);
                 current_action->AddInstruction(timeoutEntryNo);
             }
+            break;
 
             case SmartInstructionEnum::ResetTimeout://parameter timeout entry no
             {

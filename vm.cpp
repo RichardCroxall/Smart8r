@@ -120,7 +120,7 @@ bool ExecuteAnInstruction()
             }
             break;
 
-        case SmartInstructionEnum::GetTimeoutState:
+        case SmartInstructionEnum::PushTimeoutState:
             {
                 const int timeoutEntryNo = GetNextParameter();
                 const bool result = loadMap.timeout[timeoutEntryNo]->mGetTimeoutExpired(tickingClock.getTime());
